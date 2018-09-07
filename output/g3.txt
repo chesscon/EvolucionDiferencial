@@ -1,0 +1,3632 @@
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 3 200 data/g3.txt 300000 1 0.05 0.45 0.8 1
+#Parametros: 
+#tamanio Poblacion: 200 , dimension: 10 
+#num max de Evals: 300000 
+#CR: 0.45, F: 0.8 
+#Total de Repeticiones: 1 
+#
+#CR: 0.45, F: 0.8 
+gen 0 eps 0.9 tFac 26 bestEval -0.214281 STV 0 
+gen 1 eps 0.81 tFac 46 bestEval -0.720453 STV 0 
+gen 2 eps 0.729 tFac 59 bestEval -0.720453 STV 0 
+gen 3 eps 0.6561 tFac 80 bestEval -0.82767 STV 0 
+gen 4 eps 0.59049 tFac 103 bestEval -0.82767 STV 0 
+gen 5 eps 0.531441 tFac 110 bestEval -0.82767 STV 0 
+gen 6 eps 0.478297 tFac 127 bestEval -0.82767 STV 0 
+gen 7 eps 0.430467 tFac 129 bestEval -0.82767 STV 0 
+gen 8 eps 0.38742 tFac 127 bestEval -0.291572 STV 0 
+gen 9 eps 0.348678 tFac 128 bestEval -0.291572 STV 0 
+gen 10 eps 0.313811 tFac 132 bestEval -0.291572 STV 0 
+gen 11 eps 0.28243 tFac 133 bestEval -0.291572 STV 0 
+gen 12 eps 0.254187 tFac 140 bestEval -0.291572 STV 0 
+gen 13 eps 0.228768 tFac 132 bestEval -0.679873 STV 0 
+gen 14 eps 0.205891 tFac 135 bestEval -0.679873 STV 0 
+gen 15 eps 0.185302 tFac 135 bestEval -0.679873 STV 0 
+gen 16 eps 0.166772 tFac 130 bestEval -0.679873 STV 0 
+gen 17 eps 0.150095 tFac 136 bestEval -0.679873 STV 0 
+gen 18 eps 0.135085 tFac 136 bestEval -0.398695 STV 0 
+gen 19 eps 0.121577 tFac 138 bestEval -0.326342 STV 0 
+gen 20 eps 0.109419 tFac 132 bestEval -0.326342 STV 0 
+gen 21 eps 0.0984771 tFac 133 bestEval -0.326342 STV 0 
+gen 22 eps 0.0886294 tFac 129 bestEval -0.411291 STV 0 
+gen 23 eps 0.0797664 tFac 128 bestEval -0.287204 STV 0 
+gen 24 eps 0.0717898 tFac 127 bestEval -0.287204 STV 0 
+gen 25 eps 0.0646108 tFac 118 bestEval -0.287204 STV 0 
+gen 26 eps 0.0581497 tFac 119 bestEval -0.611127 STV 0 
+gen 27 eps 0.0523348 tFac 113 bestEval -0.287204 STV 0 
+gen 28 eps 0.0471013 tFac 110 bestEval -0.287204 STV 0 
+gen 29 eps 0.0423912 tFac 103 bestEval -0.287204 STV 0 
+gen 30 eps 0.038152 tFac 102 bestEval -0.287204 STV 0 
+gen 31 eps 0.0343368 tFac 94 bestEval -0.634617 STV 0 
+gen 32 eps 0.0309032 tFac 88 bestEval -0.634617 STV 0 
+gen 33 eps 0.0278128 tFac 81 bestEval -0.634617 STV 0 
+gen 34 eps 0.0250316 tFac 82 bestEval -0.634617 STV 0 
+gen 35 eps 0.0225284 tFac 79 bestEval -0.634617 STV 0 
+gen 36 eps 0.0202756 tFac 80 bestEval -0.634617 STV 0 
+gen 37 eps 0.018248 tFac 77 bestEval -0.634617 STV 0 
+gen 38 eps 0.0164232 tFac 72 bestEval -0.634617 STV 0 
+gen 39 eps 0.0147809 tFac 71 bestEval -0.634617 STV 0 
+gen 40 eps 0.0133028 tFac 72 bestEval -0.634617 STV 0 
+gen 41 eps 0.0119725 tFac 70 bestEval -0.634617 STV 0 
+gen 42 eps 0.0107753 tFac 68 bestEval -0.634617 STV 0 
+gen 43 eps 0.00969774 tFac 64 bestEval -0.634617 STV 0 
+gen 44 eps 0.00872796 tFac 58 bestEval -0.634617 STV 0 
+gen 45 eps 0.00785517 tFac 54 bestEval -0.634617 STV 0 
+gen 46 eps 0.00706965 tFac 48 bestEval -0.634617 STV 0 
+gen 47 eps 0.00636269 tFac 46 bestEval -0.634617 STV 0 
+gen 48 eps 0.00572642 tFac 45 bestEval -0.634617 STV 0 
+gen 49 eps 0.00515378 tFac 44 bestEval -0.634617 STV 0 
+gen 50 eps 0.0046384 tFac 42 bestEval -0.634617 STV 0 
+gen 51 eps 0.00417456 tFac 43 bestEval -0.634617 STV 0 
+gen 52 eps 0.0037571 tFac 40 bestEval -0.634617 STV 0 
+gen 53 eps 0.00338139 tFac 39 bestEval -0.634617 STV 0 
+gen 54 eps 0.00304325 tFac 36 bestEval -0.634617 STV 0 
+gen 55 eps 0.00273893 tFac 33 bestEval -0.634617 STV 0 
+gen 56 eps 0.00246503 tFac 27 bestEval -0.634617 STV 0 
+gen 57 eps 0.00221853 tFac 23 bestEval -0.634617 STV 0 
+gen 58 eps 0.00199668 tFac 23 bestEval -0.634617 STV 0 
+gen 59 eps 0.00179701 tFac 20 bestEval -0.634617 STV 0 
+gen 60 eps 0.00161731 tFac 20 bestEval -0.634617 STV 0 
+gen 61 eps 0.00145558 tFac 19 bestEval -0.634617 STV 0 
+gen 62 eps 0.00131002 tFac 22 bestEval -0.634617 STV 0 
+gen 63 eps 0.00117902 tFac 19 bestEval -0.634617 STV 0 
+gen 64 eps 0.00117902 tFac 20 bestEval -0.634617 STV 0 
+gen 65 eps 0.00117902 tFac 20 bestEval -0.634617 STV 0 
+gen 66 eps 0.00117902 tFac 20 bestEval -0.634617 STV 0 
+gen 67 eps 0.00106112 tFac 20 bestEval -0.634617 STV 0 
+gen 68 eps 0.000955005 tFac 19 bestEval -0.634617 STV 0 
+gen 69 eps 0.000955005 tFac 19 bestEval -0.634617 STV 0 
+gen 70 eps 0.000955005 tFac 19 bestEval -0.634617 STV 0 
+gen 71 eps 0.000955005 tFac 19 bestEval -0.634617 STV 0 
+gen 72 eps 0.000955005 tFac 19 bestEval -0.634617 STV 0 
+gen 73 eps 0.000955005 tFac 20 bestEval -0.634617 STV 0 
+gen 74 eps 0.000859504 tFac 18 bestEval -0.634617 STV 0 
+gen 75 eps 0.000859504 tFac 18 bestEval -0.634617 STV 0 
+gen 76 eps 0.000859504 tFac 19 bestEval -0.634617 STV 0 
+gen 77 eps 0.000859504 tFac 20 bestEval -0.634617 STV 0 
+gen 78 eps 0.000773554 tFac 20 bestEval -0.634617 STV 0 
+gen 79 eps 0.000773554 tFac 20 bestEval -0.634617 STV 0 
+gen 80 eps 0.000696199 tFac 20 bestEval -0.634617 STV 0 
+gen 81 eps 0.000696199 tFac 20 bestEval -0.634617 STV 0 
+gen 82 eps 0.000696199 tFac 20 bestEval -0.634617 STV 0 
+gen 83 eps 0.000696199 tFac 20 bestEval -0.634617 STV 0 
+gen 84 eps 0.000696199 tFac 20 bestEval -0.634617 STV 0 
+gen 85 eps 0.000696199 tFac 20 bestEval -0.634617 STV 0 
+gen 86 eps 0.000626579 tFac 16 bestEval -0.634617 STV 0 
+gen 87 eps 0.000626579 tFac 16 bestEval -0.634617 STV 0 
+gen 88 eps 0.000626579 tFac 16 bestEval -0.634617 STV 0 
+gen 89 eps 0.000626579 tFac 16 bestEval -0.634617 STV 0 
+gen 90 eps 0.000626579 tFac 17 bestEval -0.634617 STV 0 
+gen 91 eps 0.000626579 tFac 18 bestEval -0.634617 STV 0 
+gen 92 eps 0.000626579 tFac 18 bestEval -0.634617 STV 0 
+gen 93 eps 0.000626579 tFac 19 bestEval -0.634617 STV 0 
+gen 94 eps 0.000563921 tFac 20 bestEval -0.634617 STV 0 
+gen 95 eps 0.000563921 tFac 20 bestEval -0.634617 STV 0 
+gen 96 eps 0.000563921 tFac 20 bestEval -0.634617 STV 0 
+gen 97 eps 0.000507529 tFac 21 bestEval -0.634617 STV 0 
+gen 98 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 99 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 100 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 101 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 102 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 103 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 104 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 105 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 106 eps 0.000456776 tFac 18 bestEval -0.212133 STV 0 
+gen 107 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 108 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 109 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 110 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 111 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 112 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 113 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 114 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 115 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 116 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 117 eps 0.000456776 tFac 19 bestEval -0.643843 STV 0 
+gen 118 eps 0.000456776 tFac 20 bestEval -0.643843 STV 0 
+gen 119 eps 0.000456776 tFac 20 bestEval -0.643843 STV 0 
+gen 120 eps 0.000456776 tFac 20 bestEval -0.643843 STV 0 
+gen 121 eps 0.000411098 tFac 20 bestEval -0.643843 STV 0 
+gen 122 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 123 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 124 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 125 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 126 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 127 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 128 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 129 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 130 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 131 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 132 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 133 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 134 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 135 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 136 eps 0.000369988 tFac 18 bestEval -0.643843 STV 0 
+gen 137 eps 0.000369988 tFac 19 bestEval -0.643843 STV 0 
+gen 138 eps 0.000369988 tFac 19 bestEval -0.643843 STV 0 
+gen 139 eps 0.00033299 tFac 19 bestEval -0.643843 STV 0 
+gen 140 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 141 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 142 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 143 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 144 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 145 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 146 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 147 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 148 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 149 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 150 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 151 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 152 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 153 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 154 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 155 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 156 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 157 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 158 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 159 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 160 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 161 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 162 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 163 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 164 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 165 eps 0.00033299 tFac 20 bestEval -0.643843 STV 0 
+gen 166 eps 0.000299691 tFac 18 bestEval -0.643843 STV 0 
+gen 167 eps 0.000299691 tFac 18 bestEval -0.643843 STV 0 
+gen 168 eps 0.000299691 tFac 18 bestEval -0.643843 STV 0 
+gen 169 eps 0.000299691 tFac 18 bestEval -0.643843 STV 0 
+gen 170 eps 0.000299691 tFac 19 bestEval -0.643843 STV 0 
+gen 171 eps 0.000299691 tFac 19 bestEval -0.643843 STV 0 
+gen 172 eps 0.000299691 tFac 19 bestEval -0.643843 STV 0 
+gen 173 eps 0.000299691 tFac 19 bestEval -0.643843 STV 0 
+gen 174 eps 0.000299691 tFac 19 bestEval -0.643843 STV 0 
+gen 175 eps 0.000299691 tFac 20 bestEval -0.643843 STV 0 
+gen 176 eps 0.000299691 tFac 20 bestEval -0.643843 STV 0 
+gen 177 eps 0.000299691 tFac 20 bestEval -0.643843 STV 0 
+gen 178 eps 0.000299691 tFac 20 bestEval -0.643843 STV 0 
+gen 179 eps 0.000299691 tFac 20 bestEval -0.643843 STV 0 
+gen 180 eps 0.000269722 tFac 20 bestEval -0.643843 STV 0 
+gen 181 eps 0.000269722 tFac 20 bestEval -0.643843 STV 0 
+gen 182 eps 0.000269722 tFac 20 bestEval -0.643843 STV 0 
+gen 183 eps 0.000269722 tFac 20 bestEval -0.643843 STV 0 
+gen 184 eps 0.000269722 tFac 20 bestEval -0.643843 STV 0 
+gen 185 eps 0.000269722 tFac 20 bestEval -0.643843 STV 0 
+gen 186 eps 0.000242749 tFac 18 bestEval -0.643843 STV 0 
+gen 187 eps 0.000242749 tFac 19 bestEval -0.643843 STV 0 
+gen 188 eps 0.000242749 tFac 19 bestEval -0.643843 STV 0 
+gen 189 eps 0.000242749 tFac 19 bestEval -0.643843 STV 0 
+gen 190 eps 0.000242749 tFac 19 bestEval -0.643843 STV 0 
+gen 191 eps 0.000242749 tFac 19 bestEval -0.643843 STV 0 
+gen 192 eps 0.000242749 tFac 19 bestEval -0.643843 STV 0 
+gen 193 eps 0.000218475 tFac 17 bestEval -0.643843 STV 0 
+gen 194 eps 0.000218475 tFac 17 bestEval -0.643843 STV 0 
+gen 195 eps 0.000218475 tFac 17 bestEval -0.643843 STV 0 
+gen 196 eps 0.000218475 tFac 17 bestEval -0.643843 STV 0 
+gen 197 eps 0.000218475 tFac 17 bestEval -0.643843 STV 0 
+gen 198 eps 0.000218475 tFac 18 bestEval -0.643843 STV 0 
+gen 199 eps 0.000218475 tFac 18 bestEval -0.643843 STV 0 
+gen 200 eps 0.000218475 tFac 18 bestEval -0.643843 STV 0 
+gen 201 eps 0.000218475 tFac 18 bestEval -0.643843 STV 0 
+gen 202 eps 0.000218475 tFac 18 bestEval -0.643843 STV 0 
+gen 203 eps 0.000218475 tFac 18 bestEval -0.643843 STV 0 
+gen 204 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 205 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 206 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 207 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 208 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 209 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 210 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 211 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 212 eps 0.000218475 tFac 19 bestEval -0.643843 STV 0 
+gen 213 eps 0.000218475 tFac 20 bestEval -0.643843 STV 0 
+gen 214 eps 0.000218475 tFac 20 bestEval -0.643843 STV 0 
+gen 215 eps 0.000218475 tFac 20 bestEval -0.643843 STV 0 
+gen 216 eps 0.000218475 tFac 20 bestEval -0.643843 STV 0 
+gen 217 eps 0.000218475 tFac 20 bestEval -0.643843 STV 0 
+gen 218 eps 0.000218475 tFac 20 bestEval -0.643843 STV 0 
+gen 219 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 220 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 221 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 222 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 223 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 224 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 225 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 226 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 227 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 228 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 229 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 230 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 231 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 232 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 233 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 234 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 235 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 236 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 237 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 238 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 239 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 240 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 241 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 242 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 243 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 244 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 245 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 246 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 247 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 248 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 249 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 250 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 251 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 252 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 253 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 254 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 255 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 256 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 257 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 258 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 259 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 260 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 261 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 262 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 263 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 264 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 265 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 266 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 267 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 268 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 269 eps 0.000196627 tFac 17 bestEval -0.212133 STV 0 
+gen 270 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 271 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 272 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 273 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 274 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 275 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 276 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 277 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 278 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 279 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 280 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 281 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 282 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 283 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 284 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 285 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 286 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 287 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 288 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 289 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 290 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 291 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 292 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 293 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 294 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 295 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 296 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 297 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 298 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 299 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 300 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 301 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 302 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 303 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 304 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 305 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 306 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 307 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 308 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 309 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 310 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 311 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 312 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 313 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 314 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 315 eps 0.000196627 tFac 18 bestEval -0.212133 STV 0 
+gen 316 eps 0.000196627 tFac 19 bestEval -0.212133 STV 0 
+gen 317 eps 0.000196627 tFac 19 bestEval -0.212133 STV 0 
+gen 318 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 319 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 320 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 321 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 322 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 323 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 324 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 325 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 326 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 327 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 328 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 329 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 330 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 331 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 332 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 333 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 334 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 335 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 336 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 337 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 338 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 339 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 340 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 341 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 342 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 343 eps 0.000196627 tFac 20 bestEval -0.212133 STV 0 
+gen 344 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 345 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 346 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 347 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 348 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 349 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 350 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 351 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 352 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 353 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 354 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 355 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 356 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 357 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 358 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 359 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 360 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 361 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 362 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 363 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 364 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 365 eps 0.000176964 tFac 17 bestEval -0.212133 STV 0 
+gen 366 eps 0.000176964 tFac 18 bestEval -0.212133 STV 0 
+gen 367 eps 0.000176964 tFac 18 bestEval -0.212133 STV 0 
+gen 368 eps 0.000176964 tFac 18 bestEval -0.212133 STV 0 
+gen 369 eps 0.000176964 tFac 18 bestEval -0.212133 STV 0 
+gen 370 eps 0.000176964 tFac 18 bestEval -0.212133 STV 0 
+gen 371 eps 0.000176964 tFac 18 bestEval -0.212133 STV 0 
+gen 372 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 373 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 374 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 375 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 376 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 377 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 378 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 379 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 380 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 381 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 382 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 383 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 384 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 385 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 386 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 387 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 388 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 389 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 390 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 391 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 392 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 393 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 394 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 395 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 396 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 397 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 398 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 399 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 400 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 401 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 402 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 403 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 404 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 405 eps 0.000176964 tFac 19 bestEval -0.212133 STV 0 
+gen 406 eps 0.000176964 tFac 20 bestEval -0.212133 STV 0 
+gen 407 eps 0.000176964 tFac 20 bestEval -0.212133 STV 0 
+gen 408 eps 0.000176964 tFac 20 bestEval -0.212133 STV 0 
+gen 409 eps 0.000176964 tFac 20 bestEval -0.212133 STV 0 
+gen 410 eps 0.000176964 tFac 20 bestEval -0.212133 STV 0 
+gen 411 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 412 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 413 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 414 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 415 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 416 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 417 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 418 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 419 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 420 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 421 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 422 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 423 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 424 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 425 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 426 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 427 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 428 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 429 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 430 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 431 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 432 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 433 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 434 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 435 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 436 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 437 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 438 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 439 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 440 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 441 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 442 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 443 eps 0.000159268 tFac 19 bestEval -0.0746213 STV 0 
+gen 444 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 445 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 446 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 447 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 448 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 449 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 450 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 451 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 452 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 453 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 454 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 455 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 456 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 457 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 458 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 459 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 460 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 461 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 462 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 463 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 464 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 465 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 466 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 467 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 468 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 469 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 470 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 471 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 472 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 473 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 474 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 475 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 476 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 477 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 478 eps 0.000159268 tFac 20 bestEval -0.0746213 STV 0 
+gen 479 eps 0.000143341 tFac 19 bestEval -0.0746213 STV 0 
+gen 480 eps 0.000143341 tFac 19 bestEval -0.0746213 STV 0 
+gen 481 eps 0.000143341 tFac 19 bestEval -0.0746213 STV 0 
+gen 482 eps 0.000143341 tFac 19 bestEval -0.0746213 STV 0 
+gen 483 eps 0.000143341 tFac 19 bestEval -0.0746213 STV 0 
+gen 484 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 485 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 486 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 487 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 488 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 489 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 490 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 491 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 492 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 493 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 494 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 495 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 496 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 497 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 498 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 499 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 500 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 501 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 502 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 503 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 504 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 505 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 506 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 507 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 508 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 509 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 510 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 511 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 512 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 513 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 514 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 515 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 516 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 517 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 518 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 519 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 520 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 521 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 522 eps 0.000143341 tFac 20 bestEval -0.0746213 STV 0 
+gen 523 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 524 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 525 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 526 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 527 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 528 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 529 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 530 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 531 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 532 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 533 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 534 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 535 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 536 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 537 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 538 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 539 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 540 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 541 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 542 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 543 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 544 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 545 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 546 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 547 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 548 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 549 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 550 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 551 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 552 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 553 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 554 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 555 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 556 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 557 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 558 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 559 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 560 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 561 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 562 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 563 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 564 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 565 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 566 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 567 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 568 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 569 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 570 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 571 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 572 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 573 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 574 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 575 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 576 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 577 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 578 eps 0.000129007 tFac 16 bestEval -0.0746213 STV 0 
+gen 579 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 580 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 581 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 582 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 583 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 584 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 585 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 586 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 587 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 588 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 589 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 590 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 591 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 592 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 593 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 594 eps 0.000129007 tFac 17 bestEval -0.0746213 STV 0 
+gen 595 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 596 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 597 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 598 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 599 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 600 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 601 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 602 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 603 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 604 eps 0.000129007 tFac 18 bestEval -0.0746213 STV 0 
+gen 605 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 606 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 607 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 608 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 609 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 610 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 611 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 612 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 613 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 614 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 615 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 616 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 617 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 618 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 619 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 620 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 621 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 622 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 623 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 624 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 625 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 626 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 627 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 628 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 629 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 630 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 631 eps 0.000129007 tFac 19 bestEval -0.0746213 STV 0 
+gen 632 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 633 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 634 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 635 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 636 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 637 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 638 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 639 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 640 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 641 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 642 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 643 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 644 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 645 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 646 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 647 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 648 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 649 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 650 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 651 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 652 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 653 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 654 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 655 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 656 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 657 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 658 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 659 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 660 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 661 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 662 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 663 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 664 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 665 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 666 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 667 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 668 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 669 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 670 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 671 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 672 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 673 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 674 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 675 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 676 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 677 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 678 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 679 eps 0.000129007 tFac 20 bestEval -0.0746213 STV 0 
+gen 680 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 681 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 682 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 683 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 684 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 685 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 686 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 687 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 688 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 689 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 690 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 691 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 692 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 693 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 694 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 695 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 696 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 697 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 698 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 699 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 700 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 701 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 702 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 703 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 704 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 705 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 706 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 707 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 708 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 709 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 710 eps 0.000116106 tFac 20 bestEval -0.0746213 STV 0 
+gen 711 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 712 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 713 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 714 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 715 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 716 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 717 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 718 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 719 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 720 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 721 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 722 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 723 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 724 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 725 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 726 eps 0.000104496 tFac 18 bestEval -0.0746213 STV 0 
+gen 727 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 728 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 729 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 730 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 731 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 732 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 733 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 734 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 735 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 736 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 737 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 738 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 739 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 740 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 741 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 742 eps 0.000104496 tFac 19 bestEval -0.0746213 STV 0 
+gen 743 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 744 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 745 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 746 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 747 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 748 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 749 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 750 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 751 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 752 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 753 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 754 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 755 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 756 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 757 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 758 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 759 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 760 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 761 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 762 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 763 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 764 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 765 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 766 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 767 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 768 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 769 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 770 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 771 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 772 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 773 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 774 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 775 eps 0.000104496 tFac 20 bestEval -0.0746213 STV 0 
+gen 776 eps 9.40461e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 777 eps 9.40461e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 778 eps 9.40461e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 779 eps 9.40461e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 780 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 781 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 782 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 783 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 784 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 785 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 786 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 787 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 788 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 789 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 790 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 791 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 792 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 793 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 794 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 795 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 796 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 797 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 798 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 799 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 800 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 801 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 802 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 803 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 804 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 805 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 806 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 807 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 808 eps 9.40461e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 809 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 810 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 811 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 812 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 813 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 814 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 815 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 816 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 817 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 818 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 819 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 820 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 821 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 822 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 823 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 824 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 825 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 826 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 827 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 828 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 829 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 830 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 831 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 832 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 833 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 834 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 835 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 836 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 837 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 838 eps 8.46415e-05 tFac 14 bestEval -0.0746213 STV 0 
+gen 839 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 840 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 841 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 842 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 843 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 844 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 845 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 846 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 847 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 848 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 849 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 850 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 851 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 852 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 853 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 854 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 855 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 856 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 857 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 858 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 859 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 860 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 861 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 862 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 863 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 864 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 865 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 866 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 867 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 868 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 869 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 870 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 871 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 872 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 873 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 874 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 875 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 876 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 877 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 878 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 879 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 880 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 881 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 882 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 883 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 884 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 885 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 886 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 887 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 888 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 889 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 890 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 891 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 892 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 893 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 894 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 895 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 896 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 897 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 898 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 899 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 900 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 901 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 902 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 903 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 904 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 905 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 906 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 907 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 908 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 909 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 910 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 911 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 912 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 913 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 914 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 915 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 916 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 917 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 918 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 919 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 920 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 921 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 922 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 923 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 924 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 925 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 926 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 927 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 928 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 929 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 930 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 931 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 932 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 933 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 934 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 935 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 936 eps 8.46415e-05 tFac 15 bestEval -0.0746213 STV 0 
+gen 937 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 938 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 939 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 940 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 941 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 942 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 943 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 944 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 945 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 946 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 947 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 948 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 949 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 950 eps 8.46415e-05 tFac 16 bestEval -0.0746213 STV 0 
+gen 951 eps 8.46415e-05 tFac 17 bestEval -0.0746213 STV 0 
+gen 952 eps 8.46415e-05 tFac 17 bestEval -0.0746213 STV 0 
+gen 953 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 954 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 955 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 956 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 957 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 958 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 959 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 960 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 961 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 962 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 963 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 964 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 965 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 966 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 967 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 968 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 969 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 970 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 971 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 972 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 973 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 974 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 975 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 976 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 977 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 978 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 979 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 980 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 981 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 982 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 983 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 984 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 985 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 986 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 987 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 988 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 989 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 990 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 991 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 992 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 993 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 994 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 995 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 996 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 997 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 998 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 999 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1000 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1001 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1002 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1003 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1004 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1005 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1006 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1007 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1008 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1009 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1010 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1011 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1012 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1013 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1014 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1015 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1016 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1017 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1018 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1019 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1020 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1021 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1022 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1023 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1024 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1025 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1026 eps 8.46415e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1027 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1028 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1029 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1030 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1031 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1032 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1033 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1034 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1035 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1036 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1037 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1038 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1039 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1040 eps 8.46415e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1041 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1042 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1043 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1044 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1045 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1046 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1047 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1048 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1049 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1050 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1051 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1052 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1053 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1054 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1055 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1056 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1057 eps 8.46415e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1058 eps 7.61773e-05 tFac 21 bestEval -0.0746213 STV 0 
+gen 1059 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1060 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1061 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1062 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1063 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1064 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1065 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1066 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1067 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1068 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1069 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1070 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1071 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1072 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1073 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1074 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1075 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1076 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1077 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1078 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1079 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1080 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1081 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1082 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1083 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1084 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1085 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1086 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1087 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1088 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1089 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1090 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1091 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1092 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1093 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1094 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1095 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1096 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1097 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1098 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1099 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1100 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1101 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1102 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1103 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1104 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1105 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1106 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1107 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1108 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1109 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1110 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1111 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1112 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1113 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1114 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1115 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1116 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1117 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1118 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1119 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1120 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1121 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1122 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1123 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1124 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1125 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1126 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1127 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1128 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1129 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1130 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1131 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1132 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1133 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1134 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1135 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1136 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1137 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1138 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1139 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1140 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1141 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1142 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1143 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1144 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1145 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1146 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1147 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1148 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1149 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1150 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1151 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1152 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1153 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1154 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1155 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1156 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1157 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1158 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1159 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1160 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1161 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1162 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1163 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1164 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1165 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1166 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1167 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1168 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1169 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1170 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1171 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1172 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1173 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1174 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1175 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1176 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1177 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1178 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1179 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1180 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1181 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1182 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1183 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1184 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1185 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1186 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1187 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1188 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1189 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1190 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1191 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1192 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1193 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1194 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1195 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1196 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1197 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1198 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1199 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1200 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1201 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1202 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1203 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1204 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1205 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1206 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1207 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1208 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1209 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1210 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1211 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1212 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1213 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1214 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1215 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1216 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1217 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1218 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1219 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1220 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1221 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1222 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1223 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1224 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1225 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1226 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1227 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1228 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1229 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1230 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1231 eps 6.85596e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1232 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1233 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1234 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1235 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1236 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1237 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1238 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1239 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1240 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1241 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1242 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1243 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1244 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1245 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1246 eps 6.85596e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1247 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1248 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1249 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1250 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1251 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1252 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1253 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1254 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1255 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1256 eps 6.17037e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1257 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1258 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1259 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1260 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1261 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1262 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1263 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1264 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1265 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1266 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1267 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1268 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1269 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1270 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1271 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1272 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1273 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1274 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1275 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1276 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1277 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1278 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1279 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1280 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1281 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1282 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1283 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1284 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1285 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1286 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1287 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1288 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1289 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1290 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1291 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1292 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1293 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1294 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1295 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1296 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1297 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1298 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1299 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1300 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1301 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1302 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1303 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1304 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1305 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1306 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1307 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1308 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1309 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1310 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1311 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1312 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1313 eps 6.17037e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1314 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1315 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1316 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1317 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1318 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1319 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1320 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1321 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1322 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1323 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1324 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1325 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1326 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1327 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1328 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1329 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1330 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1331 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1332 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1333 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1334 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1335 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1336 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1337 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1338 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1339 eps 6.17037e-05 tFac 20 bestEval -0.0746213 STV 0 
+gen 1340 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1341 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1342 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1343 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1344 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1345 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1346 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1347 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1348 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1349 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1350 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1351 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1352 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1353 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1354 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1355 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1356 eps 5.55333e-05 tFac 18 bestEval -0.0746213 STV 0 
+gen 1357 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1358 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1359 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1360 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1361 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1362 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1363 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1364 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1365 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1366 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1367 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1368 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1369 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1370 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1371 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1372 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1373 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1374 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1375 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1376 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1377 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1378 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1379 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1380 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1381 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1382 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1383 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1384 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1385 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1386 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1387 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1388 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1389 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1390 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1391 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1392 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1393 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1394 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1395 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1396 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1397 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1398 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1399 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1400 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1401 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1402 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1403 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1404 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1405 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1406 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1407 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1408 eps 5.55333e-05 tFac 19 bestEval -0.0746213 STV 0 
+gen 1409 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1410 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1411 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1412 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1413 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1414 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1415 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1416 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1417 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1418 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1419 eps 5.55333e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1420 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1421 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1422 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1423 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1424 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1425 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1426 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1427 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1428 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1429 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1430 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1431 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1432 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1433 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1434 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1435 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1436 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1437 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1438 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1439 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1440 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1441 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1442 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1443 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1444 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1445 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1446 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1447 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1448 eps 4.998e-05 tFac 19 bestEval -0.538669 STV 0 
+gen 1449 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1450 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1451 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1452 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1453 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1454 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1455 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1456 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1457 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1458 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1459 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1460 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1461 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1462 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1463 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1464 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1465 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1466 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1467 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1468 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1469 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1470 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1471 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1472 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1473 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1474 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1475 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1476 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1477 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1478 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1479 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1480 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1481 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1482 eps 4.998e-05 tFac 20 bestEval -0.538669 STV 0 
+gen 1483 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1484 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1485 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1486 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1487 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1488 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1489 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1490 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1491 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1492 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1493 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1494 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1495 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1496 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1497 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+gen 1498 eps 4.4982e-05 tFac 18 bestEval -0.538669 STV 0 
+#
+#Mejor individuo encontrado (en la generacion 1409): 
+#[ 0.379752, 0.314079, 0.218625, 0.340064, 0.210177, 0.400784, 0.203293, 0.286116, 0.424901, 0.291792, ]
+#f: -0.538669
+#	h1:-2.55733e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.538669 
+#mediana de las mejores Evals: -0.538669 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1409 
+#Min valor de mejor Evaluacion alcanzada: -5.386685e-01 -0.538669 
+#Max valor de mejor Evaluacion alcanzada: -5.386685e-01 -0.538669 
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 3 200 data/g3.txt 300000 1 0.05 0.45 0.8 30
+#Parametros: 
+#tamanio Poblacion: 200 , dimension: 10 
+#num max de Evals: 300000 
+#CR: 0.45, F: 0.8 
+#Total de Repeticiones: 30 
+#
+#CR: 0.45, F: 0.8 
+#
+#Mejor individuo encontrado (en la generacion 839): 
+#[ 0.408925, 0.276756, 0.313808, 0.370199, 0.30521, 0.096748, 0.343779, 0.288113, 0.320162, 0.338306, ]
+#f: -0.416487
+#	h1:-3.06997e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1389): 
+#[ 0.345775, 0.376891, 0.309156, 0.217605, 0.182501, 0.157396, 0.584702, 0.341738, 0.214691, 0.18067, ]
+#f: -0.195182
+#	h1:1.10781e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1249): 
+#[ 0.209203, 0.0600394, 0.0941527, 0.679976, 0.277758, 0.063976, 0.250377, 0.0688811, 0.487506, 0.308307, ]
+#f: -0.003704
+#	h1:-5.89441e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 594): 
+#[ 0.495842, 0.131254, 0.364771, 0.531971, 0.0318578, 0.190758, 0.122851, 0.233907, 0.452369, 0.0950359, ]
+#f: -0.00948126
+#	h1:1.61028e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 791): 
+#[ 0.0709578, 0.0463171, 0.284308, 0.348726, 0.60213, 0.130454, 0.416031, 0.395447, 0.0810242, 0.273398, ]
+#f: -0.00932792
+#	h1:-2.86945e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 712): 
+#[ 0.218054, 0.386597, 0.0471217, 0.133864, 0.143248, 0.127032, 0.400316, 0.326571, 0.324615, 0.611497, ]
+#f: -0.0251103
+#	h1:5.9963e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 482): 
+#[ 0.425378, 0.269177, 0.306926, 0.101333, 0.0699488, 0.440384, 0.27752, 0.46071, 0.197714, 0.339036, ]
+#f: -0.0940182
+#	h1:1.19797e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 89): 
+#[ 0.0969914, 0.0613083, 0.36222, 0.0245749, 0.12242, 0.311597, 0.217618, 0.480806, 0.342456, 0.589197, ]
+#f: -0.00426276
+#	h1:1.35569e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 977): 
+#[ 0.284927, 0.304606, 0.425193, 0.117666, 0.568287, 0.130127, 0.227408, 0.258087, 0.201421, 0.364191, ]
+#f: -0.138245
+#	h1:1.40382e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 454): 
+#[ 0.297414, 0.0868918, 0.66352, 0.260576, 0.161532, 0.060663, 0.460838, 0.346782, 0.134771, 0.123733, ]
+#f: -0.011668
+#	h1:3.8504e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 974): 
+#[ 0.326221, 0.242502, 0.0904135, 0.197416, 0.509898, 0.447797, 0.226347, 0.205113, 0.3427, 0.341101, ]
+#f: -0.174974
+#	h1:-9.02113e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 145): 
+#[ 0.0702782, 0.115189, 0.305892, 0.306701, 0.329718, 0.509114, 0.457954, 0.398664, 0.156888, 0.181656, ]
+#f: -0.0663345
+#	h1:2.09985e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 517): 
+#[ 0.522242, 0.547238, 0.125755, 0.27924, 0.203166, 0.0987315, 0.36459, 0.113499, 0.334775, 0.1584, ]
+#f: -0.0441737
+#	h1:-7.74253e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 70): 
+#[ 0.38815, 0.285256, 0.423956, 0.346013, 0.0416462, 0.195266, 0.326829, 0.306521, 0.246628, 0.408696, ]
+#f: -0.133375
+#	h1:-1.15947e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1254): 
+#[ 0.287314, 0.304523, 0.119883, 0.312893, 0.246154, 0.642221, 0.0884844, 0.163205, 0.14639, 0.428368, ]
+#f: -0.0469843
+#	h1:-7.78456e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 418): 
+#[ 0.220346, 0.68303, 0.00558988, 0.148557, 0.311911, 0.00169527, 0.22434, 0.428015, 0.301196, 0.203119, ]
+#f: -3.88216e-05
+#	h1:-2.48549e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 804): 
+#[ 0.212722, 0.0169171, 0.427746, 0.654609, 0.488043, 0.0447197, 0, 0, 0.218282, 0.234878, ]
+#f: -0
+#	h1:1.71243e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1178): 
+#[ 0.133175, 0.322664, 0.233447, 0.504463, 0.286866, 0.320145, 0.345721, 0.100777, 0.332771, 0.379408, ]
+#f: -0.204435
+#	h1:-2.11714e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 437): 
+#[ 0.511271, 0.412445, 0.204785, 0.206868, 0.11943, 0.0962364, 0.264651, 0.179984, 0.275782, 0.530813, ]
+#f: -0.0715941
+#	h1:1.73129e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 119): 
+#[ 0.00331469, 0.460642, 0.35304, 0.21651, 0.274484, 0.297107, 0.150086, 0.14947, 0.449702, 0.453391, ]
+#f: -0.00435341
+#	h1:-8.03435e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 629): 
+#[ 0.418935, 0.0871694, 0.118424, 0.192762, 0.33115, 0.36924, 0.204566, 0.383021, 0.321453, 0.477354, ]
+#f: -0.122552
+#	h1:3.61227e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 276): 
+#[ 0.416201, 0.313923, 0.596887, 0.0932832, 0.019382, 0.2676, 0.0709505, 0.506676, 0.162509, 0.0555166, ]
+#f: -0.00122375
+#	h1:-2.11896e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1116): 
+#[ 0.103052, 0.0537728, 0.119354, 0.457808, 0.304102, 0.132431, 0.637621, 0.318574, 0.268783, 0.269007, ]
+#f: -0.0179096
+#	h1:1.91485e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 609): 
+#[ 0.349148, 0.419731, 0.353506, 0.142691, 0.293937, 0.23038, 0.156642, 0.275271, 0.495194, 0.267563, ]
+#f: -0.285984
+#	h1:-2.92159e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1329): 
+#[ 0.257314, 0.168351, 0.219394, 0.431898, 0.421746, 0.198504, 0.32418, 0.463801, 0.334995, 0.145217, ]
+#f: -0.251351
+#	h1:9.64527e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1496): 
+#[ 0.137621, 0.289955, 0.6507, 0.454485, 0.298911, 0.115534, 0.244499, 0.215412, 0.213788, 0.111358, ]
+#f: -0.0511004
+#	h1:-3.5525e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 789): 
+#[ 0.0935682, 0.234467, 0.353495, 0.0833711, 0.242299, 0.0330317, 0.470838, 0.285465, 0.34815, 0.565859, ]
+#f: -0.0137022
+#	h1:2.29057e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 63): 
+#[ 0.477902, 0.343292, 0.206256, 0.418326, 0.164676, 0.345404, 0.319351, 0.372378, 0.22172, 0, ]
+#f: -0
+#	h1:1.04552e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1226): 
+#[ 0.215456, 0.17825, 0.168388, 0.568685, 0.170741, 0.27053, 0.344962, 0.398938, 0.405254, 0.159194, ]
+#f: -0.150818
+#	h1:1.43001e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 537): 
+#[ 0.157044, 0.59274, 0.112347, 0.540344, 0.0309095, 0.222216, 0.350097, 0.0154779, 0.146806, 0.353125, ]
+#f: -0.00109033
+#	h1:-1.093e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.0849827 
+#mediana de las mejores Evals: -0.0470231 
+#Desviacion Estandar de las mejores Evals: 0.103986 
+#
+#promedio de la generacion del Mejor: 718.733 
+#Min valor de mejor Evaluacion alcanzada: -4.164873e-01 -0.416487 
+#Max valor de mejor Evaluacion alcanzada: -0.000000e+00 -0 
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 3 200 data/g3.txt 300000 1 0.05 0.8 0.2 1
+#Parametros: 
+#tamanio Poblacion: 200 , dimension: 10 
+#num max de Evals: 300000 
+#Total de Repeticiones: 1 
+#
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 3 200 data/g3.txt 300000 1 0.05 0.8 0.2 1
+#Parametros: 
+#tamanio Poblacion: 200 , dimension: 10 
+#num max de Evals: 300000 
+#Total de Repeticiones: 1 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1233): 
+#[ 0.283118, 0.357391, 0.317687, 0.278721, 0.335425, 0.369922, 0.341952, 0.308553, 0.276027, 0.275365, ]
+#f: -0.89154
+#	h1:-5.83875e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.89154 
+#mediana de las mejores Evals: -0.89154 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1233 
+#Min valor de mejor Evaluacion alcanzada: -8.915402e-01 -0.89154 
+#Max valor de mejor Evaluacion alcanzada: -8.915402e-01 -0.89154 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 733): 
+#[ 0.288003, 0.370665, 0.393875, 0.298349, 0.245325, 0.276597, 0.303566, 0.324464, 0.300163, 0.333609, ]
+#f: -0.839586
+#	h1:-9.6037e-08 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.839586 
+#mediana de las mejores Evals: -0.839586 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 733 
+#Min valor de mejor Evaluacion alcanzada: -8.395855e-01 -0.839586 
+#Max valor de mejor Evaluacion alcanzada: -8.395855e-01 -0.839586 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 671): 
+#[ 0.312616, 0.303569, 0.296935, 0.329577, 0.298186, 0.361743, 0.303432, 0.326214, 0.304933, 0.3195, ]
+#f: -0.966083
+#	h1:-1.42277e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.966083 
+#mediana de las mejores Evals: -0.966083 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 671 
+#Min valor de mejor Evaluacion alcanzada: -9.660832e-01 -0.966083 
+#Max valor de mejor Evaluacion alcanzada: -9.660832e-01 -0.966083 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 954): 
+#[ 0.282863, 0.309731, 0.307648, 0.352924, 0.343871, 0.3325, 0.318215, 0.237091, 0.314572, 0.345868, ]
+#f: -0.892788
+#	h1:3.66274e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.892788 
+#mediana de las mejores Evals: -0.892788 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 954 
+#Min valor de mejor Evaluacion alcanzada: -8.927876e-01 -0.892788 
+#Max valor de mejor Evaluacion alcanzada: -8.927876e-01 -0.892788 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 785): 
+#[ 0.293273, 0.268486, 0.266167, 0.352521, 0.316345, 0.351736, 0.345919, 0.299288, 0.314025, 0.339338, ]
+#f: -0.906926
+#	h1:-2.3366e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.906926 
+#mediana de las mejores Evals: -0.906926 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 785 
+#Min valor de mejor Evaluacion alcanzada: -9.069256e-01 -0.906926 
+#Max valor de mejor Evaluacion alcanzada: -9.069256e-01 -0.906926 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 759): 
+#[ 0.362545, 0.291679, 0.348625, 0.357399, 0.250626, 0.250137, 0.34257, 0.327528, 0.365978, 0.224174, ]
+#f: -0.760365
+#	h1:-6.05678e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.760365 
+#mediana de las mejores Evals: -0.760365 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 759 
+#Min valor de mejor Evaluacion alcanzada: -7.603650e-01 -0.760365 
+#Max valor de mejor Evaluacion alcanzada: -7.603650e-01 -0.760365 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 754): 
+#[ 0.286617, 0.401354, 0.589248, 0.205955, 0.446216, 0.148548, 0.170597, 0.222352, 0.228521, 0.123235, ]
+#f: -0.0988521
+#	h1:-7.34397e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.0988521 
+#mediana de las mejores Evals: -0.0988521 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 754 
+#Min valor de mejor Evaluacion alcanzada: -9.885211e-02 -0.0988521 
+#Max valor de mejor Evaluacion alcanzada: -9.885211e-02 -0.0988521 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 483): 
+#[ 0.0117998, 0.0677851, 0.2754, 0.560172, 0.609249, 0.149715, 0.260898, 0.257661, 0.0261353, 0.27728, ]
+#f: -0.000548305
+#	h1:-4.94608e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.000548305 
+#mediana de las mejores Evals: -0.000548305 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 483 
+#Min valor de mejor Evaluacion alcanzada: -5.483049e-04 -0.000548305 
+#Max valor de mejor Evaluacion alcanzada: -5.483049e-04 -0.000548305 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1283): 
+#[ 0.486499, 0.277984, 0.530572, 0.226739, 0.307498, 0.16316, 0.0745517, 0.27027, 0.201257, 0.335923, ]
+#f: -0.111192
+#	h1:2.85309e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.111192 
+#mediana de las mejores Evals: -0.111192 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1283 
+#Min valor de mejor Evaluacion alcanzada: -1.111924e-01 -0.111192 
+#Max valor de mejor Evaluacion alcanzada: -1.111924e-01 -0.111192 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1165): 
+#[ 0.287659, 0.347742, 0.331637, 0.293927, 0.314555, 0.295297, 0.31727, 0.334415, 0.323243, 0.311171, ]
+#f: -0.966575
+#	h1:1.549e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.966575 
+#mediana de las mejores Evals: -0.966575 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1165 
+#Min valor de mejor Evaluacion alcanzada: -9.665747e-01 -0.966575 
+#Max valor de mejor Evaluacion alcanzada: -9.665747e-01 -0.966575 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1077): 
+#[ 0.333632, 0.320391, 0.303132, 0.315566, 0.315411, 0.328217, 0.302825, 0.299879, 0.329416, 0.311788, ]
+#f: -0.987302
+#	h1:-7.19672e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.987302 
+#mediana de las mejores Evals: -0.987302 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1077 
+#Min valor de mejor Evaluacion alcanzada: -9.873022e-01 -0.987302 
+#Max valor de mejor Evaluacion alcanzada: -9.873022e-01 -0.987302 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 833): 
+#[ 0.322044, 0.312225, 0.330134, 0.320967, 0.311175, 0.315579, 0.311959, 0.326795, 0.292624, 0.317227, ]
+#f: -0.990146
+#	h1:1.22544e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.990146 
+#mediana de las mejores Evals: -0.990146 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 833 
+#Min valor de mejor Evaluacion alcanzada: -9.901457e-01 -0.990146 
+#Max valor de mejor Evaluacion alcanzada: -9.901457e-01 -0.990146 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 913): 
+#[ 0.335696, 0.307855, 0.330444, 0.298737, 0.344952, 0.313697, 0.294636, 0.320681, 0.300971, 0.310593, ]
+#f: -0.975039
+#	h1:-1.40118e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.975039 
+#mediana de las mejores Evals: -0.975039 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 913 
+#Min valor de mejor Evaluacion alcanzada: -9.750387e-01 -0.975039 
+#Max valor de mejor Evaluacion alcanzada: -9.750387e-01 -0.975039 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 879): 
+#[ 0.337771, 0.286877, 0.315292, 0.309755, 0.330066, 0.341872, 0.299442, 0.319733, 0.30269, 0.314513, ]
+#f: -0.973314
+#	h1:2.91206e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.973314 
+#mediana de las mejores Evals: -0.973314 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 879 
+#Min valor de mejor Evaluacion alcanzada: -9.733140e-01 -0.973314 
+#Max valor de mejor Evaluacion alcanzada: -9.733140e-01 -0.973314 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1282): 
+#[ 0.262901, 0.335971, 0.293993, 0.330025, 0.369726, 0.296179, 0.306963, 0.354382, 0.284264, 0.312437, ]
+#f: -0.906683
+#	h1:-2.18256e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.906683 
+#mediana de las mejores Evals: -0.906683 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1282 
+#Min valor de mejor Evaluacion alcanzada: -9.066831e-01 -0.906683 
+#Max valor de mejor Evaluacion alcanzada: -9.066831e-01 -0.906683 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1226): 
+#[ 0.310348, 0.455946, 0.35532, 0.162086, 0.428599, 0.241267, 0.288873, 0.26231, 0.251693, 0.292857, ]
+#f: -0.470677
+#	h1:2.05475e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.470677 
+#mediana de las mejores Evals: -0.470677 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1226 
+#Min valor de mejor Evaluacion alcanzada: -4.706768e-01 -0.470677 
+#Max valor de mejor Evaluacion alcanzada: -4.706768e-01 -0.470677 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1134): 
+#[ 0.156256, 0.552799, 0.212061, 0.459841, 0.147131, 0.240539, 0.262979, 0.295903, 0.13665, 0.39836, ]
+#f: -0.126275
+#	h1:1.2874e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.126275 
+#mediana de las mejores Evals: -0.126275 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1134 
+#Min valor de mejor Evaluacion alcanzada: -1.262748e-01 -0.126275 
+#Max valor de mejor Evaluacion alcanzada: -1.262748e-01 -0.126275 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 930): 
+#[ 0.648109, 0.226617, 0.153885, 0.0577395, 0.275663, 0.435424, 0.323908, 0.248353, 0.230367, 0.12787, ]
+#f: -0.0371178
+#	h1:1.43543e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.0371178 
+#mediana de las mejores Evals: -0.0371178 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 930 
+#Min valor de mejor Evaluacion alcanzada: -3.711779e-02 -0.0371178 
+#Max valor de mejor Evaluacion alcanzada: -3.711779e-02 -0.0371178 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1331): 
+#[ 0.316628, 0.314824, 0.320589, 0.320996, 0.3239, 0.315772, 0.334099, 0.313719, 0.288085, 0.311702, ]
+#f: -0.987479
+#	h1:6.3011e-09 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.987479 
+#mediana de las mejores Evals: -0.987479 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1331 
+#Min valor de mejor Evaluacion alcanzada: -9.874794e-01 -0.987479 
+#Max valor de mejor Evaluacion alcanzada: -9.874794e-01 -0.987479 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1244): 
+#[ 0.321286, 0.316159, 0.308646, 0.316683, 0.315446, 0.31877, 0.315133, 0.313673, 0.31495, 0.321331, ]
+#f: -0.99874
+#	h1:-2.84054e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.99874 
+#mediana de las mejores Evals: -0.99874 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1244 
+#Min valor de mejor Evaluacion alcanzada: -9.987399e-01 -0.99874 
+#Max valor de mejor Evaluacion alcanzada: -9.987399e-01 -0.99874 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1079): 
+#[ 0.312422, 0.316322, 0.318071, 0.313454, 0.319185, 0.317575, 0.316127, 0.314875, 0.319205, 0.314964, ]
+#f: -0.999516
+#	h1:2.03044e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.999516 
+#mediana de las mejores Evals: -0.999516 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1079 
+#Min valor de mejor Evaluacion alcanzada: -9.995164e-01 -0.999516 
+#Max valor de mejor Evaluacion alcanzada: -9.995164e-01 -0.999516 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1386): 
+#[ 0.317462, 0.304942, 0.320177, 0.313454, 0.325428, 0.312675, 0.318528, 0.313134, 0.318881, 0.317166, ]
+#f: -0.997274
+#	h1:-6.119e-08 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.997274 
+#mediana de las mejores Evals: -0.997274 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1386 
+#Min valor de mejor Evaluacion alcanzada: -9.972735e-01 -0.997274 
+#Max valor de mejor Evaluacion alcanzada: -9.972735e-01 -0.997274 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1021): 
+#[ 0.31842, 0.331264, 0.312172, 0.301063, 0.323653, 0.319856, 0.326438, 0.309027, 0.313297, 0.305792, ]
+#f: -0.991834
+#	h1:-4.45333e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.991834 
+#mediana de las mejores Evals: -0.991834 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1021 
+#Min valor de mejor Evaluacion alcanzada: -9.918343e-01 -0.991834 
+#Max valor de mejor Evaluacion alcanzada: -9.918343e-01 -0.991834 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 518): 
+#[ 0.31314, 0.317568, 0.273462, 0.333032, 0.313563, 0.297035, 0.338611, 0.342472, 0.318927, 0.308531, ]
+#f: -0.962511
+#	h1:-9.4098e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.962511 
+#mediana de las mejores Evals: -0.962511 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 518 
+#Min valor de mejor Evaluacion alcanzada: -9.625109e-01 -0.962511 
+#Max valor de mejor Evaluacion alcanzada: -9.625109e-01 -0.962511 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 250): 
+#[ 0.312873, 0.20623, 0.348545, 0.291837, 0.325133, 0.271854, 0.341351, 0.269554, 0.319807, 0.426447, ]
+#f: -0.727974
+#	h1:2.74056e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.727974 
+#mediana de las mejores Evals: -0.727974 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 250 
+#Min valor de mejor Evaluacion alcanzada: -7.279742e-01 -0.727974 
+#Max valor de mejor Evaluacion alcanzada: -7.279742e-01 -0.727974 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 691): 
+#[ 0.200401, 0.322368, 0.374576, 0.0564866, 0.0339919, 0.57724, 0.447841, 0.146492, 0.212289, 0.333107, ]
+#f: -0.0124428
+#	h1:-1.09617e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.0124428 
+#mediana de las mejores Evals: -0.0124428 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 691 
+#Min valor de mejor Evaluacion alcanzada: -1.244283e-02 -0.0124428 
+#Max valor de mejor Evaluacion alcanzada: -1.244283e-02 -0.0124428 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1465): 
+#[ 0.316198, 0.285813, 0.102565, 0.313038, 0.413651, 0.237859, 0.390303, 0.377727, 0.407171, 0.146108, ]
+#f: -0.250391
+#	h1:1.56606e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.250391 
+#mediana de las mejores Evals: -0.250391 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1465 
+#Min valor de mejor Evaluacion alcanzada: -2.503908e-01 -0.250391 
+#Max valor de mejor Evaluacion alcanzada: -2.503908e-01 -0.250391 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1404): 
+#[ 0.313569, 0.315706, 0.315877, 0.327278, 0.315205, 0.313126, 0.314858, 0.324487, 0.313652, 0.308072, ]
+#f: -0.997182
+#	h1:-4.01103e-08 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.997182 
+#mediana de las mejores Evals: -0.997182 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1404 
+#Min valor de mejor Evaluacion alcanzada: -9.971820e-01 -0.997182 
+#Max valor de mejor Evaluacion alcanzada: -9.971820e-01 -0.997182 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 433): 
+#[ 0.317723, 0.31466, 0.31266, 0.318435, 0.315571, 0.31864, 0.317514, 0.316422, 0.314894, 0.315709, ]
+#f: -0.999677
+#	h1:6.39799e-08 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.999677 
+#mediana de las mejores Evals: -0.999677 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 433 
+#Min valor de mejor Evaluacion alcanzada: -9.996773e-01 -0.999677 
+#Max valor de mejor Evaluacion alcanzada: -9.996773e-01 -0.999677 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1024): 
+#[ 0.314998, 0.318633, 0.317811, 0.317195, 0.314439, 0.314311, 0.315693, 0.314501, 0.317659, 0.317001, ]
+#f: -0.999765
+#	h1:4.38102e-08 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.999765 
+#mediana de las mejores Evals: -0.999765 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1024 
+#Min valor de mejor Evaluacion alcanzada: -9.997650e-01 -0.999765 
+#Max valor de mejor Evaluacion alcanzada: -9.997650e-01 -0.999765 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 554): 
+#[ 0.31711, 0.312787, 0.315837, 0.316796, 0.3169, 0.316327, 0.317248, 0.315125, 0.319215, 0.31489, ]
+#f: -0.999734
+#	h1:-1.31098e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.999734 
+#mediana de las mejores Evals: -0.999734 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 554 
+#Min valor de mejor Evaluacion alcanzada: -9.997339e-01 -0.999734 
+#Max valor de mejor Evaluacion alcanzada: -9.997339e-01 -0.999734 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1238): 
+#[ 0.32029, 0.312682, 0.31613, 0.311207, 0.315277, 0.31538, 0.319412, 0.311268, 0.314437, 0.325898, ]
+#f: -0.998136
+#	h1:1.01985e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.998136 
+#mediana de las mejores Evals: -0.998136 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1238 
+#Min valor de mejor Evaluacion alcanzada: -9.981357e-01 -0.998136 
+#Max valor de mejor Evaluacion alcanzada: -9.981357e-01 -0.998136 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 142): 
+#[ 0.302758, 0.317163, 0.308164, 0.307564, 0.310597, 0.335295, 0.315186, 0.346821, 0.311251, 0.304606, ]
+#f: -0.982303
+#	h1:-3.57486e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.982303 
+#mediana de las mejores Evals: -0.982303 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 142 
+#Min valor de mejor Evaluacion alcanzada: -9.823034e-01 -0.982303 
+#Max valor de mejor Evaluacion alcanzada: -9.823034e-01 -0.982303 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 859): 
+#[ 0.217692, 0.264008, 0.315651, 0.397226, 0.283478, 0.326476, 0.331237, 0.360016, 0.293741, 0.336047, ]
+#f: -0.785058
+#	h1:2.16133e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.785058 
+#mediana de las mejores Evals: -0.785058 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 859 
+#Min valor de mejor Evaluacion alcanzada: -7.850581e-01 -0.785058 
+#Max valor de mejor Evaluacion alcanzada: -7.850581e-01 -0.785058 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 364): 
+#[ 0.333766, 0.28027, 0.0570562, 0.345875, 0.185043, 0.333685, 0.411552, 0.198468, 0.406757, 0.409126, ]
+#f: -0.154938
+#	h1:2.36869e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.154938 
+#mediana de las mejores Evals: -0.154938 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 364 
+#Min valor de mejor Evaluacion alcanzada: -1.549380e-01 -0.154938 
+#Max valor de mejor Evaluacion alcanzada: -1.549380e-01 -0.154938 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 754): 
+#[ 0.201694, 0.0336504, 0.374223, 0.179385, 0.37826, 0.204637, 0.364803, 0.516338, 0.304922, 0.329159, ]
+#f: -0.0666747
+#	h1:3.76797e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.0666747 
+#mediana de las mejores Evals: -0.0666747 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 754 
+#Min valor de mejor Evaluacion alcanzada: -6.667469e-02 -0.0666747 
+#Max valor de mejor Evaluacion alcanzada: -6.667469e-02 -0.0666747 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1308): 
+#[ 0.300213, 0.339799, 0.311771, 0.321252, 0.326258, 0.356641, 0.300954, 0.308058, 0.281098, 0.324087, ]
+#f: -1.0041
+#	h1:0.00915428 
+#Sum Total h: 0.00023003 
+#Suma total Violacion: 0.00023003 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.0041 
+#mediana de las mejores Evals: -1.0041 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1308 
+#Min valor de mejor Evaluacion alcanzada: -1.004104e+00 -1.0041 
+#Max valor de mejor Evaluacion alcanzada: -1.004104e+00 -1.0041 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 865): 
+#[ 0.31166, 0.295885, 0.305702, 0.30552, 0.32483, 0.321186, 0.329101, 0.328183, 0.315815, 0.322642, ]
+#f: -0.988905
+#	h1:-9.30046e-10 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.988905 
+#mediana de las mejores Evals: -0.988905 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 865 
+#Min valor de mejor Evaluacion alcanzada: -9.889046e-01 -0.988905 
+#Max valor de mejor Evaluacion alcanzada: -9.889046e-01 -0.988905 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 780): 
+#[ 0.324623, 0.326848, 0.315387, 0.294793, 0.329529, 0.311128, 0.311011, 0.315814, 0.313322, 0.318419, ]
+#f: -0.9911
+#	h1:-1.18683e-12 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.9911 
+#mediana de las mejores Evals: -0.9911 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 780 
+#Min valor de mejor Evaluacion alcanzada: -9.911000e-01 -0.9911 
+#Max valor de mejor Evaluacion alcanzada: -9.911000e-01 -0.9911 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 978): 
+#[ 0.31781, 0.316457, 0.315348, 0.315379, 0.316427, 0.317403, 0.316431, 0.315916, 0.315706, 0.315389, ]
+#f: -0.999934
+#	h1:-6.2715e-08 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.999934 
+#mediana de las mejores Evals: -0.999934 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 978 
+#Min valor de mejor Evaluacion alcanzada: -9.999339e-01 -0.999934 
+#Max valor de mejor Evaluacion alcanzada: -9.999339e-01 -0.999934 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 224): 
+#[ 0.310082, 0.317694, 0.318673, 0.320657, 0.319117, 0.318958, 0.317445, 0.312275, 0.31317, 0.314029, ]
+#f: -0.998874
+#	h1:3.54646e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.998874 
+#mediana de las mejores Evals: -0.998874 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 224 
+#Min valor de mejor Evaluacion alcanzada: -9.988742e-01 -0.998874 
+#Max valor de mejor Evaluacion alcanzada: -9.988742e-01 -0.998874 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 491): 
+#[ 0.317899, 0.32351, 0.323512, 0.291745, 0.32607, 0.333017, 0.302706, 0.311027, 0.319322, 0.311363, ]
+#f: -0.986652
+#	h1:-1.69372e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.986652 
+#mediana de las mejores Evals: -0.986652 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 491 
+#Min valor de mejor Evaluacion alcanzada: -9.866522e-01 -0.986652 
+#Max valor de mejor Evaluacion alcanzada: -9.866522e-01 -0.986652 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 115): 
+#[ 0.295411, 0.338696, 0.336674, 0.322954, 0.347252, 0.269187, 0.290419, 0.290927, 0.295711, 0.361801, ]
+#f: -0.919248
+#	h1:3.88664e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.919248 
+#mediana de las mejores Evals: -0.919248 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 115 
+#Min valor de mejor Evaluacion alcanzada: -9.192478e-01 -0.919248 
+#Max valor de mejor Evaluacion alcanzada: -9.192478e-01 -0.919248 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 218): 
+#[ 0.158877, 0.33785, 0.41163, 0.224783, 0.426303, 0.328718, 0.36421, 0.343617, 0.259023, 0.181819, ]
+#f: -0.410205
+#	h1:1.3601e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.410205 
+#mediana de las mejores Evals: -0.410205 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 218 
+#Min valor de mejor Evaluacion alcanzada: -4.102048e-01 -0.410205 
+#Max valor de mejor Evaluacion alcanzada: -4.102048e-01 -0.410205 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 947): 
+#[ 0.413391, 0.285307, 0.264165, 0.240226, 0.48179, 0.0871616, 0.463621, 0.290603, 0.215047, 0.186711, ]
+#f: -0.170029
+#	h1:5.34618e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.170029 
+#mediana de las mejores Evals: -0.170029 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 947 
+#Min valor de mejor Evaluacion alcanzada: -1.700292e-01 -0.170029 
+#Max valor de mejor Evaluacion alcanzada: -1.700292e-01 -0.170029 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1166): 
+#[ 0.295165, 0.350592, 0.330046, 0.331119, 0.314696, 0.308259, 0.319381, 0.340244, 0.3015, 0.313577, ]
+#f: -1.1271
+#	h1:0.0296669 
+#Sum Total h: 0.000631422 
+#Suma total Violacion: 0.000631422 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.1271 
+#mediana de las mejores Evals: -1.1271 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1166 
+#Min valor de mejor Evaluacion alcanzada: -1.127100e+00 -1.1271 
+#Max valor de mejor Evaluacion alcanzada: -1.127100e+00 -1.1271 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1497): 
+#[ 0.324519, 0.324545, 0.308607, 0.319854, 0.341316, 0.327644, 0.325095, 0.351363, 0.342658, 0.326917, ]
+#f: -1.48764
+#	h1:0.0854674 
+#Sum Total h: 0.000209829 
+#Suma total Violacion: 0.000209829 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.48764 
+#mediana de las mejores Evals: -1.48764 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1497 
+#Min valor de mejor Evaluacion alcanzada: -1.487644e+00 -1.48764 
+#Max valor de mejor Evaluacion alcanzada: -1.487644e+00 -1.48764 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1466): 
+#[ 0.319412, 0.326917, 0.335596, 0.333873, 0.317757, 0.310458, 0.323708, 0.317399, 0.328605, 0.329499, ]
+#f: -1.28403
+#	h1:0.0524288 
+#Sum Total h: 0.00138198 
+#Suma total Violacion: 0.00138198 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.28403 
+#mediana de las mejores Evals: -1.28403 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1466 
+#Min valor de mejor Evaluacion alcanzada: -1.284025e+00 -1.28403 
+#Max valor de mejor Evaluacion alcanzada: -1.284025e+00 -1.28403 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 375): 
+#[ 0.311494, 0.316477, 0.316226, 0.315817, 0.324863, 0.315315, 0.317304, 0.314868, 0.314224, 0.315522, ]
+#f: -0.99895
+#	h1:-7.00566e-10 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.99895 
+#mediana de las mejores Evals: -0.99895 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 375 
+#Min valor de mejor Evaluacion alcanzada: -9.989503e-01 -0.99895 
+#Max valor de mejor Evaluacion alcanzada: -9.989503e-01 -0.99895 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1002): 
+#[ 0.315476, 0.317382, 0.314439, 0.317261, 0.315713, 0.314515, 0.316374, 0.318481, 0.314838, 0.317771, ]
+#f: -0.999813
+#	h1:1.85921e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.999813 
+#mediana de las mejores Evals: -0.999813 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1002 
+#Min valor de mejor Evaluacion alcanzada: -9.998132e-01 -0.999813 
+#Max valor de mejor Evaluacion alcanzada: -9.998132e-01 -0.999813 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1246): 
+#[ 0.31912, 0.309476, 0.325827, 0.308015, 0.304996, 0.317172, 0.314099, 0.326746, 0.313992, 0.32205, ]
+#f: -0.995059
+#	h1:-1.05302e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.995059 
+#mediana de las mejores Evals: -0.995059 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1246 
+#Min valor de mejor Evaluacion alcanzada: -9.950593e-01 -0.995059 
+#Max valor de mejor Evaluacion alcanzada: -9.950593e-01 -0.995059 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 145): 
+#[ 0.297289, 0.320061, 0.334642, 0.322681, 0.250095, 0.281669, 0.342089, 0.351728, 0.320512, 0.328217, ]
+#f: -0.916136
+#	h1:4.32084e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.916136 
+#mediana de las mejores Evals: -0.916136 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 145 
+#Min valor de mejor Evaluacion alcanzada: -9.161357e-01 -0.916136 
+#Max valor de mejor Evaluacion alcanzada: -9.161357e-01 -0.916136 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 85): 
+#[ 0.406613, 0.199066, 0.348008, 0.40778, 0.367886, 0.328527, 0.28231, 0.274975, 0.210428, 0.25452, ]
+#f: -0.577194
+#	h1:-4.08567e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.577194 
+#mediana de las mejores Evals: -0.577194 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 85 
+#Min valor de mejor Evaluacion alcanzada: -5.771944e-01 -0.577194 
+#Max valor de mejor Evaluacion alcanzada: -5.771944e-01 -0.577194 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 763): 
+#[ 0.423772, 0.502019, 0.248037, 0.0775626, 0.204421, 0.232588, 0.327138, 0.0167643, 0.425599, 0.341468, ]
+#f: -0.0155096
+#	h1:6.41769e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.0155096 
+#mediana de las mejores Evals: -0.0155096 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 763 
+#Min valor de mejor Evaluacion alcanzada: -1.550965e-02 -0.0155096 
+#Max valor de mejor Evaluacion alcanzada: -1.550965e-02 -0.0155096 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1108): 
+#[ 0.343063, 0.338798, 0.351029, 0.319859, 0.319498, 0.325867, 0.32962, 0.338355, 0.338767, 0.351308, ]
+#f: -1.80344
+#	h1:0.12759 
+#Sum Total h: 0.00550347 
+#Suma total Violacion: 0.00550347 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.80344 
+#mediana de las mejores Evals: -1.80344 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1108 
+#Min valor de mejor Evaluacion alcanzada: -1.803437e+00 -1.80344 
+#Max valor de mejor Evaluacion alcanzada: -1.803437e+00 -1.80344 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1224): 
+#[ 0.316251, 0.334389, 0.391811, 0.363197, 0.330007, 0.354215, 0.346143, 0.343237, 0.302705, 0.338766, ]
+#f: -2.14319
+#	h1:0.17565 
+#Sum Total h: 0.000825708 
+#Suma total Violacion: 0.000825708 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -2.14319 
+#mediana de las mejores Evals: -2.14319 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1224 
+#Min valor de mejor Evaluacion alcanzada: -2.143191e+00 -2.14319 
+#Max valor de mejor Evaluacion alcanzada: -2.143191e+00 -2.14319 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1494): 
+#[ 0.343498, 0.334376, 0.326318, 0.334628, 0.320153, 0.346158, 0.330716, 0.342242, 0.340874, 0.33988, ]
+#f: -1.82264
+#	h1:0.128797 
+#Sum Total h: 0.000284387 
+#Suma total Violacion: 0.000284387 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.82264 
+#mediana de las mejores Evals: -1.82264 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1494 
+#Min valor de mejor Evaluacion alcanzada: -1.822643e+00 -1.82264 
+#Max valor de mejor Evaluacion alcanzada: -1.822643e+00 -1.82264 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1494): 
+#[ 0.312263, 0.323317, 0.30173, 0.324125, 0.320275, 0.320136, 0.318752, 0.332999, 0.2969, 0.323588, ]
+#f: -1.03237
+#	h1:0.00855379 
+#Sum Total h: 7.57494e-05 
+#Suma total Violacion: 7.57494e-05 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.03237 
+#mediana de las mejores Evals: -1.03237 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1494 
+#Min valor de mejor Evaluacion alcanzada: -1.032375e+00 -1.03237 
+#Max valor de mejor Evaluacion alcanzada: -1.032375e+00 -1.03237 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 790): 
+#[ 0.316123, 0.315604, 0.314709, 0.316634, 0.3177, 0.315288, 0.316336, 0.317266, 0.316243, 0.316364, ]
+#f: -0.99993
+#	h1:-1.89342e-08 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.99993 
+#mediana de las mejores Evals: -0.99993 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 790 
+#Min valor de mejor Evaluacion alcanzada: -9.999296e-01 -0.99993 
+#Max valor de mejor Evaluacion alcanzada: -9.999296e-01 -0.99993 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1270): 
+#[ 0.322126, 0.319194, 0.305826, 0.324233, 0.315323, 0.314143, 0.309024, 0.317936, 0.312915, 0.321069, ]
+#f: -0.996895
+#	h1:1.77015e-07 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.996895 
+#mediana de las mejores Evals: -0.996895 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1270 
+#Min valor de mejor Evaluacion alcanzada: -9.968954e-01 -0.996895 
+#Max valor de mejor Evaluacion alcanzada: -9.968954e-01 -0.996895 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 111): 
+#[ 0.305709, 0.314426, 0.303474, 0.320536, 0.34169, 0.33303, 0.252083, 0.3512, 0.330167, 0.298792, ]
+#f: -0.929272
+#	h1:-2.48404e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.929272 
+#mediana de las mejores Evals: -0.929272 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 111 
+#Min valor de mejor Evaluacion alcanzada: -9.292720e-01 -0.929272 
+#Max valor de mejor Evaluacion alcanzada: -9.292720e-01 -0.929272 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 145): 
+#[ 0.231676, 0.363785, 0.327486, 0.167015, 0.358836, 0.370919, 0.342284, 0.26776, 0.288274, 0.374877, ]
+#f: -0.607681
+#	h1:-1.31234e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.607681 
+#mediana de las mejores Evals: -0.607681 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 145 
+#Min valor de mejor Evaluacion alcanzada: -6.076806e-01 -0.607681 
+#Max valor de mejor Evaluacion alcanzada: -6.076806e-01 -0.607681 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 700): 
+#[ 0.0879714, 0.375312, 0.162462, 0.531367, 0.290565, 0.0103613, 0.468477, 0.361818, 0.325143, 0.0447292, ]
+#f: -0.00211534
+#	h1:-2.03019e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.00211534 
+#mediana de las mejores Evals: -0.00211534 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 700 
+#Min valor de mejor Evaluacion alcanzada: -2.115338e-03 -0.00211534 
+#Max valor de mejor Evaluacion alcanzada: -2.115338e-03 -0.00211534 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1138): 
+#[ 0.347943, 0.366335, 0.327858, 0.302094, 0.358882, 0.315181, 0.338436, 0.330692, 0.38278, 0.345445, ]
+#f: -2.11327
+#	h1:0.171901 
+#Sum Total h: 0.00581799 
+#Suma total Violacion: 0.00581799 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -2.11327 
+#mediana de las mejores Evals: -2.11327 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1138 
+#Min valor de mejor Evaluacion alcanzada: -2.113266e+00 -2.11327 
+#Max valor de mejor Evaluacion alcanzada: -2.113266e+00 -2.11327 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1126): 
+#[ 0.349914, 0.325386, 0.338162, 0.365025, 0.362807, 0.341943, 0.367805, 0.367188, 0.347567, 0.356303, ]
+#f: -2.91608
+#	h1:0.242328 
+#Sum Total h: 0.00450102 
+#Suma total Violacion: 0.00450102 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -2.91608 
+#mediana de las mejores Evals: -2.91608 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1126 
+#Min valor de mejor Evaluacion alcanzada: -2.916081e+00 -2.91608 
+#Max valor de mejor Evaluacion alcanzada: -2.916081e+00 -2.91608 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1498): 
+#[ 0.375793, 0.348967, 0.326851, 0.343088, 0.34431, 0.353639, 0.334168, 0.339699, 0.34211, 0.370034, ]
+#f: -2.57314
+#	h1:0.212177 
+#Sum Total h: 0.0082701 
+#Suma total Violacion: 0.0082701 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -2.57314 
+#mediana de las mejores Evals: -2.57314 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1498 
+#Min valor de mejor Evaluacion alcanzada: -2.573144e+00 -2.57314 
+#Max valor de mejor Evaluacion alcanzada: -2.573144e+00 -2.57314 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1498): 
+#[ 0.313347, 0.318577, 0.335559, 0.330809, 0.319565, 0.322025, 0.3165, 0.313992, 0.326157, 0.317765, ]
+#f: -1.17453
+#	h1:0.0336514 
+#Sum Total h: 0.00147913 
+#Suma total Violacion: 0.00147913 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1.17453 
+#mediana de las mejores Evals: -1.17453 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1498 
+#Min valor de mejor Evaluacion alcanzada: -1.174526e+00 -1.17453 
+#Max valor de mejor Evaluacion alcanzada: -1.174526e+00 -1.17453 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 582): 
+#[ 0.316328, 0.316273, 0.316171, 0.316226, 0.316189, 0.316346, 0.31623, 0.316141, 0.316191, 0.316183, ]
+#f: -1
+#	h1:3.54963e-11 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1 
+#mediana de las mejores Evals: -1 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 582 
+#Min valor de mejor Evaluacion alcanzada: -9.999996e-01 -1 
+#Max valor de mejor Evaluacion alcanzada: -9.999996e-01 -1 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 655): 
+#[ 0.316863, 0.318983, 0.315611, 0.315102, 0.316277, 0.315846, 0.317337, 0.316019, 0.315105, 0.315111, ]
+#f: -0.999865
+#	h1:6.81178e-09 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.999865 
+#mediana de las mejores Evals: -0.999865 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 655 
+#Min valor de mejor Evaluacion alcanzada: -9.998645e-01 -0.999865 
+#Max valor de mejor Evaluacion alcanzada: -9.998645e-01 -0.999865 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 924): 
+#[ 0.309951, 0.304782, 0.30225, 0.322555, 0.32432, 0.310862, 0.326293, 0.322406, 0.301679, 0.335258, ]
+#f: -0.987938
+#	h1:-1.72279e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.987938 
+#mediana de las mejores Evals: -0.987938 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 924 
+#Min valor de mejor Evaluacion alcanzada: -9.879377e-01 -0.987938 
+#Max valor de mejor Evaluacion alcanzada: -9.879377e-01 -0.987938 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 235): 
+#[ 0.302471, 0.218939, 0.45768, 0.431758, 0.278275, 0.18092, 0.316193, 0.234181, 0.264795, 0.360004, ]
+#f: -0.465039
+#	h1:1.55277e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.465039 
+#mediana de las mejores Evals: -0.465039 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 235 
+#Min valor de mejor Evaluacion alcanzada: -4.650387e-01 -0.465039 
+#Max valor de mejor Evaluacion alcanzada: -4.650387e-01 -0.465039 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 794): 
+#[ 0.38395, 0.46988, 0.213144, 0.215335, 0.127117, 0.369357, 0.42055, 0.197143, 0.0555449, 0.410613, ]
+#f: -0.0735146
+#	h1:3.16214e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.0735146 
+#mediana de las mejores Evals: -0.0735146 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 794 
+#Min valor de mejor Evaluacion alcanzada: -7.351460e-02 -0.0735146 
+#Max valor de mejor Evaluacion alcanzada: -7.351460e-02 -0.0735146 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.1 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1415): 
+#[ 0.336272, 0.358479, 0.312739, 0.375276, 0.326989, 0.316417, 0.367918, 0.354114, 0.358313, 0.369069, ]
+#f: -2.522
+#	h1:0.212626 
+#Sum Total h: 0.00871906 
+#Suma total Violacion: 0.00871906 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -2.522 
+#mediana de las mejores Evals: -2.522 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1415 
+#Min valor de mejor Evaluacion alcanzada: -2.521996e+00 -2.522 
+#Max valor de mejor Evaluacion alcanzada: -2.521996e+00 -2.522 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.2 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1437): 
+#[ 0.361074, 0.410121, 0.362194, 0.368437, 0.367924, 0.360387, 0.3485, 0.350085, 0.361052, 0.340579, ]
+#f: -3.931
+#	h1:0.321115 
+#Sum Total h: 0.0137581 
+#Suma total Violacion: 0.0137581 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -3.931 
+#mediana de las mejores Evals: -3.931 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1437 
+#Min valor de mejor Evaluacion alcanzada: -3.931003e+00 -3.931 
+#Max valor de mejor Evaluacion alcanzada: -3.931003e+00 -3.931 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.3 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1498): 
+#[ 0.344916, 0.350871, 0.367058, 0.329245, 0.363818, 0.328592, 0.395645, 0.353725, 0.377205, 0.361168, ]
+#f: -3.3336
+#	h1:0.27993 
+#Sum Total h: 0.00254011 
+#Suma total Violacion: 0.00254011 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -3.3336 
+#mediana de las mejores Evals: -3.3336 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1498 
+#Min valor de mejor Evaluacion alcanzada: -3.333602e+00 -3.3336 
+#Max valor de mejor Evaluacion alcanzada: -3.333602e+00 -3.3336 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.4 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1498): 
+#[ 0.354723, 0.346979, 0.350308, 0.342434, 0.343613, 0.332015, 0.345455, 0.354535, 0.337228, 0.319883, ]
+#f: -2.22541
+#	h1:0.175584 
+#Sum Total h: 0.000759233 
+#Suma total Violacion: 0.000759233 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -2.22541 
+#mediana de las mejores Evals: -2.22541 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1498 
+#Min valor de mejor Evaluacion alcanzada: -2.225405e+00 -2.22541 
+#Max valor de mejor Evaluacion alcanzada: -2.225405e+00 -2.22541 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.5 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1012): 
+#[ 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, ]
+#f: -1
+#	h1:0 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1 
+#mediana de las mejores Evals: -1 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1012 
+#Min valor de mejor Evaluacion alcanzada: -1.000000e+00 -1 
+#Max valor de mejor Evaluacion alcanzada: -1.000000e+00 -1 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.6 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1469): 
+#[ 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, 0.316228, ]
+#f: -1
+#	h1:0 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -1 
+#mediana de las mejores Evals: -1 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1469 
+#Min valor de mejor Evaluacion alcanzada: -1.000000e+00 -1 
+#Max valor de mejor Evaluacion alcanzada: -1.000000e+00 -1 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.7 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1080): 
+#[ 0.316049, 0.316679, 0.315994, 0.316374, 0.315767, 0.316741, 0.316382, 0.315785, 0.316158, 0.316348, ]
+#f: -0.99999
+#	h1:2.48523e-10 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.99999 
+#mediana de las mejores Evals: -0.99999 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1080 
+#Min valor de mejor Evaluacion alcanzada: -9.999897e-01 -0.99999 
+#Max valor de mejor Evaluacion alcanzada: -9.999897e-01 -0.99999 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.8 
+
+0 #
+#Mejor individuo encontrado (en la generacion 1476): 
+#[ 0.308934, 0.269124, 0.255899, 0.269244, 0.380114, 0.355258, 0.302829, 0.283272, 0.318813, 0.387137, ]
+#f: -0.819015
+#	h1:4.52225e-06 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.819015 
+#mediana de las mejores Evals: -0.819015 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 1476 
+#Min valor de mejor Evaluacion alcanzada: -8.190154e-01 -0.819015 
+#Max valor de mejor Evaluacion alcanzada: -8.190154e-01 -0.819015 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.9 
+
+0 #
+#Mejor individuo encontrado (en la generacion 113): 
+#[ 0.159548, 0.242989, 0.551745, 0.170712, 0.185125, 0.475115, 0.321318, 0.307191, 0.29905, 0.186907, ]
+#f: -0.177198
+#	h1:4.69888e-05 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: -0.177198 
+#mediana de las mejores Evals: -0.177198 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 113 
+#Min valor de mejor Evaluacion alcanzada: -1.771976e-01 -0.177198 
+#Max valor de mejor Evaluacion alcanzada: -1.771976e-01 -0.177198 

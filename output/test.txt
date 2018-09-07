@@ -1,0 +1,1733 @@
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 1 200 data/g1.txt 300000 5 0.05 0.4 0.8 1
+Parametros: 
+tamanio Poblacion: 200 , dimension: 13 
+num max de Evals: 300000 
+CR: 0.4, F: 0.8 
+Total de Repeticiones: 1 
+
+
+CR: 0.4, F: 0.8 
+Num Fatibles inicial: 0 
+0 : eval -44.2779, SCV: 134.445 
+1 : eval -50.4912, SCV: 169.478 
+2 : eval -50.773, SCV: 172.709 
+3 : eval -59.381, SCV: 186.326 
+4 : eval -55.5921, SCV: 187.667 
+5 : eval -61.4424, SCV: 212.574 
+6 : eval -63.0964, SCV: 219.902 
+7 : eval -67.9265, SCV: 229.826 
+8 : eval -69.1163, SCV: 238.97 
+9 : eval -72.2975, SCV: 251.826 
+10 : eval -76.0664, SCV: 259.572 
+11 : eval -75.0123, SCV: 263.066 
+12 : eval -75.8146, SCV: 270.599 
+13 : eval -76.046, SCV: 270.622 
+14 : eval -76.187, SCV: 271.567 
+15 : eval -78.3082, SCV: 272.968 
+16 : eval -81.1805, SCV: 286.141 
+17 : eval -84.8995, SCV: 291.113 
+18 : eval -84.9021, SCV: 298.591 
+19 : eval -92.6402, SCV: 322.994 
+20 : eval -91.5542, SCV: 328.019 
+21 : eval -93.4064, SCV: 332.858 
+22 : eval -93.3077, SCV: 343.286 
+23 : eval -95.7017, SCV: 345.555 
+24 : eval -97.4652, SCV: 346.856 
+25 : eval -96.3079, SCV: 352.836 
+26 : eval -97.3647, SCV: 354.054 
+27 : eval -97.2286, SCV: 357.053 
+28 : eval -98.9557, SCV: 359.679 
+29 : eval -99.138, SCV: 364.566 
+30 : eval -101.134, SCV: 369.458 
+31 : eval -103.857, SCV: 375.096 
+32 : eval -106.086, SCV: 375.567 
+33 : eval -102.671, SCV: 377.578 
+34 : eval -104.541, SCV: 378.417 
+35 : eval -103.216, SCV: 380.282 
+36 : eval -106.344, SCV: 381.207 
+37 : eval -106.798, SCV: 384.239 
+38 : eval -106.48, SCV: 387.664 
+39 : eval -105.53, SCV: 387.73 
+40 : eval -108.051, SCV: 390.675 
+41 : eval -109.801, SCV: 400.496 
+42 : eval -108.567, SCV: 401.431 
+43 : eval -112.076, SCV: 403.552 
+44 : eval -109.728, SCV: 407.538 
+45 : eval -109.482, SCV: 410.279 
+46 : eval -111.892, SCV: 410.729 
+47 : eval -112.892, SCV: 412.678 
+48 : eval -110.74, SCV: 412.823 
+49 : eval -111.352, SCV: 414.317 
+50 : eval -115.693, SCV: 425.469 
+51 : eval -117.435, SCV: 428.516 
+52 : eval -117.458, SCV: 433.115 
+53 : eval -119.201, SCV: 435.385 
+54 : eval -116.44, SCV: 437.841 
+55 : eval -116.422, SCV: 438.667 
+56 : eval -120.472, SCV: 448.701 
+57 : eval -122.632, SCV: 453.322 
+58 : eval -126.191, SCV: 458.342 
+59 : eval -125.618, SCV: 462.386 
+60 : eval -124.503, SCV: 463.148 
+61 : eval -127.045, SCV: 463.756 
+62 : eval -129.098, SCV: 473.515 
+63 : eval -129.511, SCV: 477.471 
+64 : eval -133.534, SCV: 478.971 
+65 : eval -128.48, SCV: 481.249 
+66 : eval -133.988, SCV: 484.866 
+67 : eval -134.612, SCV: 502.544 
+68 : eval -136.623, SCV: 503.758 
+69 : eval -134.492, SCV: 507.7 
+70 : eval -137.446, SCV: 510.689 
+71 : eval -138.355, SCV: 517.374 
+72 : eval -138.959, SCV: 517.829 
+73 : eval -138.729, SCV: 518.824 
+74 : eval -140.915, SCV: 518.975 
+75 : eval -138.823, SCV: 520.225 
+76 : eval -139.723, SCV: 521.596 
+77 : eval -140.848, SCV: 527.029 
+78 : eval -138.638, SCV: 527.783 
+79 : eval -138.582, SCV: 529.272 
+80 : eval -145.216, SCV: 533.665 
+81 : eval -143.295, SCV: 535.273 
+82 : eval -144.88, SCV: 536.046 
+83 : eval -144.034, SCV: 537.807 
+84 : eval -145.611, SCV: 540.556 
+85 : eval -144.774, SCV: 543.184 
+86 : eval -145.721, SCV: 545.007 
+87 : eval -145.73, SCV: 545.088 
+88 : eval -147.474, SCV: 550.727 
+89 : eval -146.603, SCV: 551.852 
+90 : eval -149.34, SCV: 552.124 
+91 : eval -148.018, SCV: 553.677 
+92 : eval -149.223, SCV: 554.279 
+93 : eval -148.849, SCV: 554.383 
+94 : eval -147.634, SCV: 556.389 
+95 : eval -148.424, SCV: 558.801 
+96 : eval -149.593, SCV: 559.193 
+97 : eval -147.739, SCV: 560.119 
+98 : eval -149.764, SCV: 564.072 
+99 : eval -150.954, SCV: 565.283 
+100 : eval -152.624, SCV: 569.871 
+101 : eval -153.713, SCV: 573.157 
+102 : eval -153.039, SCV: 574.112 
+103 : eval -154.533, SCV: 577.819 
+104 : eval -155.148, SCV: 578.395 
+105 : eval -152.722, SCV: 579.038 
+106 : eval -154.827, SCV: 580.078 
+107 : eval -153.422, SCV: 582.245 
+108 : eval -156.143, SCV: 582.761 
+109 : eval -155.156, SCV: 583.914 
+110 : eval -156.888, SCV: 587.752 
+111 : eval -158.696, SCV: 591.398 
+112 : eval -159.663, SCV: 592.596 
+113 : eval -158.147, SCV: 594.741 
+114 : eval -161.359, SCV: 598.725 
+115 : eval -158.067, SCV: 599.691 
+116 : eval -158.602, SCV: 599.936 
+117 : eval -161.918, SCV: 603.474 
+118 : eval -161.247, SCV: 604.32 
+119 : eval -161.58, SCV: 605.033 
+120 : eval -163.919, SCV: 609.451 
+121 : eval -163.243, SCV: 614.701 
+122 : eval -162.7, SCV: 618.596 
+123 : eval -163.64, SCV: 622.926 
+124 : eval -166.339, SCV: 631.246 
+125 : eval -169.34, SCV: 631.427 
+126 : eval -167.47, SCV: 633.501 
+127 : eval -171.278, SCV: 649.316 
+128 : eval -171.243, SCV: 650.361 
+129 : eval -175.389, SCV: 667.495 
+130 : eval -175.02, SCV: 668.183 
+131 : eval -178.687, SCV: 669.409 
+132 : eval -175.743, SCV: 669.892 
+133 : eval -177.457, SCV: 670.083 
+134 : eval -178.599, SCV: 674.385 
+135 : eval -177.117, SCV: 677.226 
+136 : eval -183.635, SCV: 686.682 
+137 : eval -182.644, SCV: 688.521 
+138 : eval -184.045, SCV: 690.985 
+139 : eval -183.272, SCV: 691.42 
+140 : eval -184.816, SCV: 696.604 
+141 : eval -184.614, SCV: 698.43 
+142 : eval -183.319, SCV: 698.722 
+143 : eval -184.378, SCV: 699.396 
+144 : eval -183.395, SCV: 700.87 
+145 : eval -186.831, SCV: 710.683 
+146 : eval -190.216, SCV: 715.756 
+147 : eval -190.168, SCV: 716.427 
+148 : eval -191.994, SCV: 716.47 
+149 : eval -189.225, SCV: 716.774 
+150 : eval -188.876, SCV: 718.278 
+151 : eval -191.298, SCV: 720.15 
+152 : eval -192.468, SCV: 724.939 
+153 : eval -193.118, SCV: 731.374 
+154 : eval -194.891, SCV: 734.547 
+155 : eval -193.332, SCV: 735.858 
+156 : eval -193.077, SCV: 735.998 
+157 : eval -194.613, SCV: 740.796 
+158 : eval -197.937, SCV: 748.036 
+159 : eval -196.469, SCV: 750.212 
+160 : eval -199.905, SCV: 754.755 
+161 : eval -199.299, SCV: 755.85 
+162 : eval -198.967, SCV: 758.191 
+163 : eval -199.818, SCV: 758.297 
+164 : eval -201.388, SCV: 763.636 
+165 : eval -200.831, SCV: 764.901 
+166 : eval -201.353, SCV: 767.177 
+167 : eval -201.531, SCV: 768.635 
+168 : eval -202.635, SCV: 770.726 
+169 : eval -203.058, SCV: 772.917 
+170 : eval -203.702, SCV: 776.749 
+171 : eval -207.27, SCV: 784.984 
+172 : eval -206.317, SCV: 792.605 
+173 : eval -214.712, SCV: 816.664 
+174 : eval -215.444, SCV: 821.002 
+175 : eval -216.158, SCV: 827.979 
+176 : eval -219.521, SCV: 834.112 
+177 : eval -220.623, SCV: 839.039 
+178 : eval -219.879, SCV: 840.096 
+179 : eval -219.682, SCV: 844.365 
+180 : eval -221.943, SCV: 847.087 
+181 : eval -230.106, SCV: 875.555 
+182 : eval -227.777, SCV: 878.587 
+183 : eval -228.727, SCV: 878.968 
+184 : eval -232.028, SCV: 881.115 
+185 : eval -231.415, SCV: 886.459 
+186 : eval -229.459, SCV: 888.229 
+187 : eval -230.662, SCV: 892.285 
+188 : eval -239.955, SCV: 920.504 
+189 : eval -240.873, SCV: 923.191 
+190 : eval -242.618, SCV: 930.14 
+191 : eval -243.636, SCV: 941.238 
+192 : eval -245.802, SCV: 941.522 
+193 : eval -246.739, SCV: 944.721 
+194 : eval -246.365, SCV: 948.478 
+195 : eval -247.204, SCV: 950.216 
+196 : eval -249.648, SCV: 962.346 
+197 : eval -255.548, SCV: 984.388 
+198 : eval -255.72, SCV: 985.976 
+199 : eval -285.238, SCV: 1105.66 
+gen : 0, eps: 5, tFac: 0, bestEval: -23.0349, STV: 55.4271 
+gen : 1, eps: 5, tFac: 0, bestEval: -11.6001, STV: 21.5298 
+gen : 2, eps: 5, tFac: 0, bestEval: -2.89688, STV: 2.37786 
+gen : 3, eps: 5, tFac: 0, bestEval: -2.89688, STV: 2.37786 
+gen : 4, eps: 5, tFac: 3, bestEval: -2.9089, STV: 0 
+gen : 5, eps: 5, tFac: 6, bestEval: -2.9089, STV: 0 
+gen : 6, eps: 5, tFac: 11, bestEval: -2.9089, STV: 0 
+gen : 7, eps: 5, tFac: 20, bestEval: -2.9089, STV: 0 
+gen : 8, eps: 4.5, tFac: 25, bestEval: -3.35547, STV: 0 
+gen : 9, eps: 4.05, tFac: 32, bestEval: -3.35547, STV: 0 
+gen : 10, eps: 3.645, tFac: 40, bestEval: -3.35547, STV: 0 
+gen : 11, eps: 3.2805, tFac: 48, bestEval: -4.08283, STV: 0 
+gen : 12, eps: 2.95245, tFac: 56, bestEval: -4.76772, STV: 0 
+gen : 13, eps: 2.65721, tFac: 62, bestEval: -4.76772, STV: 0 
+gen : 14, eps: 2.39148, tFac: 74, bestEval: -7.26436, STV: 0 
+gen : 15, eps: 2.15234, tFac: 88, bestEval: -7.26436, STV: 0 
+gen : 16, eps: 1.9371, tFac: 100, bestEval: -7.26436, STV: 0 
+gen : 17, eps: 1.74339, tFac: 111, bestEval: -7.26436, STV: 0 
+gen : 18, eps: 1.56905, tFac: 125, bestEval: -7.26436, STV: 0 
+gen : 19, eps: 1.41215, tFac: 136, bestEval: -7.26436, STV: 0 
+gen : 20, eps: 1.27093, tFac: 149, bestEval: -7.26436, STV: 0 
+gen : 21, eps: 1.14384, tFac: 157, bestEval: -7.26436, STV: 0 
+gen : 22, eps: 1.02946, tFac: 168, bestEval: -7.26436, STV: 0 
+gen : 23, eps: 0.92651, tFac: 175, bestEval: -7.26436, STV: 0 
+gen : 24, eps: 0.833859, tFac: 177, bestEval: -7.26436, STV: 0 
+gen : 25, eps: 0.750473, tFac: 183, bestEval: -7.26436, STV: 0 
+gen : 26, eps: 0.675426, tFac: 190, bestEval: -7.26436, STV: 0 
+gen : 27, eps: 0.607883, tFac: 193, bestEval: -7.26436, STV: 0 
+gen : 28, eps: 0.547095, tFac: 194, bestEval: -7.38792, STV: 0 
+gen : 29, eps: 0.492385, tFac: 196, bestEval: -8.11454, STV: 0 
+gen : 30, eps: 0.443147, tFac: 196, bestEval: -8.11454, STV: 0 
+gen : 31, eps: 0.398832, tFac: 199, bestEval: -8.15818, STV: 0 
+gen : 32, eps: 0.358949, tFac: 200, bestEval: -8.15818, STV: 0 
+gen : 33, eps: 0.323054, tFac: 200, bestEval: -8.15818, STV: 0 
+gen : 34, eps: 0.290749, tFac: 200, bestEval: -8.15818, STV: 0 
+gen : 35, eps: 0.261674, tFac: 200, bestEval: -8.15818, STV: 0 
+gen : 36, eps: 0.235506, tFac: 200, bestEval: -8.21465, STV: 0 
+gen : 37, eps: 0.211956, tFac: 200, bestEval: -8.21465, STV: 0 
+gen : 38, eps: 0.19076, tFac: 200, bestEval: -8.21465, STV: 0 
+gen : 39, eps: 0.171684, tFac: 200, bestEval: -8.72476, STV: 0 
+gen : 40, eps: 0.154516, tFac: 200, bestEval: -9.13289, STV: 0 
+gen : 41, eps: 0.139064, tFac: 200, bestEval: -9.13289, STV: 0 
+gen : 42, eps: 0.125158, tFac: 200, bestEval: -9.13289, STV: 0 
+gen : 43, eps: 0.112642, tFac: 200, bestEval: -9.84351, STV: 0 
+gen : 44, eps: 0.101378, tFac: 200, bestEval: -9.84351, STV: 0 
+gen : 45, eps: 0.09124, tFac: 200, bestEval: -9.84351, STV: 0 
+gen : 46, eps: 0.082116, tFac: 200, bestEval: -10.3404, STV: 0 
+gen : 47, eps: 0.0739044, tFac: 200, bestEval: -10.3404, STV: 0 
+gen : 48, eps: 0.066514, tFac: 200, bestEval: -10.3404, STV: 0 
+gen : 49, eps: 0.0598626, tFac: 200, bestEval: -10.3404, STV: 0 
+gen : 50, eps: 0.0538763, tFac: 200, bestEval: -10.7595, STV: 0 
+gen : 51, eps: 0.0484887, tFac: 200, bestEval: -10.7616, STV: 0 
+gen : 52, eps: 0.0436398, tFac: 200, bestEval: -10.7616, STV: 0 
+gen : 53, eps: 0.0392758, tFac: 200, bestEval: -10.7616, STV: 0 
+gen : 54, eps: 0.0353483, tFac: 200, bestEval: -11.1627, STV: 0 
+gen : 55, eps: 0.0318134, tFac: 200, bestEval: -11.1627, STV: 0 
+gen : 56, eps: 0.0286321, tFac: 200, bestEval: -11.1627, STV: 0 
+gen : 57, eps: 0.0257689, tFac: 200, bestEval: -11.1627, STV: 0 
+gen : 58, eps: 0.023192, tFac: 200, bestEval: -11.2374, STV: 0 
+gen : 59, eps: 0.0208728, tFac: 200, bestEval: -11.2374, STV: 0 
+gen : 60, eps: 0.0187855, tFac: 200, bestEval: -11.2374, STV: 0 
+gen : 61, eps: 0.016907, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 62, eps: 0.0152163, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 63, eps: 0.0136946, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 64, eps: 0.0123252, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 65, eps: 0.0110927, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 66, eps: 0.00998339, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 67, eps: 0.00898505, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 68, eps: 0.00808655, tFac: 200, bestEval: -11.732, STV: 0 
+gen : 69, eps: 0.00727789, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 70, eps: 0.0065501, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 71, eps: 0.00589509, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 72, eps: 0.00530558, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 73, eps: 0.00477502, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 74, eps: 0.00429752, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 75, eps: 0.00386777, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 76, eps: 0.00348099, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 77, eps: 0.00313289, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 78, eps: 0.0028196, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 79, eps: 0.00253764, tFac: 200, bestEval: -11.9793, STV: 0 
+gen : 80, eps: 0.00228388, tFac: 200, bestEval: -12.1422, STV: 0 
+gen : 81, eps: 0.00205549, tFac: 200, bestEval: -12.1422, STV: 0 
+gen : 82, eps: 0.00184994, tFac: 200, bestEval: -12.1422, STV: 0 
+gen : 83, eps: 0.00166495, tFac: 200, bestEval: -12.1422, STV: 0 
+gen : 84, eps: 0.00149845, tFac: 200, bestEval: -12.4174, STV: 0 
+gen : 85, eps: 0.00134861, tFac: 200, bestEval: -12.4174, STV: 0 
+gen : 86, eps: 0.00121375, tFac: 200, bestEval: -12.4319, STV: 0 
+gen : 87, eps: 0.00109237, tFac: 200, bestEval: -12.4319, STV: 0 
+gen : 88, eps: 0.000983135, tFac: 200, bestEval: -13.2953, STV: 0 
+gen : 89, eps: 0.000884822, tFac: 200, bestEval: -13.2953, STV: 0 
+gen : 90, eps: 0.00079634, tFac: 200, bestEval: -13.2953, STV: 0 
+gen : 91, eps: 0.000716706, tFac: 200, bestEval: -13.2953, STV: 0 
+gen : 92, eps: 0.000645035, tFac: 200, bestEval: -13.2953, STV: 0 
+gen : 93, eps: 0.000580532, tFac: 200, bestEval: -13.2953, STV: 0 
+gen : 94, eps: 0.000522478, tFac: 200, bestEval: -13.5393, STV: 0 
+gen : 95, eps: 0.000470231, tFac: 200, bestEval: -13.7715, STV: 0 
+gen : 96, eps: 0.000423207, tFac: 200, bestEval: -13.7715, STV: 0 
+gen : 97, eps: 0.000380887, tFac: 200, bestEval: -13.7715, STV: 0 
+gen : 98, eps: 0.000342798, tFac: 200, bestEval: -13.7715, STV: 0 
+gen : 99, eps: 0.000308518, tFac: 200, bestEval: -13.7715, STV: 0 
+gen : 100, eps: 0.000277666, tFac: 200, bestEval: -13.7715, STV: 0 
+gen : 101, eps: 0.0002499, tFac: 200, bestEval: -14.008, STV: 0 
+gen : 102, eps: 0.00022491, tFac: 200, bestEval: -14.008, STV: 0 
+gen : 103, eps: 0.000202419, tFac: 200, bestEval: -14.008, STV: 0 
+gen : 104, eps: 0.000182177, tFac: 200, bestEval: -14.2296, STV: 0 
+gen : 105, eps: 0.000163959, tFac: 200, bestEval: -14.264, STV: 0 
+gen : 106, eps: 0.000147563, tFac: 200, bestEval: -14.264, STV: 0 
+gen : 107, eps: 0.000132807, tFac: 200, bestEval: -14.264, STV: 0 
+gen : 108, eps: 0.000119526, tFac: 200, bestEval: -14.264, STV: 0 
+gen : 109, eps: 0.000107574, tFac: 200, bestEval: -14.264, STV: 0 
+gen : 110, eps: 9.68163e-05, tFac: 200, bestEval: -14.264, STV: 0 
+gen : 111, eps: 8.71347e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 112, eps: 7.84212e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 113, eps: 7.05791e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 114, eps: 6.35212e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 115, eps: 5.71691e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 116, eps: 5.14522e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 117, eps: 4.63069e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 118, eps: 4.16762e-05, tFac: 200, bestEval: -14.5208, STV: 0 
+gen : 119, eps: 3.75086e-05, tFac: 200, bestEval: -14.6323, STV: 0 
+gen : 120, eps: 3.37578e-05, tFac: 200, bestEval: -14.6323, STV: 0 
+gen : 121, eps: 3.0382e-05, tFac: 200, bestEval: -14.6323, STV: 0 
+gen : 122, eps: 2.73438e-05, tFac: 200, bestEval: -14.6323, STV: 0 
+gen : 123, eps: 2.46094e-05, tFac: 200, bestEval: -14.6779, STV: 0 
+gen : 124, eps: 2.21485e-05, tFac: 200, bestEval: -14.6779, STV: 0 
+gen : 125, eps: 1.99336e-05, tFac: 200, bestEval: -14.6779, STV: 0 
+gen : 126, eps: 1.79403e-05, tFac: 200, bestEval: -14.6779, STV: 0 
+gen : 127, eps: 1.61462e-05, tFac: 200, bestEval: -14.6779, STV: 0 
+gen : 128, eps: 1.45316e-05, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 129, eps: 1.30784e-05, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 130, eps: 1.17706e-05, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 131, eps: 1.05935e-05, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 132, eps: 9.53419e-06, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 133, eps: 8.58077e-06, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 134, eps: 7.72269e-06, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 135, eps: 6.95042e-06, tFac: 200, bestEval: -14.7158, STV: 0 
+gen : 136, eps: 6.25538e-06, tFac: 200, bestEval: -14.7577, STV: 0 
+gen : 137, eps: 5.62984e-06, tFac: 200, bestEval: -14.7577, STV: 0 
+gen : 138, eps: 5.06686e-06, tFac: 200, bestEval: -14.7577, STV: 0 
+gen : 139, eps: 4.56017e-06, tFac: 200, bestEval: -14.7577, STV: 0 
+gen : 140, eps: 4.10416e-06, tFac: 200, bestEval: -14.7918, STV: 0 
+gen : 141, eps: 3.69374e-06, tFac: 200, bestEval: -14.7918, STV: 0 
+gen : 142, eps: 3.32437e-06, tFac: 200, bestEval: -14.8356, STV: 0 
+gen : 143, eps: 2.99193e-06, tFac: 200, bestEval: -14.8356, STV: 0 
+gen : 144, eps: 2.69274e-06, tFac: 200, bestEval: -14.8356, STV: 0 
+gen : 145, eps: 2.42346e-06, tFac: 200, bestEval: -14.8356, STV: 0 
+gen : 146, eps: 2.18112e-06, tFac: 200, bestEval: -14.8356, STV: 0 
+gen : 147, eps: 1.963e-06, tFac: 200, bestEval: -14.8701, STV: 0 
+gen : 148, eps: 1.7667e-06, tFac: 200, bestEval: -14.8701, STV: 0 
+gen : 149, eps: 1.59003e-06, tFac: 200, bestEval: -14.8701, STV: 0 
+gen : 150, eps: 1.43103e-06, tFac: 200, bestEval: -14.8701, STV: 0 
+gen : 151, eps: 1.28793e-06, tFac: 200, bestEval: -14.8736, STV: 0 
+gen : 152, eps: 1.15913e-06, tFac: 200, bestEval: -14.8884, STV: 0 
+gen : 153, eps: 1.04322e-06, tFac: 200, bestEval: -14.8884, STV: 0 
+gen : 154, eps: 9.38899e-07, tFac: 200, bestEval: -14.8884, STV: 0 
+gen : 155, eps: 8.45009e-07, tFac: 200, bestEval: -14.8884, STV: 0 
+gen : 156, eps: 7.60508e-07, tFac: 200, bestEval: -14.8884, STV: 0 
+gen : 157, eps: 6.84457e-07, tFac: 200, bestEval: -14.8893, STV: 0 
+gen : 158, eps: 6.16012e-07, tFac: 200, bestEval: -14.8893, STV: 0 
+gen : 159, eps: 5.5441e-07, tFac: 200, bestEval: -14.9219, STV: 0 
+gen : 160, eps: 4.98969e-07, tFac: 200, bestEval: -14.9317, STV: 0 
+gen : 161, eps: 4.49072e-07, tFac: 200, bestEval: -14.9317, STV: 0 
+gen : 162, eps: 4.04165e-07, tFac: 200, bestEval: -14.9317, STV: 0 
+gen : 163, eps: 3.63749e-07, tFac: 200, bestEval: -14.9317, STV: 0 
+gen : 164, eps: 3.27374e-07, tFac: 200, bestEval: -14.9471, STV: 0 
+gen : 165, eps: 2.94636e-07, tFac: 200, bestEval: -14.9471, STV: 0 
+gen : 166, eps: 2.65173e-07, tFac: 200, bestEval: -14.9471, STV: 0 
+gen : 167, eps: 2.38656e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 168, eps: 2.1479e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 169, eps: 1.93311e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 170, eps: 1.7398e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 171, eps: 1.56582e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 172, eps: 1.40924e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 173, eps: 1.26831e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 174, eps: 1.14148e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 175, eps: 1.02733e-07, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 176, eps: 9.246e-08, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 177, eps: 8.3214e-08, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 178, eps: 7.48926e-08, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 179, eps: 6.74034e-08, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 180, eps: 6.0663e-08, tFac: 200, bestEval: -14.9709, STV: 0 
+gen : 181, eps: 5.45967e-08, tFac: 200, bestEval: -14.9748, STV: 0 
+gen : 182, eps: 4.91371e-08, tFac: 200, bestEval: -14.9751, STV: 0 
+gen : 183, eps: 4.42234e-08, tFac: 200, bestEval: -14.9751, STV: 0 
+gen : 184, eps: 3.9801e-08, tFac: 200, bestEval: -14.9751, STV: 0 
+gen : 185, eps: 3.58209e-08, tFac: 200, bestEval: -14.9751, STV: 0 
+gen : 186, eps: 3.22388e-08, tFac: 200, bestEval: -14.9751, STV: 0 
+gen : 187, eps: 2.90149e-08, tFac: 200, bestEval: -14.9781, STV: 0 
+gen : 188, eps: 2.61134e-08, tFac: 200, bestEval: -14.9781, STV: 0 
+gen : 189, eps: 2.35021e-08, tFac: 200, bestEval: -14.9781, STV: 0 
+gen : 190, eps: 2.11519e-08, tFac: 200, bestEval: -14.9781, STV: 0 
+gen : 191, eps: 1.90367e-08, tFac: 200, bestEval: -14.9781, STV: 0 
+gen : 192, eps: 1.7133e-08, tFac: 200, bestEval: -14.9795, STV: 0 
+gen : 193, eps: 1.54197e-08, tFac: 200, bestEval: -14.9795, STV: 0 
+gen : 194, eps: 1.38778e-08, tFac: 200, bestEval: -14.9795, STV: 0 
+gen : 195, eps: 1.249e-08, tFac: 200, bestEval: -14.9795, STV: 0 
+gen : 196, eps: 1.1241e-08, tFac: 200, bestEval: -14.9806, STV: 0 
+gen : 197, eps: 1.01169e-08, tFac: 200, bestEval: -14.9843, STV: 0 
+gen : 198, eps: 9.1052e-09, tFac: 200, bestEval: -14.9871, STV: 0 
+gen : 199, eps: 8.19468e-09, tFac: 200, bestEval: -14.9871, STV: 0 
+gen : 200, eps: 7.37521e-09, tFac: 200, bestEval: -14.9876, STV: 0 
+gen : 201, eps: 6.63769e-09, tFac: 200, bestEval: -14.9884, STV: 0 
+gen : 202, eps: 5.97392e-09, tFac: 200, bestEval: -14.9884, STV: 0 
+gen : 203, eps: 5.37653e-09, tFac: 200, bestEval: -14.9884, STV: 0 
+gen : 204, eps: 4.83887e-09, tFac: 200, bestEval: -14.9887, STV: 0 
+gen : 205, eps: 4.35499e-09, tFac: 200, bestEval: -14.9889, STV: 0 
+gen : 206, eps: 3.91949e-09, tFac: 200, bestEval: -14.9892, STV: 0 
+gen : 207, eps: 3.52754e-09, tFac: 200, bestEval: -14.9905, STV: 0 
+gen : 208, eps: 3.17479e-09, tFac: 200, bestEval: -14.9905, STV: 0 
+gen : 209, eps: 2.85731e-09, tFac: 200, bestEval: -14.9913, STV: 0 
+gen : 210, eps: 2.57158e-09, tFac: 200, bestEval: -14.995, STV: 0 
+gen : 211, eps: 2.31442e-09, tFac: 200, bestEval: -14.995, STV: 0 
+gen : 212, eps: 2.08298e-09, tFac: 200, bestEval: -14.995, STV: 0 
+gen : 213, eps: 1.87468e-09, tFac: 200, bestEval: -14.995, STV: 0 
+gen : 214, eps: 1.68721e-09, tFac: 200, bestEval: -14.995, STV: 0 
+gen : 215, eps: 1.51849e-09, tFac: 200, bestEval: -14.995, STV: 0 
+gen : 216, eps: 1.36664e-09, tFac: 200, bestEval: -14.995, STV: 0 
+gen : 217, eps: 1.22998e-09, tFac: 200, bestEval: -14.9953, STV: 0 
+gen : 218, eps: 1.10698e-09, tFac: 200, bestEval: -14.9953, STV: 0 
+gen : 219, eps: 9.96281e-10, tFac: 200, bestEval: -14.9953, STV: 0 
+gen : 220, eps: 8.96653e-10, tFac: 200, bestEval: -14.996, STV: 0 
+gen : 221, eps: 8.06988e-10, tFac: 200, bestEval: -14.996, STV: 0 
+gen : 222, eps: 7.26289e-10, tFac: 200, bestEval: -14.996, STV: 0 
+gen : 223, eps: 6.5366e-10, tFac: 200, bestEval: -14.996, STV: 0 
+gen : 224, eps: 5.88294e-10, tFac: 200, bestEval: -14.9961, STV: 0 
+gen : 225, eps: 5.29465e-10, tFac: 200, bestEval: -14.9973, STV: 0 
+gen : 226, eps: 4.76518e-10, tFac: 200, bestEval: -14.9973, STV: 0 
+gen : 227, eps: 4.28866e-10, tFac: 200, bestEval: -14.9973, STV: 0 
+gen : 228, eps: 3.8598e-10, tFac: 200, bestEval: -14.9973, STV: 0 
+gen : 229, eps: 3.47382e-10, tFac: 200, bestEval: -14.9973, STV: 0 
+gen : 230, eps: 3.12644e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 231, eps: 2.81379e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 232, eps: 2.53241e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 233, eps: 2.27917e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 234, eps: 2.05125e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 235, eps: 1.84613e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 236, eps: 1.66152e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 237, eps: 1.49536e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 238, eps: 1.34583e-10, tFac: 200, bestEval: -14.9977, STV: 0 
+gen : 239, eps: 1.21125e-10, tFac: 200, bestEval: -14.9984, STV: 0 
+gen : 240, eps: 1.09012e-10, tFac: 200, bestEval: -14.9987, STV: 0 
+gen : 241, eps: 9.81109e-11, tFac: 200, bestEval: -14.9987, STV: 0 
+gen : 242, eps: 8.82998e-11, tFac: 200, bestEval: -14.9987, STV: 0 
+gen : 243, eps: 7.94698e-11, tFac: 200, bestEval: -14.9987, STV: 0 
+gen : 244, eps: 7.15228e-11, tFac: 200, bestEval: -14.9991, STV: 0 
+gen : 245, eps: 6.43706e-11, tFac: 200, bestEval: -14.9991, STV: 0 
+gen : 246, eps: 5.79335e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 247, eps: 5.21401e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 248, eps: 4.69261e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 249, eps: 4.22335e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 250, eps: 3.80102e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 251, eps: 3.42092e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 252, eps: 3.07882e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 253, eps: 2.77094e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 254, eps: 2.49385e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 255, eps: 2.24446e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 256, eps: 2.02002e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 257, eps: 1.81801e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 258, eps: 1.63621e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 259, eps: 1.47259e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 260, eps: 1.32533e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 261, eps: 1.1928e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 262, eps: 1.07352e-11, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 263, eps: 9.66167e-12, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 264, eps: 8.69551e-12, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 265, eps: 7.82596e-12, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 266, eps: 7.04336e-12, tFac: 200, bestEval: -14.9993, STV: 0 
+gen : 267, eps: 6.33902e-12, tFac: 200, bestEval: -14.9994, STV: 0 
+gen : 268, eps: 5.70512e-12, tFac: 200, bestEval: -14.9994, STV: 0 
+gen : 269, eps: 5.13461e-12, tFac: 200, bestEval: -14.9995, STV: 0 
+gen : 270, eps: 4.62115e-12, tFac: 200, bestEval: -14.9995, STV: 0 
+gen : 271, eps: 4.15903e-12, tFac: 200, bestEval: -14.9995, STV: 0 
+gen : 272, eps: 3.74313e-12, tFac: 200, bestEval: -14.9996, STV: 0 
+gen : 273, eps: 3.36882e-12, tFac: 200, bestEval: -14.9996, STV: 0 
+gen : 274, eps: 3.03194e-12, tFac: 200, bestEval: -14.9996, STV: 0 
+gen : 275, eps: 2.72874e-12, tFac: 200, bestEval: -14.9997, STV: 0 
+gen : 276, eps: 2.45587e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 277, eps: 2.21028e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 278, eps: 1.98925e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 279, eps: 1.79033e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 280, eps: 1.6113e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 281, eps: 1.45017e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 282, eps: 1.30515e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 283, eps: 1.17463e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 284, eps: 1.05717e-12, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 285, eps: 9.51454e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 286, eps: 8.56308e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 287, eps: 7.70677e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 288, eps: 6.9361e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 289, eps: 6.24249e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 290, eps: 5.61824e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 291, eps: 5.05641e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 292, eps: 4.55077e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 293, eps: 4.0957e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 294, eps: 3.68613e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 295, eps: 3.31751e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 296, eps: 2.98576e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 297, eps: 2.68719e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 298, eps: 2.41847e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 299, eps: 2.17662e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 300, eps: 1.95896e-13, tFac: 200, bestEval: -14.9998, STV: 0 
+gen : 301, eps: 1.76306e-13, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 302, eps: 1.58676e-13, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 303, eps: 1.42808e-13, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 304, eps: 1.28527e-13, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 305, eps: 1.15675e-13, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 306, eps: 1.04107e-13, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 307, eps: 9.36964e-14, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 308, eps: 8.43267e-14, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 309, eps: 7.58941e-14, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 310, eps: 6.83047e-14, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 311, eps: 6.14742e-14, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 312, eps: 5.53268e-14, tFac: 200, bestEval: -14.9999, STV: 0 
+gen : 313, eps: 4.97941e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 314, eps: 4.48147e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 315, eps: 4.03332e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 316, eps: 3.62999e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 317, eps: 3.26699e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 318, eps: 2.94029e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 319, eps: 2.64626e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 320, eps: 2.38164e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 321, eps: 2.14347e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 322, eps: 1.92913e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 323, eps: 1.73621e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 324, eps: 1.56259e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 325, eps: 1.40633e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 326, eps: 1.2657e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 327, eps: 1.13913e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 328, eps: 1.02522e-14, tFac: 200, bestEval: -15, STV: 0 
+gen : 329, eps: 9.22695e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 330, eps: 8.30425e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 331, eps: 7.47383e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 332, eps: 6.72644e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 333, eps: 6.0538e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 334, eps: 5.44842e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 335, eps: 4.90358e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 336, eps: 4.41322e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 337, eps: 3.9719e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 338, eps: 3.57471e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 339, eps: 3.21724e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 340, eps: 2.89551e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 341, eps: 2.60596e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 342, eps: 2.34537e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 343, eps: 2.11083e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 344, eps: 1.89975e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 345, eps: 1.70977e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 346, eps: 1.53879e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 347, eps: 1.38492e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 348, eps: 1.24642e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 349, eps: 1.12178e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 350, eps: 1.0096e-15, tFac: 200, bestEval: -15, STV: 0 
+gen : 351, eps: 9.08643e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 352, eps: 8.17779e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 353, eps: 7.36001e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 354, eps: 6.62401e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 355, eps: 5.96161e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 356, eps: 5.36545e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 357, eps: 4.8289e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 358, eps: 4.34601e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 359, eps: 3.91141e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 360, eps: 3.52027e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 361, eps: 3.16824e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 362, eps: 2.85142e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 363, eps: 2.56628e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 364, eps: 2.30965e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 365, eps: 2.07868e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 366, eps: 1.87082e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 367, eps: 1.68373e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 368, eps: 1.51536e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 369, eps: 1.36382e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 370, eps: 1.22744e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 371, eps: 1.1047e-16, tFac: 200, bestEval: -15, STV: 0 
+gen : 372, eps: 9.94228e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 373, eps: 8.94805e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 374, eps: 8.05325e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 375, eps: 7.24792e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 376, eps: 6.52313e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 377, eps: 5.87082e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 378, eps: 5.28373e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 379, eps: 4.75536e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 380, eps: 4.27983e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 381, eps: 3.85184e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 382, eps: 3.46666e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 383, eps: 3.11999e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 384, eps: 2.80799e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 385, eps: 2.52719e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 386, eps: 2.27447e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 387, eps: 2.04703e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 388, eps: 1.84232e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 389, eps: 1.65809e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 390, eps: 1.49228e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 391, eps: 1.34305e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 392, eps: 1.20875e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 393, eps: 1.08787e-17, tFac: 200, bestEval: -15, STV: 0 
+gen : 394, eps: 9.79087e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 395, eps: 8.81178e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 396, eps: 7.9306e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 397, eps: 7.13754e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 398, eps: 6.42379e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 399, eps: 5.78141e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 400, eps: 5.20327e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 401, eps: 4.68294e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 402, eps: 4.21465e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 403, eps: 3.79318e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 404, eps: 3.41386e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 405, eps: 3.07248e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 406, eps: 2.76523e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 407, eps: 2.48871e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 408, eps: 2.23984e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 409, eps: 2.01585e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 410, eps: 1.81427e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 411, eps: 1.63284e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 412, eps: 1.46956e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 413, eps: 1.3226e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 414, eps: 1.19034e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 415, eps: 1.07131e-18, tFac: 200, bestEval: -15, STV: 0 
+gen : 416, eps: 9.64176e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 417, eps: 8.67758e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 418, eps: 7.80983e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 419, eps: 7.02884e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 420, eps: 6.32596e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 421, eps: 5.69336e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 422, eps: 5.12403e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 423, eps: 4.61162e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 424, eps: 4.15046e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 425, eps: 3.73542e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 426, eps: 3.36187e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 427, eps: 3.02569e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 428, eps: 2.72312e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 429, eps: 2.45081e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 430, eps: 2.20573e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 431, eps: 1.98515e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 432, eps: 1.78664e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 433, eps: 1.60797e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 434, eps: 1.44718e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 435, eps: 1.30246e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 436, eps: 1.17221e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 437, eps: 1.05499e-19, tFac: 200, bestEval: -15, STV: 0 
+gen : 438, eps: 9.49493e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 439, eps: 8.54543e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 440, eps: 7.69089e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 441, eps: 6.9218e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 442, eps: 6.22962e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 443, eps: 5.60666e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 444, eps: 5.04599e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 445, eps: 4.54139e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 446, eps: 4.08725e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 447, eps: 3.67853e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 448, eps: 3.31068e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 449, eps: 2.97961e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 450, eps: 2.68165e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 451, eps: 2.41348e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 452, eps: 2.17213e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 453, eps: 1.95492e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 454, eps: 1.75943e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 455, eps: 1.58349e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 456, eps: 1.42514e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 457, eps: 1.28262e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 458, eps: 1.15436e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 459, eps: 1.03893e-20, tFac: 200, bestEval: -15, STV: 0 
+gen : 460, eps: 9.35033e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 461, eps: 8.41529e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 462, eps: 7.57376e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 463, eps: 6.81639e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 464, eps: 6.13475e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 465, eps: 5.52127e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 466, eps: 4.96915e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 467, eps: 4.47223e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 468, eps: 4.02501e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 469, eps: 3.62251e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 470, eps: 3.26026e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 471, eps: 2.93423e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 472, eps: 2.64081e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 473, eps: 2.37673e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 474, eps: 2.13905e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 475, eps: 1.92515e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 476, eps: 1.73263e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 477, eps: 1.55937e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 478, eps: 1.40343e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 479, eps: 1.26309e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 480, eps: 1.13678e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 481, eps: 1.0231e-21, tFac: 200, bestEval: -15, STV: 0 
+gen : 482, eps: 9.20793e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 483, eps: 8.28714e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 484, eps: 7.45842e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 485, eps: 6.71258e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 486, eps: 6.04132e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 487, eps: 5.43719e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 488, eps: 4.89347e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 489, eps: 4.40412e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 490, eps: 3.96371e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 491, eps: 3.56734e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 492, eps: 3.21061e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 493, eps: 2.88955e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 494, eps: 2.60059e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 495, eps: 2.34053e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 496, eps: 2.10648e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 497, eps: 1.89583e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 498, eps: 1.70625e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 499, eps: 1.53562e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 500, eps: 1.38206e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 501, eps: 1.24385e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 502, eps: 1.11947e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 503, eps: 1.00752e-22, tFac: 200, bestEval: -15, STV: 0 
+gen : 504, eps: 9.0677e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 505, eps: 8.16093e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 506, eps: 7.34484e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 507, eps: 6.61035e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 508, eps: 5.94932e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 509, eps: 5.35439e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 510, eps: 4.81895e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 511, eps: 4.33705e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 512, eps: 3.90335e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 513, eps: 3.51301e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 514, eps: 3.16171e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 515, eps: 2.84554e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 516, eps: 2.56099e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 517, eps: 2.30489e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 518, eps: 2.0744e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 519, eps: 1.86696e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 520, eps: 1.68026e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 521, eps: 1.51224e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 522, eps: 1.36101e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 523, eps: 1.22491e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 524, eps: 1.10242e-23, tFac: 200, bestEval: -15, STV: 0 
+gen : 525, eps: 9.92179e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 526, eps: 8.92961e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 527, eps: 8.03665e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 528, eps: 7.23298e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 529, eps: 6.50968e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 530, eps: 5.85872e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 531, eps: 5.27284e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 532, eps: 4.74556e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 533, eps: 4.271e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 534, eps: 3.8439e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 535, eps: 3.45951e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 536, eps: 3.11356e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 537, eps: 2.80221e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 538, eps: 2.52199e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 539, eps: 2.26979e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 540, eps: 2.04281e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 541, eps: 1.83853e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 542, eps: 1.65467e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 543, eps: 1.48921e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 544, eps: 1.34029e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 545, eps: 1.20626e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 546, eps: 1.08563e-24, tFac: 200, bestEval: -15, STV: 0 
+gen : 547, eps: 9.77069e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 548, eps: 8.79362e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 549, eps: 7.91426e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 550, eps: 7.12283e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 551, eps: 6.41055e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 552, eps: 5.76949e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 553, eps: 5.19254e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 554, eps: 4.67329e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 555, eps: 4.20596e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 556, eps: 3.78536e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 557, eps: 3.40683e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 558, eps: 3.06615e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 559, eps: 2.75953e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 560, eps: 2.48358e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 561, eps: 2.23522e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 562, eps: 2.0117e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 563, eps: 1.81053e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 564, eps: 1.62948e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 565, eps: 1.46653e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 566, eps: 1.31987e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 567, eps: 1.18789e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 568, eps: 1.0691e-25, tFac: 200, bestEval: -15, STV: 0 
+gen : 569, eps: 9.62189e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 570, eps: 8.6597e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 571, eps: 7.79373e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 572, eps: 7.01436e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 573, eps: 6.31292e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 574, eps: 5.68163e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 575, eps: 5.11347e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 576, eps: 4.60212e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 577, eps: 4.14191e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 578, eps: 3.72772e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 579, eps: 3.35494e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 580, eps: 3.01945e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 581, eps: 2.71751e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 582, eps: 2.44575e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 583, eps: 2.20118e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 584, eps: 1.98106e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 585, eps: 1.78296e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 586, eps: 1.60466e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 587, eps: 1.44419e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 588, eps: 1.29977e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 589, eps: 1.1698e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 590, eps: 1.05282e-26, tFac: 200, bestEval: -15, STV: 0 
+gen : 591, eps: 9.47536e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 592, eps: 8.52782e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 593, eps: 7.67504e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 594, eps: 6.90753e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 595, eps: 6.21678e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 596, eps: 5.5951e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 597, eps: 5.03559e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 598, eps: 4.53203e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 599, eps: 4.07883e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 600, eps: 3.67095e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 601, eps: 3.30385e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 602, eps: 2.97347e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 603, eps: 2.67612e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 604, eps: 2.40851e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 605, eps: 2.16766e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 606, eps: 1.95089e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 607, eps: 1.7558e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 608, eps: 1.58022e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 609, eps: 1.4222e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 610, eps: 1.27998e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 611, eps: 1.15198e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 612, eps: 1.03678e-27, tFac: 200, bestEval: -15, STV: 0 
+gen : 613, eps: 9.33105e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 614, eps: 8.39795e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 615, eps: 7.55815e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 616, eps: 6.80234e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 617, eps: 6.1221e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 618, eps: 5.50989e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 619, eps: 4.9589e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 620, eps: 4.46301e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 621, eps: 4.01671e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 622, eps: 3.61504e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 623, eps: 3.25354e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 624, eps: 2.92818e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 625, eps: 2.63537e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 626, eps: 2.37183e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 627, eps: 2.13465e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 628, eps: 1.92118e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 629, eps: 1.72906e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 630, eps: 1.55616e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 631, eps: 1.40054e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 632, eps: 1.26049e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 633, eps: 1.13444e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 634, eps: 1.02099e-28, tFac: 200, bestEval: -15, STV: 0 
+gen : 635, eps: 9.18895e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 636, eps: 8.27006e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 637, eps: 7.44305e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 638, eps: 6.69875e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 639, eps: 6.02887e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 640, eps: 5.42598e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 641, eps: 4.88339e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 642, eps: 4.39505e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 643, eps: 3.95554e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 644, eps: 3.55999e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 645, eps: 3.20399e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 646, eps: 2.88359e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 647, eps: 2.59523e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 648, eps: 2.33571e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 649, eps: 2.10214e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 650, eps: 1.89192e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 651, eps: 1.70273e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 652, eps: 1.53246e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 653, eps: 1.37921e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 654, eps: 1.24129e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 655, eps: 1.11716e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 656, eps: 1.00545e-29, tFac: 200, bestEval: -15, STV: 0 
+gen : 657, eps: 9.04901e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 658, eps: 8.14411e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 659, eps: 7.3297e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 660, eps: 6.59673e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 661, eps: 5.93706e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 662, eps: 5.34335e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 663, eps: 4.80902e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 664, eps: 4.32811e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 665, eps: 3.8953e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 666, eps: 3.50577e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 667, eps: 3.1552e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 668, eps: 2.83968e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 669, eps: 2.55571e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 670, eps: 2.30014e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 671, eps: 2.07012e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 672, eps: 1.86311e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 673, eps: 1.6768e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 674, eps: 1.50912e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 675, eps: 1.35821e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 676, eps: 1.22239e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 677, eps: 1.10015e-30, tFac: 200, bestEval: -15, STV: 0 
+gen : 678, eps: 9.90134e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 679, eps: 8.9112e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 680, eps: 8.02008e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 681, eps: 7.21807e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 682, eps: 6.49627e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 683, eps: 5.84664e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 684, eps: 5.26198e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 685, eps: 4.73578e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 686, eps: 4.2622e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 687, eps: 3.83598e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 688, eps: 3.45238e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 689, eps: 3.10714e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 690, eps: 2.79643e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 691, eps: 2.51679e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 692, eps: 2.26511e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 693, eps: 2.0386e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 694, eps: 1.83474e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 695, eps: 1.65126e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 696, eps: 1.48614e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 697, eps: 1.33752e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 698, eps: 1.20377e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 699, eps: 1.08339e-31, tFac: 200, bestEval: -15, STV: 0 
+gen : 700, eps: 9.75055e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 701, eps: 8.77549e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 702, eps: 7.89794e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 703, eps: 7.10815e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 704, eps: 6.39733e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 705, eps: 5.7576e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 706, eps: 5.18184e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 707, eps: 4.66366e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 708, eps: 4.19729e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 709, eps: 3.77756e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 710, eps: 3.39981e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 711, eps: 3.05983e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 712, eps: 2.75384e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 713, eps: 2.47846e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 714, eps: 2.23061e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 715, eps: 2.00755e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 716, eps: 1.8068e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 717, eps: 1.62612e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 718, eps: 1.46351e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 719, eps: 1.31715e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 720, eps: 1.18544e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 721, eps: 1.0669e-32, tFac: 200, bestEval: -15, STV: 0 
+gen : 722, eps: 9.60206e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 723, eps: 8.64185e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 724, eps: 7.77767e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 725, eps: 6.9999e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 726, eps: 6.29991e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 727, eps: 5.66992e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 728, eps: 5.10293e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 729, eps: 4.59263e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 730, eps: 4.13337e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 731, eps: 3.72003e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 732, eps: 3.34803e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 733, eps: 3.01323e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 734, eps: 2.7119e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 735, eps: 2.44071e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 736, eps: 2.19664e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 737, eps: 1.97698e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 738, eps: 1.77928e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 739, eps: 1.60135e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 740, eps: 1.44122e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 741, eps: 1.2971e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 742, eps: 1.16739e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 743, eps: 1.05065e-33, tFac: 200, bestEval: -15, STV: 0 
+gen : 744, eps: 9.45583e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 745, eps: 8.51024e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 746, eps: 7.65922e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 747, eps: 6.8933e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 748, eps: 6.20397e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 749, eps: 5.58357e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 750, eps: 5.02521e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 751, eps: 4.52269e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 752, eps: 4.07042e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 753, eps: 3.66338e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 754, eps: 3.29704e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 755, eps: 2.96734e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 756, eps: 2.6706e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 757, eps: 2.40354e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 758, eps: 2.16319e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 759, eps: 1.94687e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 760, eps: 1.75218e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 761, eps: 1.57697e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 762, eps: 1.41927e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 763, eps: 1.27734e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 764, eps: 1.14961e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 765, eps: 1.03465e-34, tFac: 200, bestEval: -15, STV: 0 
+gen : 766, eps: 9.31182e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 767, eps: 8.38064e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 768, eps: 7.54258e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 769, eps: 6.78832e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 770, eps: 6.10949e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 771, eps: 5.49854e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 772, eps: 4.94868e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 773, eps: 4.45382e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 774, eps: 4.00843e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 775, eps: 3.60759e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 776, eps: 3.24683e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 777, eps: 2.92215e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 778, eps: 2.62993e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 779, eps: 2.36694e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 780, eps: 2.13025e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 781, eps: 1.91722e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 782, eps: 1.7255e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 783, eps: 1.55295e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 784, eps: 1.39765e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 785, eps: 1.25789e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 786, eps: 1.1321e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 787, eps: 1.01889e-35, tFac: 200, bestEval: -15, STV: 0 
+gen : 788, eps: 9.17001e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 789, eps: 8.25301e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 790, eps: 7.42771e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 791, eps: 6.68494e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 792, eps: 6.01644e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 793, eps: 5.4148e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 794, eps: 4.87332e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 795, eps: 4.38599e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 796, eps: 3.94739e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 797, eps: 3.55265e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 798, eps: 3.19739e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 799, eps: 2.87765e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 800, eps: 2.58988e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 801, eps: 2.33089e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 802, eps: 2.0978e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 803, eps: 1.88802e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 804, eps: 1.69922e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 805, eps: 1.5293e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 806, eps: 1.37637e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 807, eps: 1.23873e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 808, eps: 1.11486e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 809, eps: 1.00337e-36, tFac: 200, bestEval: -15, STV: 0 
+gen : 810, eps: 9.03036e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 811, eps: 8.12732e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 812, eps: 7.31459e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 813, eps: 6.58313e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 814, eps: 5.92482e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 815, eps: 5.33234e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 816, eps: 4.7991e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 817, eps: 4.31919e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 818, eps: 3.88727e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 819, eps: 3.49855e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 820, eps: 3.14869e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 821, eps: 2.83382e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 822, eps: 2.55044e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 823, eps: 2.2954e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 824, eps: 2.06586e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 825, eps: 1.85927e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 826, eps: 1.67334e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 827, eps: 1.50601e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 828, eps: 1.35541e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 829, eps: 1.21987e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 830, eps: 1.09788e-37, tFac: 200, bestEval: -15, STV: 0 
+gen : 831, eps: 9.88093e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 832, eps: 8.89284e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 833, eps: 8.00355e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 834, eps: 7.2032e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 835, eps: 6.48288e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 836, eps: 5.83459e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 837, eps: 5.25113e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 838, eps: 4.72602e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 839, eps: 4.25342e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 840, eps: 3.82807e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 841, eps: 3.44527e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 842, eps: 3.10074e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 843, eps: 2.79067e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 844, eps: 2.5116e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 845, eps: 2.26044e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 846, eps: 2.0344e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 847, eps: 1.83096e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 848, eps: 1.64786e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 849, eps: 1.48307e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 850, eps: 1.33477e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 851, eps: 1.20129e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 852, eps: 1.08116e-38, tFac: 200, bestEval: -15, STV: 0 
+gen : 853, eps: 9.73045e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 854, eps: 8.75741e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 855, eps: 7.88167e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 856, eps: 7.0935e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 857, eps: 6.38415e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 858, eps: 5.74573e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 859, eps: 5.17116e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 860, eps: 4.65404e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 861, eps: 4.18864e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 862, eps: 3.76978e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 863, eps: 3.3928e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 864, eps: 3.05352e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 865, eps: 2.74817e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 866, eps: 2.47335e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 867, eps: 2.22602e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 868, eps: 2.00341e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 869, eps: 1.80307e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 870, eps: 1.62277e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 871, eps: 1.46049e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 872, eps: 1.31444e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 873, eps: 1.183e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 874, eps: 1.0647e-39, tFac: 200, bestEval: -15, STV: 0 
+gen : 875, eps: 9.58227e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 876, eps: 8.62404e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 877, eps: 7.76164e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 878, eps: 6.98547e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 879, eps: 6.28692e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 880, eps: 5.65823e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 881, eps: 5.09241e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 882, eps: 4.58317e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 883, eps: 4.12485e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 884, eps: 3.71237e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 885, eps: 3.34113e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 886, eps: 3.00702e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 887, eps: 2.70631e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 888, eps: 2.43568e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 889, eps: 2.19211e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 890, eps: 1.9729e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 891, eps: 1.77561e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 892, eps: 1.59805e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 893, eps: 1.43825e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 894, eps: 1.29442e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 895, eps: 1.16498e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 896, eps: 1.04848e-40, tFac: 200, bestEval: -15, STV: 0 
+gen : 897, eps: 9.43634e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 898, eps: 8.4927e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 899, eps: 7.64343e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 900, eps: 6.87909e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 901, eps: 6.19118e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 902, eps: 5.57206e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 903, eps: 5.01486e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 904, eps: 4.51337e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 905, eps: 4.06203e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 906, eps: 3.65583e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 907, eps: 3.29025e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 908, eps: 2.96122e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 909, eps: 2.6651e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 910, eps: 2.39859e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 911, eps: 2.15873e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 912, eps: 1.94286e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 913, eps: 1.74857e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 914, eps: 1.57371e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 915, eps: 1.41634e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 916, eps: 1.27471e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 917, eps: 1.14724e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 918, eps: 1.03251e-41, tFac: 200, bestEval: -15, STV: 0 
+gen : 919, eps: 9.29263e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 920, eps: 8.36337e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 921, eps: 7.52703e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 922, eps: 6.77433e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 923, eps: 6.09689e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 924, eps: 5.4872e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 925, eps: 4.93848e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 926, eps: 4.44464e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 927, eps: 4.00017e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 928, eps: 3.60015e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 929, eps: 3.24014e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 930, eps: 2.91613e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 931, eps: 2.62451e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 932, eps: 2.36206e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 933, eps: 2.12586e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 934, eps: 1.91327e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 935, eps: 1.72194e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 936, eps: 1.54975e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 937, eps: 1.39477e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 938, eps: 1.2553e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 939, eps: 1.12977e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 940, eps: 1.01679e-42, tFac: 200, bestEval: -15, STV: 0 
+gen : 941, eps: 9.15111e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 942, eps: 8.236e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 943, eps: 7.4124e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 944, eps: 6.67116e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 945, eps: 6.00404e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 946, eps: 5.40364e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 947, eps: 4.86328e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 948, eps: 4.37695e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 949, eps: 3.93925e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 950, eps: 3.54533e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 951, eps: 3.1908e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 952, eps: 2.87172e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 953, eps: 2.58454e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 954, eps: 2.32609e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 955, eps: 2.09348e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 956, eps: 1.88413e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 957, eps: 1.69572e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 958, eps: 1.52615e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 959, eps: 1.37353e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 960, eps: 1.23618e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 961, eps: 1.11256e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 962, eps: 1.00131e-43, tFac: 200, bestEval: -15, STV: 0 
+gen : 963, eps: 9.01175e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 964, eps: 8.11057e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 965, eps: 7.29952e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 966, eps: 6.56956e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 967, eps: 5.91261e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 968, eps: 5.32135e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 969, eps: 4.78921e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 970, eps: 4.31029e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 971, eps: 3.87926e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 972, eps: 3.49134e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 973, eps: 3.1422e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 974, eps: 2.82798e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 975, eps: 2.54518e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 976, eps: 2.29067e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 977, eps: 2.0616e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 978, eps: 1.85544e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 979, eps: 1.6699e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 980, eps: 1.50291e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 981, eps: 1.35261e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 982, eps: 1.21735e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 983, eps: 1.09562e-44, tFac: 200, bestEval: -15, STV: 0 
+gen : 984, eps: 9.86056e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 985, eps: 8.87451e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 986, eps: 7.98706e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 987, eps: 7.18835e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 988, eps: 6.46952e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 989, eps: 5.82256e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 990, eps: 5.24031e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 991, eps: 4.71628e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 992, eps: 4.24465e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 993, eps: 3.82018e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 994, eps: 3.43817e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 995, eps: 3.09435e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 996, eps: 2.78491e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 997, eps: 2.50642e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 998, eps: 2.25578e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 999, eps: 2.0302e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 1000, eps: 1.82718e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 1001, eps: 1.64446e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 1002, eps: 1.48002e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 1003, eps: 1.33202e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 1004, eps: 1.19881e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 1005, eps: 1.07893e-45, tFac: 200, bestEval: -15, STV: 0 
+gen : 1006, eps: 9.7104e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1007, eps: 8.73936e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1008, eps: 7.86542e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1009, eps: 7.07888e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1010, eps: 6.37099e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1011, eps: 5.73389e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1012, eps: 5.1605e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1013, eps: 4.64445e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1014, eps: 4.18001e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1015, eps: 3.76201e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1016, eps: 3.38581e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1017, eps: 3.04723e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1018, eps: 2.7425e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1019, eps: 2.46825e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1020, eps: 2.22143e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1021, eps: 1.99928e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1022, eps: 1.79936e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1023, eps: 1.61942e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1024, eps: 1.45748e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1025, eps: 1.31173e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1026, eps: 1.18056e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1027, eps: 1.0625e-46, tFac: 200, bestEval: -15, STV: 0 
+gen : 1028, eps: 9.56252e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1029, eps: 8.60626e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1030, eps: 7.74564e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1031, eps: 6.97107e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1032, eps: 6.27397e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1033, eps: 5.64657e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1034, eps: 5.08191e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1035, eps: 4.57372e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1036, eps: 4.11635e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1037, eps: 3.70471e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1038, eps: 3.33424e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1039, eps: 3.00082e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1040, eps: 2.70074e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1041, eps: 2.43066e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1042, eps: 2.1876e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1043, eps: 1.96884e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1044, eps: 1.77195e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1045, eps: 1.59476e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1046, eps: 1.43528e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1047, eps: 1.29175e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1048, eps: 1.16258e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1049, eps: 1.04632e-47, tFac: 200, bestEval: -15, STV: 0 
+gen : 1050, eps: 9.41689e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1051, eps: 8.4752e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1052, eps: 7.62768e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1053, eps: 6.86491e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1054, eps: 6.17842e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1055, eps: 5.56058e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1056, eps: 5.00452e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1057, eps: 4.50407e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1058, eps: 4.05366e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1059, eps: 3.64829e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1060, eps: 3.28347e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1061, eps: 2.95512e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1062, eps: 2.65961e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1063, eps: 2.39365e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1064, eps: 2.15428e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1065, eps: 1.93885e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1066, eps: 1.74497e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1067, eps: 1.57047e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1068, eps: 1.41342e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1069, eps: 1.27208e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1070, eps: 1.14487e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1071, eps: 1.03039e-48, tFac: 200, bestEval: -15, STV: 0 
+gen : 1072, eps: 9.27348e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1073, eps: 8.34613e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1074, eps: 7.51152e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1075, eps: 6.76036e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1076, eps: 6.08433e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1077, eps: 5.47589e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1078, eps: 4.92831e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1079, eps: 4.43547e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1080, eps: 3.99193e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1081, eps: 3.59273e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1082, eps: 3.23346e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1083, eps: 2.91012e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1084, eps: 2.6191e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1085, eps: 2.35719e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1086, eps: 2.12147e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1087, eps: 1.90933e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1088, eps: 1.71839e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1089, eps: 1.54655e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1090, eps: 1.3919e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1091, eps: 1.25271e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1092, eps: 1.12744e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1093, eps: 1.01469e-49, tFac: 200, bestEval: -15, STV: 0 
+gen : 1094, eps: 9.13225e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1095, eps: 8.21902e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1096, eps: 7.39712e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1097, eps: 6.65741e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1098, eps: 5.99167e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1099, eps: 5.3925e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1100, eps: 4.85325e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1101, eps: 4.36793e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1102, eps: 3.93113e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1103, eps: 3.53802e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1104, eps: 3.18422e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1105, eps: 2.8658e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1106, eps: 2.57922e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1107, eps: 2.3213e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1108, eps: 2.08917e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1109, eps: 1.88025e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1110, eps: 1.69222e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1111, eps: 1.523e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1112, eps: 1.3707e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1113, eps: 1.23363e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1114, eps: 1.11027e-50, tFac: 200, bestEval: -15, STV: 0 
+gen : 1115, eps: 9.99242e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1116, eps: 8.99317e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1117, eps: 8.09386e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1118, eps: 7.28447e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1119, eps: 6.55602e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1120, eps: 5.90042e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1121, eps: 5.31038e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1122, eps: 4.77934e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1123, eps: 4.30141e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1124, eps: 3.87127e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1125, eps: 3.48414e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1126, eps: 3.13573e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1127, eps: 2.82215e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1128, eps: 2.53994e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1129, eps: 2.28594e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1130, eps: 2.05735e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1131, eps: 1.85161e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1132, eps: 1.66645e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1133, eps: 1.49981e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1134, eps: 1.34983e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1135, eps: 1.21484e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1136, eps: 1.09336e-51, tFac: 200, bestEval: -15, STV: 0 
+gen : 1137, eps: 9.84024e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1138, eps: 8.85622e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1139, eps: 7.97059e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1140, eps: 7.17353e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1141, eps: 6.45618e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1142, eps: 5.81056e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1143, eps: 5.22951e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1144, eps: 4.70656e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1145, eps: 4.2359e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1146, eps: 3.81231e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1147, eps: 3.43108e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1148, eps: 3.08797e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1149, eps: 2.77917e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1150, eps: 2.50126e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1151, eps: 2.25113e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1152, eps: 2.02602e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1153, eps: 1.82342e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1154, eps: 1.64107e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1155, eps: 1.47697e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1156, eps: 1.32927e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1157, eps: 1.19634e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1158, eps: 1.07671e-52, tFac: 200, bestEval: -15, STV: 0 
+gen : 1159, eps: 9.69038e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1160, eps: 8.72134e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1161, eps: 7.84921e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1162, eps: 7.06429e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1163, eps: 6.35786e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1164, eps: 5.72207e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1165, eps: 5.14987e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1166, eps: 4.63488e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1167, eps: 4.17139e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1168, eps: 3.75425e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1169, eps: 3.37883e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1170, eps: 3.04094e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1171, eps: 2.73685e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1172, eps: 2.46316e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1173, eps: 2.21685e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1174, eps: 1.99516e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1175, eps: 1.79565e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1176, eps: 1.61608e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1177, eps: 1.45447e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1178, eps: 1.30903e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1179, eps: 1.17812e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1180, eps: 1.06031e-53, tFac: 200, bestEval: -15, STV: 0 
+gen : 1181, eps: 9.54281e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1182, eps: 8.58853e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1183, eps: 7.72967e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1184, eps: 6.95671e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1185, eps: 6.26103e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1186, eps: 5.63493e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1187, eps: 5.07144e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1188, eps: 4.56429e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1189, eps: 4.10786e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1190, eps: 3.69708e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1191, eps: 3.32737e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1192, eps: 2.99463e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1193, eps: 2.69517e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1194, eps: 2.42565e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1195, eps: 2.18309e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1196, eps: 1.96478e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1197, eps: 1.7683e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1198, eps: 1.59147e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1199, eps: 1.43232e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1200, eps: 1.28909e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1201, eps: 1.16018e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1202, eps: 1.04416e-54, tFac: 200, bestEval: -15, STV: 0 
+gen : 1203, eps: 9.39748e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1204, eps: 8.45773e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1205, eps: 7.61196e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1206, eps: 6.85076e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1207, eps: 6.16568e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1208, eps: 5.54912e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1209, eps: 4.9942e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1210, eps: 4.49478e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1211, eps: 4.04531e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1212, eps: 3.64078e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1213, eps: 3.2767e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1214, eps: 2.94903e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1215, eps: 2.65413e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1216, eps: 2.38871e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1217, eps: 2.14984e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1218, eps: 1.93486e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1219, eps: 1.74137e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1220, eps: 1.56723e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1221, eps: 1.41051e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1222, eps: 1.26946e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1223, eps: 1.14251e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1224, eps: 1.02826e-55, tFac: 200, bestEval: -15, STV: 0 
+gen : 1225, eps: 9.25436e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1226, eps: 8.32893e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1227, eps: 7.49603e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1228, eps: 6.74643e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1229, eps: 6.07179e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1230, eps: 5.46461e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1231, eps: 4.91815e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1232, eps: 4.42633e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1233, eps: 3.9837e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1234, eps: 3.58533e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1235, eps: 3.2268e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1236, eps: 2.90412e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1237, eps: 2.61371e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1238, eps: 2.35233e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1239, eps: 2.1171e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1240, eps: 1.90539e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1241, eps: 1.71485e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1242, eps: 1.54337e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1243, eps: 1.38903e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1244, eps: 1.25013e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1245, eps: 1.12511e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1246, eps: 1.0126e-56, tFac: 200, bestEval: -15, STV: 0 
+gen : 1247, eps: 9.11343e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1248, eps: 8.20208e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1249, eps: 7.38188e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1250, eps: 6.64369e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1251, eps: 5.97932e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1252, eps: 5.38139e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1253, eps: 4.84325e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1254, eps: 4.35892e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1255, eps: 3.92303e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1256, eps: 3.53073e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1257, eps: 3.17766e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1258, eps: 2.85989e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1259, eps: 2.5739e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1260, eps: 2.31651e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1261, eps: 2.08486e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1262, eps: 1.87637e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1263, eps: 1.68874e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1264, eps: 1.51986e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1265, eps: 1.36788e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1266, eps: 1.23109e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1267, eps: 1.10798e-57, tFac: 200, bestEval: -15, STV: 0 
+gen : 1268, eps: 9.97182e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1269, eps: 8.97464e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1270, eps: 8.07717e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1271, eps: 7.26946e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1272, eps: 6.54251e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1273, eps: 5.88826e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1274, eps: 5.29943e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1275, eps: 4.76949e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1276, eps: 4.29254e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1277, eps: 3.86329e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1278, eps: 3.47696e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1279, eps: 3.12926e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1280, eps: 2.81634e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1281, eps: 2.5347e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1282, eps: 2.28123e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1283, eps: 2.05311e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1284, eps: 1.8478e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1285, eps: 1.66302e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1286, eps: 1.49672e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1287, eps: 1.34704e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1288, eps: 1.21234e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1289, eps: 1.09111e-58, tFac: 200, bestEval: -15, STV: 0 
+gen : 1290, eps: 9.81996e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1291, eps: 8.83796e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1292, eps: 7.95417e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1293, eps: 7.15875e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1294, eps: 6.44287e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1295, eps: 5.79859e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1296, eps: 5.21873e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1297, eps: 4.69686e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1298, eps: 4.22717e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1299, eps: 3.80445e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1300, eps: 3.42401e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1301, eps: 3.08161e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1302, eps: 2.77345e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1303, eps: 2.4961e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1304, eps: 2.24649e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1305, eps: 2.02184e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1306, eps: 1.81966e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1307, eps: 1.63769e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1308, eps: 1.47392e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1309, eps: 1.32653e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1310, eps: 1.19388e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1311, eps: 1.07449e-59, tFac: 200, bestEval: -15, STV: 0 
+gen : 1312, eps: 9.67041e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1313, eps: 8.70337e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1314, eps: 7.83303e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1315, eps: 7.04973e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1316, eps: 6.34476e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1317, eps: 5.71028e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1318, eps: 5.13925e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1319, eps: 4.62533e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1320, eps: 4.16279e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1321, eps: 3.74651e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1322, eps: 3.37186e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1323, eps: 3.03468e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1324, eps: 2.73121e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1325, eps: 2.45809e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1326, eps: 2.21228e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1327, eps: 1.99105e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1328, eps: 1.79195e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1329, eps: 1.61275e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1330, eps: 1.45148e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1331, eps: 1.30633e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1332, eps: 1.1757e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1333, eps: 1.05813e-60, tFac: 200, bestEval: -15, STV: 0 
+gen : 1334, eps: 9.52314e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1335, eps: 8.57082e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1336, eps: 7.71374e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1337, eps: 6.94237e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1338, eps: 6.24813e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1339, eps: 5.62332e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1340, eps: 5.06099e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1341, eps: 4.55489e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1342, eps: 4.0994e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1343, eps: 3.68946e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1344, eps: 3.32051e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1345, eps: 2.98846e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1346, eps: 2.68962e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1347, eps: 2.42065e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1348, eps: 2.17859e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1349, eps: 1.96073e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1350, eps: 1.76466e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1351, eps: 1.58819e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1352, eps: 1.42937e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1353, eps: 1.28643e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1354, eps: 1.15779e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1355, eps: 1.04201e-61, tFac: 200, bestEval: -15, STV: 0 
+gen : 1356, eps: 9.37811e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1357, eps: 8.4403e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1358, eps: 7.59627e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1359, eps: 6.83664e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1360, eps: 6.15298e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1361, eps: 5.53768e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1362, eps: 4.98391e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1363, eps: 4.48552e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1364, eps: 4.03697e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1365, eps: 3.63327e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1366, eps: 3.26994e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1367, eps: 2.94295e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1368, eps: 2.64865e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1369, eps: 2.38379e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1370, eps: 2.14541e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1371, eps: 1.93087e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1372, eps: 1.73778e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1373, eps: 1.564e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1374, eps: 1.4076e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1375, eps: 1.26684e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1376, eps: 1.14016e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1377, eps: 1.02614e-62, tFac: 200, bestEval: -15, STV: 0 
+gen : 1378, eps: 9.23529e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1379, eps: 8.31176e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1380, eps: 7.48058e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1381, eps: 6.73252e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1382, eps: 6.05927e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1383, eps: 5.45335e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1384, eps: 4.90801e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1385, eps: 4.41721e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1386, eps: 3.97549e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1387, eps: 3.57794e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1388, eps: 3.22015e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1389, eps: 2.89813e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1390, eps: 2.60832e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1391, eps: 2.34749e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1392, eps: 2.11274e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1393, eps: 1.90146e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1394, eps: 1.71132e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1395, eps: 1.54019e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1396, eps: 1.38617e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1397, eps: 1.24755e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1398, eps: 1.1228e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1399, eps: 1.01052e-63, tFac: 200, bestEval: -15, STV: 0 
+gen : 1400, eps: 9.09464e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1401, eps: 8.18518e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1402, eps: 7.36666e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1403, eps: 6.62999e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1404, eps: 5.967e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1405, eps: 5.3703e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1406, eps: 4.83327e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1407, eps: 4.34994e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1408, eps: 3.91495e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1409, eps: 3.52345e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1410, eps: 3.17111e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1411, eps: 2.854e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1412, eps: 2.5686e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1413, eps: 2.31174e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1414, eps: 2.08056e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1415, eps: 1.87251e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1416, eps: 1.68526e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1417, eps: 1.51673e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1418, eps: 1.36506e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1419, eps: 1.22855e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1420, eps: 1.1057e-64, tFac: 200, bestEval: -15, STV: 0 
+gen : 1421, eps: 9.95127e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1422, eps: 8.95614e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1423, eps: 8.06053e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1424, eps: 7.25447e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1425, eps: 6.52903e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1426, eps: 5.87612e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1427, eps: 5.28851e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1428, eps: 4.75966e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1429, eps: 4.28369e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1430, eps: 3.85532e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1431, eps: 3.46979e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1432, eps: 3.12281e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1433, eps: 2.81053e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1434, eps: 2.52948e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1435, eps: 2.27653e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1436, eps: 2.04888e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1437, eps: 1.84399e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1438, eps: 1.65959e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1439, eps: 1.49363e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1440, eps: 1.34427e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1441, eps: 1.20984e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1442, eps: 1.08886e-65, tFac: 200, bestEval: -15, STV: 0 
+gen : 1443, eps: 9.79972e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1444, eps: 8.81975e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1445, eps: 7.93777e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1446, eps: 7.14399e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1447, eps: 6.42959e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1448, eps: 5.78664e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1449, eps: 5.20797e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1450, eps: 4.68717e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1451, eps: 4.21846e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1452, eps: 3.79661e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1453, eps: 3.41695e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1454, eps: 3.07526e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1455, eps: 2.76773e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1456, eps: 2.49096e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1457, eps: 2.24186e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1458, eps: 2.01767e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1459, eps: 1.81591e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1460, eps: 1.63432e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1461, eps: 1.47089e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1462, eps: 1.3238e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1463, eps: 1.19142e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1464, eps: 1.07228e-66, tFac: 200, bestEval: -15, STV: 0 
+gen : 1465, eps: 9.65048e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1466, eps: 8.68543e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1467, eps: 7.81689e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1468, eps: 7.0352e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1469, eps: 6.33168e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1470, eps: 5.69851e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1471, eps: 5.12866e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1472, eps: 4.61579e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1473, eps: 4.15421e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1474, eps: 3.73879e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1475, eps: 3.36491e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1476, eps: 3.02842e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1477, eps: 2.72558e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1478, eps: 2.45302e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1479, eps: 2.20772e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1480, eps: 1.98695e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1481, eps: 1.78825e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1482, eps: 1.60943e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1483, eps: 1.44848e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1484, eps: 1.30364e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1485, eps: 1.17327e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1486, eps: 1.05595e-67, tFac: 200, bestEval: -15, STV: 0 
+gen : 1487, eps: 9.50351e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1488, eps: 8.55316e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1489, eps: 7.69784e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1490, eps: 6.92806e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1491, eps: 6.23525e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1492, eps: 5.61173e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1493, eps: 5.05055e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1494, eps: 4.5455e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1495, eps: 4.09095e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1496, eps: 3.68185e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1497, eps: 3.31367e-68, tFac: 200, bestEval: -15, STV: 0 
+gen : 1498, eps: 2.9823e-68, tFac: 200, bestEval: -15, STV: 0 
+Mejor individuo encontrado: 
+[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 1, ]
+f: -15
+	g1:4.67709e-310 
+	g2:4.67709e-310 
+	g3:4.67709e-310 
+	g4:4.67709e-310 
+	g5:4.67709e-310 
+	g6:4.67709e-310 
+	g7:4.67709e-310 
+	g8:4.67709e-310 
+	g9:4.67709e-310 
+Sum Total g: 0 
+Suma total Violacion: 0 
+
+promedio del total de Evals: 300000 
+Desviacion Estandar del total de Evals: 0 
+
+promedio de las mejores Evals: -15 
+mediana de las mejores Evals: -15 
+Desviacion Estandar de las mejores Evals: 0 
+Min valor de mejor Evaluacion alcanzada: -1.500000e+01 -15 
+Max valor de mejor Evaluacion alcanzada: -1.500000e+01 -15 

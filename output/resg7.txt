@@ -1,0 +1,1222 @@
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 7 200 data/g7.txt 300000 1 0.05 0.9 0.7 30
+#Parametros: 
+#tamanio Poblacion: 200 , dimension: 10 
+#num max de Evals: 300000 
+#CR: 0.9, F: 0.7 
+#Total de Repeticiones: 30 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 57.8037 
+#mediana de las mejores Evals: 44.0719 
+#Desviacion Estandar de las mejores Evals: 30.4199 
+#
+#promedio de la generacion del Mejor: 1495.43 
+#Min valor de mejor Evaluacion alcanzada: 3.649602e+01 36.496 
+#Max valor de mejor Evaluacion alcanzada: 1.642206e+02 164.221 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 28.7948 
+#mediana de las mejores Evals: 27.0637 
+#Desviacion Estandar de las mejores Evals: 3.47801 
+#
+#promedio de la generacion del Mejor: 1464.77 
+#Min valor de mejor Evaluacion alcanzada: 2.560718e+01 25.6072 
+#Max valor de mejor Evaluacion alcanzada: 3.948058e+01 39.4806 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 25.1396 
+#mediana de las mejores Evals: 25.4748 
+#Desviacion Estandar de las mejores Evals: 0.422229 
+#
+#promedio de la generacion del Mejor: 1405.93 
+#Min valor de mejor Evaluacion alcanzada: 2.449992e+01 24.4999 
+#Max valor de mejor Evaluacion alcanzada: 2.620923e+01 26.2092 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.5773 
+#mediana de las mejores Evals: 24.6366 
+#Desviacion Estandar de las mejores Evals: 0.0888004 
+#
+#promedio de la generacion del Mejor: 1398.17 
+#Min valor de mejor Evaluacion alcanzada: 2.446416e+01 24.4642 
+#Max valor de mejor Evaluacion alcanzada: 2.480169e+01 24.8017 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.5865 
+#mediana de las mejores Evals: 24.5287 
+#Desviacion Estandar de las mejores Evals: 0.0568472 
+#
+#promedio de la generacion del Mejor: 1366.9 
+#Min valor de mejor Evaluacion alcanzada: 2.450050e+01 24.5005 
+#Max valor de mejor Evaluacion alcanzada: 2.470102e+01 24.701 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.6123 
+#mediana de las mejores Evals: 24.5726 
+#Desviacion Estandar de las mejores Evals: 0.0783117 
+#
+#promedio de la generacion del Mejor: 1402.17 
+#Min valor de mejor Evaluacion alcanzada: 2.445260e+01 24.4526 
+#Max valor de mejor Evaluacion alcanzada: 2.475798e+01 24.758 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.6809 
+#mediana de las mejores Evals: 24.6366 
+#Desviacion Estandar de las mejores Evals: 0.130361 
+#
+#promedio de la generacion del Mejor: 1368 
+#Min valor de mejor Evaluacion alcanzada: 2.450066e+01 24.5007 
+#Max valor de mejor Evaluacion alcanzada: 2.497277e+01 24.9728 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.7982 
+#mediana de las mejores Evals: 24.8998 
+#Desviacion Estandar de las mejores Evals: 0.138435 
+#
+#promedio de la generacion del Mejor: 1409.77 
+#Min valor de mejor Evaluacion alcanzada: 2.452364e+01 24.5236 
+#Max valor de mejor Evaluacion alcanzada: 2.505273e+01 25.0527 
+#
+#------------------------------------------------
+#
+#CR: 0.1, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.966 
+#mediana de las mejores Evals: 24.7814 
+#Desviacion Estandar de las mejores Evals: 0.197241 
+#
+#promedio de la generacion del Mejor: 1401.9 
+#Min valor de mejor Evaluacion alcanzada: 2.456017e+01 24.5602 
+#Max valor de mejor Evaluacion alcanzada: 2.545311e+01 25.4531 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 303.376 
+#mediana de las mejores Evals: 269.033 
+#Desviacion Estandar de las mejores Evals: 129.942 
+#
+#promedio de la generacion del Mejor: 1497.3 
+#Min valor de mejor Evaluacion alcanzada: 8.057909e+01 80.5791 
+#Max valor de mejor Evaluacion alcanzada: 5.789563e+02 578.956 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 54.0237 
+#mediana de las mejores Evals: 53.9019 
+#Desviacion Estandar de las mejores Evals: 13.3643 
+#
+#promedio de la generacion del Mejor: 1492.43 
+#Min valor de mejor Evaluacion alcanzada: 3.768327e+01 37.6833 
+#Max valor de mejor Evaluacion alcanzada: 1.011974e+02 101.197 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 26.1487 
+#mediana de las mejores Evals: 26.0356 
+#Desviacion Estandar de las mejores Evals: 1.1615 
+#
+#promedio de la generacion del Mejor: 1427.47 
+#Min valor de mejor Evaluacion alcanzada: 2.477508e+01 24.7751 
+#Max valor de mejor Evaluacion alcanzada: 2.935727e+01 29.3573 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.4375 
+#mediana de las mejores Evals: 24.5183 
+#Desviacion Estandar de las mejores Evals: 0.0569552 
+#
+#promedio de la generacion del Mejor: 1405.13 
+#Min valor de mejor Evaluacion alcanzada: 2.437050e+01 24.3705 
+#Max valor de mejor Evaluacion alcanzada: 2.464930e+01 24.6493 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.4333 
+#mediana de las mejores Evals: 24.4376 
+#Desviacion Estandar de las mejores Evals: 0.0206141 
+#
+#promedio de la generacion del Mejor: 1352.47 
+#Min valor de mejor Evaluacion alcanzada: 2.438664e+01 24.3866 
+#Max valor de mejor Evaluacion alcanzada: 2.447990e+01 24.4799 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.4706 
+#mediana de las mejores Evals: 24.4926 
+#Desviacion Estandar de las mejores Evals: 0.0299197 
+#
+#promedio de la generacion del Mejor: 1345.87 
+#Min valor de mejor Evaluacion alcanzada: 2.442009e+01 24.4201 
+#Max valor de mejor Evaluacion alcanzada: 2.455126e+01 24.5513 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.5317 
+#mediana de las mejores Evals: 24.5278 
+#Desviacion Estandar de las mejores Evals: 0.0644532 
+#
+#promedio de la generacion del Mejor: 1376.87 
+#Min valor de mejor Evaluacion alcanzada: 2.443612e+01 24.4361 
+#Max valor de mejor Evaluacion alcanzada: 2.467580e+01 24.6758 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.6166 
+#mediana de las mejores Evals: 24.6236 
+#Desviacion Estandar de las mejores Evals: 0.07018 
+#
+#promedio de la generacion del Mejor: 1368.1 
+#Min valor de mejor Evaluacion alcanzada: 2.449495e+01 24.4949 
+#Max valor de mejor Evaluacion alcanzada: 2.475510e+01 24.7551 
+#
+#------------------------------------------------
+#
+#CR: 0.2, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.7084 
+#mediana de las mejores Evals: 24.7258 
+#Desviacion Estandar de las mejores Evals: 0.0672237 
+#
+#promedio de la generacion del Mejor: 1362.83 
+#Min valor de mejor Evaluacion alcanzada: 2.453970e+01 24.5397 
+#Max valor de mejor Evaluacion alcanzada: 2.483233e+01 24.8323 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 382.862 
+#mediana de las mejores Evals: 381.781 
+#Desviacion Estandar de las mejores Evals: 130.148 
+#
+#promedio de la generacion del Mejor: 1493.93 
+#Min valor de mejor Evaluacion alcanzada: 1.259656e+02 125.966 
+#Max valor de mejor Evaluacion alcanzada: 7.447101e+02 744.71 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 123.873 
+#mediana de las mejores Evals: 105.341 
+#Desviacion Estandar de las mejores Evals: 62.7486 
+#
+#promedio de la generacion del Mejor: 1425.57 
+#Min valor de mejor Evaluacion alcanzada: 4.682921e+01 46.8292 
+#Max valor de mejor Evaluacion alcanzada: 2.629404e+02 262.94 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 31.7868 
+#mediana de las mejores Evals: 29.2373 
+#Desviacion Estandar de las mejores Evals: 5.58141 
+#
+#promedio de la generacion del Mejor: 1484.73 
+#Min valor de mejor Evaluacion alcanzada: 2.476370e+01 24.7637 
+#Max valor de mejor Evaluacion alcanzada: 5.091870e+01 50.9187 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3738 
+#mediana de las mejores Evals: 24.3625 
+#Desviacion Estandar de las mejores Evals: 0.026914 
+#
+#promedio de la generacion del Mejor: 1372.07 
+#Min valor de mejor Evaluacion alcanzada: 2.434193e+01 24.3419 
+#Max valor de mejor Evaluacion alcanzada: 2.446577e+01 24.4658 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3779 
+#mediana de las mejores Evals: 24.3802 
+#Desviacion Estandar de las mejores Evals: 0.0137458 
+#
+#promedio de la generacion del Mejor: 1337.7 
+#Min valor de mejor Evaluacion alcanzada: 2.435066e+01 24.3507 
+#Max valor de mejor Evaluacion alcanzada: 2.440095e+01 24.4009 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.4128 
+#mediana de las mejores Evals: 24.4167 
+#Desviacion Estandar de las mejores Evals: 0.0198898 
+#
+#promedio de la generacion del Mejor: 1313.6 
+#Min valor de mejor Evaluacion alcanzada: 2.436997e+01 24.37 
+#Max valor de mejor Evaluacion alcanzada: 2.445211e+01 24.4521 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.4723 
+#mediana de las mejores Evals: 24.4457 
+#Desviacion Estandar de las mejores Evals: 0.036955 
+#
+#promedio de la generacion del Mejor: 1355.77 
+#Min valor de mejor Evaluacion alcanzada: 2.441236e+01 24.4124 
+#Max valor de mejor Evaluacion alcanzada: 2.458093e+01 24.5809 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.5622 
+#mediana de las mejores Evals: 24.5782 
+#Desviacion Estandar de las mejores Evals: 0.0570125 
+#
+#promedio de la generacion del Mejor: 1388.4 
+#Min valor de mejor Evaluacion alcanzada: 2.441926e+01 24.4193 
+#Max valor de mejor Evaluacion alcanzada: 2.468353e+01 24.6835 
+#
+#------------------------------------------------
+#
+#CR: 0.3, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.696 
+#mediana de las mejores Evals: 24.5879 
+#Desviacion Estandar de las mejores Evals: 0.0748721 
+#
+#promedio de la generacion del Mejor: 1369.23 
+#Min valor de mejor Evaluacion alcanzada: 2.452646e+01 24.5265 
+#Max valor de mejor Evaluacion alcanzada: 2.484766e+01 24.8477 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 512.745 
+#mediana de las mejores Evals: 468.915 
+#Desviacion Estandar de las mejores Evals: 158.527 
+#
+#promedio de la generacion del Mejor: 1494.1 
+#Min valor de mejor Evaluacion alcanzada: 2.611041e+02 261.104 
+#Max valor de mejor Evaluacion alcanzada: 8.288185e+02 828.819 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 240.09 
+#mediana de las mejores Evals: 226.788 
+#Desviacion Estandar de las mejores Evals: 130.22 
+#
+#promedio de la generacion del Mejor: 1376.1 
+#Min valor de mejor Evaluacion alcanzada: 6.152073e+01 61.5207 
+#Max valor de mejor Evaluacion alcanzada: 4.904729e+02 490.473 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 44.5824 
+#mediana de las mejores Evals: 43.4178 
+#Desviacion Estandar de las mejores Evals: 8.42312 
+#
+#promedio de la generacion del Mejor: 1480.37 
+#Min valor de mejor Evaluacion alcanzada: 3.341169e+01 33.4117 
+#Max valor de mejor Evaluacion alcanzada: 6.606080e+01 66.0608 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3469 
+#mediana de las mejores Evals: 24.3416 
+#Desviacion Estandar de las mejores Evals: 0.029841 
+#
+#promedio de la generacion del Mejor: 1404.63 
+#Min valor de mejor Evaluacion alcanzada: 2.431883e+01 24.3188 
+#Max valor de mejor Evaluacion alcanzada: 2.445443e+01 24.4544 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.34 
+#mediana de las mejores Evals: 24.3366 
+#Desviacion Estandar de las mejores Evals: 0.00647975 
+#
+#promedio de la generacion del Mejor: 1329.7 
+#Min valor de mejor Evaluacion alcanzada: 2.432194e+01 24.3219 
+#Max valor de mejor Evaluacion alcanzada: 2.435121e+01 24.3512 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3699 
+#mediana de las mejores Evals: 24.3495 
+#Desviacion Estandar de las mejores Evals: 0.0127348 
+#
+#promedio de la generacion del Mejor: 1335.7 
+#Min valor de mejor Evaluacion alcanzada: 2.433390e+01 24.3339 
+#Max valor de mejor Evaluacion alcanzada: 2.440139e+01 24.4014 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.4306 
+#mediana de las mejores Evals: 24.4301 
+#Desviacion Estandar de las mejores Evals: 0.0232008 
+#
+#promedio de la generacion del Mejor: 1358.4 
+#Min valor de mejor Evaluacion alcanzada: 2.436531e+01 24.3653 
+#Max valor de mejor Evaluacion alcanzada: 2.447226e+01 24.4723 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.5451 
+#mediana de las mejores Evals: 24.5278 
+#Desviacion Estandar de las mejores Evals: 0.0553866 
+#
+#promedio de la generacion del Mejor: 1365.1 
+#Min valor de mejor Evaluacion alcanzada: 2.440545e+01 24.4054 
+#Max valor de mejor Evaluacion alcanzada: 2.468487e+01 24.6849 
+#
+#------------------------------------------------
+#
+#CR: 0.4, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.7196 
+#mediana de las mejores Evals: 24.7217 
+#Desviacion Estandar de las mejores Evals: 0.0706484 
+#
+#promedio de la generacion del Mejor: 1379.9 
+#Min valor de mejor Evaluacion alcanzada: 2.456326e+01 24.5633 
+#Max valor de mejor Evaluacion alcanzada: 2.489051e+01 24.8905 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 669.001 
+#mediana de las mejores Evals: 668.189 
+#Desviacion Estandar de las mejores Evals: 220.314 
+#
+#promedio de la generacion del Mejor: 1434.33 
+#Min valor de mejor Evaluacion alcanzada: 2.717690e+02 271.769 
+#Max valor de mejor Evaluacion alcanzada: 1.142203e+03 1142.2 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 348.232 
+#mediana de las mejores Evals: 321.707 
+#Desviacion Estandar de las mejores Evals: 151.525 
+#
+#promedio de la generacion del Mejor: 1342.43 
+#Min valor de mejor Evaluacion alcanzada: 1.434361e+02 143.436 
+#Max valor de mejor Evaluacion alcanzada: 7.640587e+02 764.059 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 64.8096 
+#mediana de las mejores Evals: 57.0063 
+#Desviacion Estandar de las mejores Evals: 22.031 
+#
+#promedio de la generacion del Mejor: 1492.07 
+#Min valor de mejor Evaluacion alcanzada: 4.011453e+01 40.1145 
+#Max valor de mejor Evaluacion alcanzada: 1.190047e+02 119.005 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3534 
+#mediana de las mejores Evals: 24.3112 
+#Desviacion Estandar de las mejores Evals: 0.0712884 
+#
+#promedio de la generacion del Mejor: 1451.2 
+#Min valor de mejor Evaluacion alcanzada: 2.430979e+01 24.3098 
+#Max valor de mejor Evaluacion alcanzada: 2.459849e+01 24.5985 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3172 
+#mediana de las mejores Evals: 24.3157 
+#Desviacion Estandar de las mejores Evals: 0.00239725 
+#
+#promedio de la generacion del Mejor: 1395.13 
+#Min valor de mejor Evaluacion alcanzada: 2.431239e+01 24.3124 
+#Max valor de mejor Evaluacion alcanzada: 2.432069e+01 24.3207 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3375 
+#mediana de las mejores Evals: 24.3427 
+#Desviacion Estandar de las mejores Evals: 0.00395779 
+#
+#promedio de la generacion del Mejor: 1385.8 
+#Min valor de mejor Evaluacion alcanzada: 2.432958e+01 24.3296 
+#Max valor de mejor Evaluacion alcanzada: 2.434449e+01 24.3445 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3845 
+#mediana de las mejores Evals: 24.3892 
+#Desviacion Estandar de las mejores Evals: 0.0165208 
+#
+#promedio de la generacion del Mejor: 1377.27 
+#Min valor de mejor Evaluacion alcanzada: 2.435925e+01 24.3593 
+#Max valor de mejor Evaluacion alcanzada: 2.442925e+01 24.4293 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.48 
+#mediana de las mejores Evals: 24.4536 
+#Desviacion Estandar de las mejores Evals: 0.0393895 
+#
+#promedio de la generacion del Mejor: 1323.87 
+#Min valor de mejor Evaluacion alcanzada: 2.441549e+01 24.4155 
+#Max valor de mejor Evaluacion alcanzada: 2.455004e+01 24.55 
+#
+#------------------------------------------------
+#
+#CR: 0.5, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.6945 
+#mediana de las mejores Evals: 24.6644 
+#Desviacion Estandar de las mejores Evals: 0.0602644 
+#
+#promedio de la generacion del Mejor: 1382.07 
+#Min valor de mejor Evaluacion alcanzada: 2.456968e+01 24.5697 
+#Max valor de mejor Evaluacion alcanzada: 2.480579e+01 24.8058 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 702.101 
+#mediana de las mejores Evals: 628.117 
+#Desviacion Estandar de las mejores Evals: 282.403 
+#
+#promedio de la generacion del Mejor: 1326 
+#Min valor de mejor Evaluacion alcanzada: 1.721940e+02 172.194 
+#Max valor de mejor Evaluacion alcanzada: 1.154089e+03 1154.09 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 420.291 
+#mediana de las mejores Evals: 418.533 
+#Desviacion Estandar de las mejores Evals: 184.799 
+#
+#promedio de la generacion del Mejor: 1248.33 
+#Min valor de mejor Evaluacion alcanzada: 1.323687e+02 132.369 
+#Max valor de mejor Evaluacion alcanzada: 8.009324e+02 800.932 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 87.7341 
+#mediana de las mejores Evals: 70.853 
+#Desviacion Estandar de las mejores Evals: 60.5736 
+#
+#promedio de la generacion del Mejor: 1435.97 
+#Min valor de mejor Evaluacion alcanzada: 4.231208e+01 42.3121 
+#Max valor de mejor Evaluacion alcanzada: 3.584663e+02 358.466 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 25.0738 
+#mediana de las mejores Evals: 24.3325 
+#Desviacion Estandar de las mejores Evals: 1.27868 
+#
+#promedio de la generacion del Mejor: 1466.23 
+#Min valor de mejor Evaluacion alcanzada: 2.430792e+01 24.3079 
+#Max valor de mejor Evaluacion alcanzada: 2.859636e+01 28.5964 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3078 
+#mediana de las mejores Evals: 24.3083 
+#Desviacion Estandar de las mejores Evals: 0.000401768 
+#
+#promedio de la generacion del Mejor: 1432.43 
+#Min valor de mejor Evaluacion alcanzada: 2.430684e+01 24.3068 
+#Max valor de mejor Evaluacion alcanzada: 2.430869e+01 24.3087 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3142 
+#mediana de las mejores Evals: 24.3144 
+#Desviacion Estandar de las mejores Evals: 0.00177408 
+#
+#promedio de la generacion del Mejor: 1426.43 
+#Min valor de mejor Evaluacion alcanzada: 2.430979e+01 24.3098 
+#Max valor de mejor Evaluacion alcanzada: 2.431762e+01 24.3176 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3396 
+#mediana de las mejores Evals: 24.3352 
+#Desviacion Estandar de las mejores Evals: 0.0073151 
+#
+#promedio de la generacion del Mejor: 1446.77 
+#Min valor de mejor Evaluacion alcanzada: 2.432844e+01 24.3284 
+#Max valor de mejor Evaluacion alcanzada: 2.435617e+01 24.3562 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.4194 
+#mediana de las mejores Evals: 24.4106 
+#Desviacion Estandar de las mejores Evals: 0.0175337 
+#
+#promedio de la generacion del Mejor: 1401.97 
+#Min valor de mejor Evaluacion alcanzada: 2.437752e+01 24.3775 
+#Max valor de mejor Evaluacion alcanzada: 2.444973e+01 24.4497 
+#
+#------------------------------------------------
+#
+#CR: 0.6, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.6394 
+#mediana de las mejores Evals: 24.5613 
+#Desviacion Estandar de las mejores Evals: 0.0638331 
+#
+#promedio de la generacion del Mejor: 1355.67 
+#Min valor de mejor Evaluacion alcanzada: 2.452872e+01 24.5287 
+#Max valor de mejor Evaluacion alcanzada: 2.476293e+01 24.7629 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 743.332 
+#mediana de las mejores Evals: 737.748 
+#Desviacion Estandar de las mejores Evals: 202.136 
+#
+#promedio de la generacion del Mejor: 1332.97 
+#Min valor de mejor Evaluacion alcanzada: 1.581811e+02 158.181 
+#Max valor de mejor Evaluacion alcanzada: 1.147822e+03 1147.82 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 533.83 
+#mediana de las mejores Evals: 482.2 
+#Desviacion Estandar de las mejores Evals: 206.366 
+#
+#promedio de la generacion del Mejor: 1254.83 
+#Min valor de mejor Evaluacion alcanzada: 2.509282e+02 250.928 
+#Max valor de mejor Evaluacion alcanzada: 1.007227e+03 1007.23 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 121.493 
+#mediana de las mejores Evals: 100.714 
+#Desviacion Estandar de las mejores Evals: 55.693 
+#
+#promedio de la generacion del Mejor: 1428.6 
+#Min valor de mejor Evaluacion alcanzada: 6.512749e+01 65.1275 
+#Max valor de mejor Evaluacion alcanzada: 2.693311e+02 269.331 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 26.5273 
+#mediana de las mejores Evals: 24.3262 
+#Desviacion Estandar de las mejores Evals: 2.97044 
+#
+#promedio de la generacion del Mejor: 1492.63 
+#Min valor de mejor Evaluacion alcanzada: 2.431255e+01 24.3126 
+#Max valor de mejor Evaluacion alcanzada: 3.497174e+01 34.9717 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 4.21998e-06 
+#
+#promedio de la generacion del Mejor: 1482.47 
+#Min valor de mejor Evaluacion alcanzada: 2.430622e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430624e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3065 
+#mediana de las mejores Evals: 24.3065 
+#Desviacion Estandar de las mejores Evals: 5.57877e-05 
+#
+#promedio de la generacion del Mejor: 1466.07 
+#Min valor de mejor Evaluacion alcanzada: 2.430642e+01 24.3064 
+#Max valor de mejor Evaluacion alcanzada: 2.430661e+01 24.3066 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3107 
+#mediana de las mejores Evals: 24.3114 
+#Desviacion Estandar de las mejores Evals: 0.00109815 
+#
+#promedio de la generacion del Mejor: 1463.33 
+#Min valor de mejor Evaluacion alcanzada: 2.430847e+01 24.3085 
+#Max valor de mejor Evaluacion alcanzada: 2.431318e+01 24.3132 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3502 
+#mediana de las mejores Evals: 24.3526 
+#Desviacion Estandar de las mejores Evals: 0.00868115 
+#
+#promedio de la generacion del Mejor: 1423.57 
+#Min valor de mejor Evaluacion alcanzada: 2.433114e+01 24.3311 
+#Max valor de mejor Evaluacion alcanzada: 2.436443e+01 24.3644 
+#
+#------------------------------------------------
+#
+#CR: 0.7, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.512 
+#mediana de las mejores Evals: 24.4807 
+#Desviacion Estandar de las mejores Evals: 0.0415069 
+#
+#promedio de la generacion del Mejor: 1408.33 
+#Min valor de mejor Evaluacion alcanzada: 2.444291e+01 24.4429 
+#Max valor de mejor Evaluacion alcanzada: 2.460588e+01 24.6059 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 866.594 
+#mediana de las mejores Evals: 800.182 
+#Desviacion Estandar de las mejores Evals: 298.2 
+#
+#promedio de la generacion del Mejor: 1198.33 
+#Min valor de mejor Evaluacion alcanzada: 4.147233e+02 414.723 
+#Max valor de mejor Evaluacion alcanzada: 1.624358e+03 1624.36 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 601.861 
+#mediana de las mejores Evals: 506.683 
+#Desviacion Estandar de las mejores Evals: 264.787 
+#
+#promedio de la generacion del Mejor: 1069.2 
+#Min valor de mejor Evaluacion alcanzada: 1.971838e+02 197.184 
+#Max valor de mejor Evaluacion alcanzada: 1.204966e+03 1204.97 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 209.471 
+#mediana de las mejores Evals: 216.839 
+#Desviacion Estandar de las mejores Evals: 104.431 
+#
+#promedio de la generacion del Mejor: 1270.7 
+#Min valor de mejor Evaluacion alcanzada: 7.864972e+01 78.6497 
+#Max valor de mejor Evaluacion alcanzada: 4.903199e+02 490.32 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 32.883 
+#mediana de las mejores Evals: 29.8635 
+#Desviacion Estandar de las mejores Evals: 6.27074 
+#
+#promedio de la generacion del Mejor: 1441.27 
+#Min valor de mejor Evaluacion alcanzada: 2.434764e+01 24.3476 
+#Max valor de mejor Evaluacion alcanzada: 4.907148e+01 49.0715 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 1.57516e-12 
+#
+#promedio de la generacion del Mejor: 1492.9 
+#Min valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 2.33457e-09 
+#
+#promedio de la generacion del Mejor: 1488.5 
+#Min valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 5.55839e-06 
+#
+#promedio de la generacion del Mejor: 1476.8 
+#Min valor de mejor Evaluacion alcanzada: 2.430622e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430624e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3091 
+#mediana de las mejores Evals: 24.3084 
+#Desviacion Estandar de las mejores Evals: 0.000824237 
+#
+#promedio de la generacion del Mejor: 1468.03 
+#Min valor de mejor Evaluacion alcanzada: 2.430811e+01 24.3081 
+#Max valor de mejor Evaluacion alcanzada: 2.431087e+01 24.3109 
+#
+#------------------------------------------------
+#
+#CR: 0.8, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3805 
+#mediana de las mejores Evals: 24.3856 
+#Desviacion Estandar de las mejores Evals: 0.0176072 
+#
+#promedio de la generacion del Mejor: 1440.33 
+#Min valor de mejor Evaluacion alcanzada: 2.435391e+01 24.3539 
+#Max valor de mejor Evaluacion alcanzada: 2.441217e+01 24.4122 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.1 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 887.184 
+#mediana de las mejores Evals: 827.245 
+#Desviacion Estandar de las mejores Evals: 301.049 
+#
+#promedio de la generacion del Mejor: 1263.6 
+#Min valor de mejor Evaluacion alcanzada: 3.088142e+02 308.814 
+#Max valor de mejor Evaluacion alcanzada: 1.512595e+03 1512.59 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.2 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 669.767 
+#mediana de las mejores Evals: 663.827 
+#Desviacion Estandar de las mejores Evals: 195.721 
+#
+#promedio de la generacion del Mejor: 1078.07 
+#Min valor de mejor Evaluacion alcanzada: 2.857389e+02 285.739 
+#Max valor de mejor Evaluacion alcanzada: 1.070433e+03 1070.43 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.3 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 368.881 
+#mediana de las mejores Evals: 334.26 
+#Desviacion Estandar de las mejores Evals: 219.724 
+#
+#promedio de la generacion del Mejor: 923.3 
+#Min valor de mejor Evaluacion alcanzada: 1.448076e+02 144.808 
+#Max valor de mejor Evaluacion alcanzada: 1.202095e+03 1202.1 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.4 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 41.3637 
+#mediana de las mejores Evals: 38.247 
+#Desviacion Estandar de las mejores Evals: 11.6303 
+#
+#promedio de la generacion del Mejor: 1414.4 
+#Min valor de mejor Evaluacion alcanzada: 2.656122e+01 26.5612 
+#Max valor de mejor Evaluacion alcanzada: 7.651270e+01 76.5127 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.5 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 7.07473e-15 
+#
+#promedio de la generacion del Mejor: 1188.43 
+#Min valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.6 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 8.1068e-15 
+#
+#promedio de la generacion del Mejor: 1362.53 
+#Min valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.7 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 9.5457e-13 
+#
+#promedio de la generacion del Mejor: 1492.93 
+#Min valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.8 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3062 
+#mediana de las mejores Evals: 24.3062 
+#Desviacion Estandar de las mejores Evals: 1.25601e-06 
+#
+#promedio de la generacion del Mejor: 1483.47 
+#Min valor de mejor Evaluacion alcanzada: 2.430621e+01 24.3062 
+#Max valor de mejor Evaluacion alcanzada: 2.430622e+01 24.3062 
+#
+#------------------------------------------------
+#
+#CR: 0.9, F: 0.9 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 24.3109 
+#mediana de las mejores Evals: 24.3114 
+#Desviacion Estandar de las mejores Evals: 0.00125185 
+#
+#promedio de la generacion del Mejor: 1473.7 
+#Min valor de mejor Evaluacion alcanzada: 2.430831e+01 24.3083 
+#Max valor de mejor Evaluacion alcanzada: 2.431382e+01 24.3138 

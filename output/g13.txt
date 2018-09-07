@@ -1,0 +1,1821 @@
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 13 200 data/g13.txt 300000 1 0.05 0.45 0.8 1
+#Parametros: 
+#tamanio Poblacion: 200 , dimension: 5 
+#num max de Evals: 300000 
+#CR: 0.45, F: 0.8 
+#Total de Repeticiones: 1 
+#
+#CR: 0.45, F: 0.8 
+gen 0 eps 1 tFac 1 bestEval 0.518874 STV 0 
+gen 1 eps 1 tFac 2 bestEval 0.518874 STV 0 
+gen 2 eps 1 tFac 3 bestEval 0.518874 STV 0 
+gen 3 eps 1 tFac 3 bestEval 0.518874 STV 0 
+gen 4 eps 1 tFac 4 bestEval 0.518874 STV 0 
+gen 5 eps 1 tFac 4 bestEval 0.518874 STV 0 
+gen 6 eps 1 tFac 6 bestEval 0.518874 STV 0 
+gen 7 eps 1 tFac 8 bestEval 0.518874 STV 0 
+gen 8 eps 1 tFac 8 bestEval 0.518874 STV 0 
+gen 9 eps 1 tFac 8 bestEval 0.518874 STV 0 
+gen 10 eps 1 tFac 10 bestEval 0.518874 STV 0 
+gen 11 eps 1 tFac 10 bestEval 0.518874 STV 0 
+gen 12 eps 1 tFac 12 bestEval 0.518874 STV 0 
+gen 13 eps 1 tFac 13 bestEval 0.518874 STV 0 
+gen 14 eps 1 tFac 14 bestEval 0.518874 STV 0 
+gen 15 eps 1 tFac 17 bestEval 0.43471 STV 0 
+gen 16 eps 1 tFac 18 bestEval 0.43471 STV 0 
+gen 17 eps 0.9 tFac 14 bestEval 0.43471 STV 0 
+gen 18 eps 0.9 tFac 15 bestEval 0.43471 STV 0 
+gen 19 eps 0.9 tFac 18 bestEval 0.423786 STV 0 
+gen 20 eps 0.9 tFac 18 bestEval 0.423786 STV 0 
+gen 21 eps 0.81 tFac 9 bestEval 0.43471 STV 0 
+gen 22 eps 0.81 tFac 9 bestEval 0.43471 STV 0 
+gen 23 eps 0.81 tFac 11 bestEval 0.43471 STV 0 
+gen 24 eps 0.81 tFac 14 bestEval 0.43471 STV 0 
+gen 25 eps 0.81 tFac 15 bestEval 0.43471 STV 0 
+gen 26 eps 0.81 tFac 16 bestEval 0.43471 STV 0 
+gen 27 eps 0.81 tFac 17 bestEval 0.43471 STV 0 
+gen 28 eps 0.81 tFac 19 bestEval 0.43471 STV 0 
+gen 29 eps 0.81 tFac 20 bestEval 0.43471 STV 0 
+gen 30 eps 0.729 tFac 14 bestEval 0.43471 STV 0 
+gen 31 eps 0.729 tFac 15 bestEval 0.43471 STV 0 
+gen 32 eps 0.729 tFac 15 bestEval 0.43471 STV 0 
+gen 33 eps 0.729 tFac 15 bestEval 0.43471 STV 0 
+gen 34 eps 0.729 tFac 15 bestEval 0.43471 STV 0 
+gen 35 eps 0.729 tFac 15 bestEval 0.43471 STV 0 
+gen 36 eps 0.729 tFac 15 bestEval 0.43471 STV 0 
+gen 37 eps 0.729 tFac 16 bestEval 0.43471 STV 0 
+gen 38 eps 0.729 tFac 17 bestEval 0.43471 STV 0 
+gen 39 eps 0.729 tFac 18 bestEval 0.43471 STV 0 
+gen 40 eps 0.729 tFac 19 bestEval 0.43471 STV 0 
+gen 41 eps 0.729 tFac 19 bestEval 0.43471 STV 0 
+gen 42 eps 0.729 tFac 20 bestEval 0.43471 STV 0 
+gen 43 eps 0.6561 tFac 14 bestEval 0.45824 STV 0 
+gen 44 eps 0.6561 tFac 15 bestEval 0.366941 STV 0 
+gen 45 eps 0.6561 tFac 16 bestEval 0.366941 STV 0 
+gen 46 eps 0.6561 tFac 17 bestEval 0.366941 STV 0 
+gen 47 eps 0.6561 tFac 19 bestEval 0.366941 STV 0 
+gen 48 eps 0.6561 tFac 19 bestEval 0.366941 STV 0 
+gen 49 eps 0.6561 tFac 19 bestEval 0.366941 STV 0 
+gen 50 eps 0.6561 tFac 20 bestEval 0.366941 STV 0 
+gen 51 eps 0.6561 tFac 20 bestEval 0.366941 STV 0 
+gen 52 eps 0.6561 tFac 20 bestEval 0.366941 STV 0 
+gen 53 eps 0.6561 tFac 20 bestEval 0.366941 STV 0 
+gen 54 eps 0.59049 tFac 15 bestEval 0.366941 STV 0 
+gen 55 eps 0.59049 tFac 15 bestEval 0.366941 STV 0 
+gen 56 eps 0.59049 tFac 18 bestEval 0.366941 STV 0 
+gen 57 eps 0.59049 tFac 20 bestEval 0.366941 STV 0 
+gen 58 eps 0.531441 tFac 15 bestEval 0.366941 STV 0 
+gen 59 eps 0.531441 tFac 16 bestEval 0.366941 STV 0 
+gen 60 eps 0.531441 tFac 16 bestEval 0.366941 STV 0 
+gen 61 eps 0.531441 tFac 18 bestEval 0.366941 STV 0 
+gen 62 eps 0.531441 tFac 20 bestEval 0.366941 STV 0 
+gen 63 eps 0.478297 tFac 14 bestEval 0.401169 STV 0 
+gen 64 eps 0.478297 tFac 14 bestEval 0.401169 STV 0 
+gen 65 eps 0.478297 tFac 14 bestEval 0.401169 STV 0 
+gen 66 eps 0.478297 tFac 14 bestEval 0.401169 STV 0 
+gen 67 eps 0.478297 tFac 16 bestEval 0.401169 STV 0 
+gen 68 eps 0.478297 tFac 16 bestEval 0.401169 STV 0 
+gen 69 eps 0.478297 tFac 16 bestEval 0.401169 STV 0 
+gen 70 eps 0.478297 tFac 16 bestEval 0.401169 STV 0 
+gen 71 eps 0.478297 tFac 17 bestEval 0.401169 STV 0 
+gen 72 eps 0.478297 tFac 17 bestEval 0.401169 STV 0 
+gen 73 eps 0.478297 tFac 18 bestEval 0.401169 STV 0 
+gen 74 eps 0.478297 tFac 19 bestEval 0.401169 STV 0 
+gen 75 eps 0.478297 tFac 19 bestEval 0.401169 STV 0 
+gen 76 eps 0.478297 tFac 19 bestEval 0.401169 STV 0 
+gen 77 eps 0.478297 tFac 19 bestEval 0.401169 STV 0 
+gen 78 eps 0.478297 tFac 19 bestEval 0.401169 STV 0 
+gen 79 eps 0.478297 tFac 20 bestEval 0.401169 STV 0 
+gen 80 eps 0.478297 tFac 20 bestEval 0.401169 STV 0 
+gen 81 eps 0.430467 tFac 14 bestEval 0.401169 STV 0 
+gen 82 eps 0.430467 tFac 14 bestEval 0.401169 STV 0 
+gen 83 eps 0.430467 tFac 14 bestEval 0.401169 STV 0 
+gen 84 eps 0.430467 tFac 16 bestEval 0.401169 STV 0 
+gen 85 eps 0.430467 tFac 16 bestEval 0.401169 STV 0 
+gen 86 eps 0.430467 tFac 17 bestEval 0.401169 STV 0 
+gen 87 eps 0.430467 tFac 18 bestEval 0.401169 STV 0 
+gen 88 eps 0.430467 tFac 18 bestEval 0.401169 STV 0 
+gen 89 eps 0.430467 tFac 18 bestEval 0.401169 STV 0 
+gen 90 eps 0.430467 tFac 18 bestEval 0.401169 STV 0 
+gen 91 eps 0.430467 tFac 18 bestEval 0.401169 STV 0 
+gen 92 eps 0.430467 tFac 18 bestEval 0.401169 STV 0 
+gen 93 eps 0.430467 tFac 18 bestEval 0.401169 STV 0 
+gen 94 eps 0.430467 tFac 19 bestEval 0.401169 STV 0 
+gen 95 eps 0.38742 tFac 12 bestEval 0.567077 STV 0 
+gen 96 eps 0.38742 tFac 12 bestEval 0.567077 STV 0 
+gen 97 eps 0.38742 tFac 15 bestEval 0.567077 STV 0 
+gen 98 eps 0.38742 tFac 15 bestEval 0.567077 STV 0 
+gen 99 eps 0.38742 tFac 16 bestEval 0.567077 STV 0 
+gen 100 eps 0.38742 tFac 16 bestEval 0.567077 STV 0 
+gen 101 eps 0.38742 tFac 19 bestEval 0.468822 STV 0 
+gen 102 eps 0.348678 tFac 17 bestEval 0.468822 STV 0 
+gen 103 eps 0.348678 tFac 17 bestEval 0.468822 STV 0 
+gen 104 eps 0.348678 tFac 17 bestEval 0.468822 STV 0 
+gen 105 eps 0.348678 tFac 18 bestEval 0.468822 STV 0 
+gen 106 eps 0.348678 tFac 18 bestEval 0.468822 STV 0 
+gen 107 eps 0.313811 tFac 10 bestEval 0.402168 STV 0 
+gen 108 eps 0.313811 tFac 10 bestEval 0.402168 STV 0 
+gen 109 eps 0.313811 tFac 10 bestEval 0.402168 STV 0 
+gen 110 eps 0.313811 tFac 10 bestEval 0.402168 STV 0 
+gen 111 eps 0.313811 tFac 11 bestEval 0.402168 STV 0 
+gen 112 eps 0.313811 tFac 11 bestEval 0.402168 STV 0 
+gen 113 eps 0.313811 tFac 11 bestEval 0.402168 STV 0 
+gen 114 eps 0.313811 tFac 12 bestEval 0.402168 STV 0 
+gen 115 eps 0.313811 tFac 12 bestEval 0.402168 STV 0 
+gen 116 eps 0.313811 tFac 12 bestEval 0.402168 STV 0 
+gen 117 eps 0.313811 tFac 12 bestEval 0.402168 STV 0 
+gen 118 eps 0.313811 tFac 12 bestEval 0.402168 STV 0 
+gen 119 eps 0.313811 tFac 13 bestEval 0.402168 STV 0 
+gen 120 eps 0.313811 tFac 13 bestEval 0.402168 STV 0 
+gen 121 eps 0.313811 tFac 13 bestEval 0.402168 STV 0 
+gen 122 eps 0.313811 tFac 14 bestEval 0.402168 STV 0 
+gen 123 eps 0.313811 tFac 14 bestEval 0.402168 STV 0 
+gen 124 eps 0.313811 tFac 15 bestEval 0.402168 STV 0 
+gen 125 eps 0.313811 tFac 15 bestEval 0.402168 STV 0 
+gen 126 eps 0.313811 tFac 16 bestEval 0.402168 STV 0 
+gen 127 eps 0.313811 tFac 17 bestEval 0.402168 STV 0 
+gen 128 eps 0.313811 tFac 17 bestEval 0.402168 STV 0 
+gen 129 eps 0.313811 tFac 17 bestEval 0.402168 STV 0 
+gen 130 eps 0.313811 tFac 18 bestEval 0.402168 STV 0 
+gen 131 eps 0.28243 tFac 17 bestEval 0.402168 STV 0 
+gen 132 eps 0.28243 tFac 19 bestEval 0.402168 STV 0 
+gen 133 eps 0.28243 tFac 19 bestEval 0.402168 STV 0 
+gen 134 eps 0.28243 tFac 19 bestEval 0.402168 STV 0 
+gen 135 eps 0.28243 tFac 20 bestEval 0.402168 STV 0 
+gen 136 eps 0.254187 tFac 16 bestEval 0.402168 STV 0 
+gen 137 eps 0.254187 tFac 16 bestEval 0.402168 STV 0 
+gen 138 eps 0.254187 tFac 17 bestEval 0.402168 STV 0 
+gen 139 eps 0.254187 tFac 17 bestEval 0.402168 STV 0 
+gen 140 eps 0.254187 tFac 17 bestEval 0.402168 STV 0 
+gen 141 eps 0.254187 tFac 17 bestEval 0.402168 STV 0 
+gen 142 eps 0.254187 tFac 17 bestEval 0.402168 STV 0 
+gen 143 eps 0.254187 tFac 17 bestEval 0.402168 STV 0 
+gen 144 eps 0.254187 tFac 18 bestEval 0.402168 STV 0 
+gen 145 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 146 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 147 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 148 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 149 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 150 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 151 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 152 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 153 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 154 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 155 eps 0.254187 tFac 19 bestEval 0.402168 STV 0 
+gen 156 eps 0.254187 tFac 20 bestEval 0.402168 STV 0 
+gen 157 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 158 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 159 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 160 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 161 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 162 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 163 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 164 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 165 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 166 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 167 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 168 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 169 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 170 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 171 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 172 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 173 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 174 eps 0.228768 tFac 17 bestEval 0.402168 STV 0 
+gen 175 eps 0.228768 tFac 18 bestEval 0.402168 STV 0 
+gen 176 eps 0.228768 tFac 18 bestEval 0.402168 STV 0 
+gen 177 eps 0.228768 tFac 18 bestEval 0.402168 STV 0 
+gen 178 eps 0.228768 tFac 19 bestEval 0.402168 STV 0 
+gen 179 eps 0.228768 tFac 19 bestEval 0.402168 STV 0 
+gen 180 eps 0.228768 tFac 19 bestEval 0.402168 STV 0 
+gen 181 eps 0.205891 tFac 10 bestEval 0.402168 STV 0 
+gen 182 eps 0.205891 tFac 11 bestEval 0.402168 STV 0 
+gen 183 eps 0.205891 tFac 11 bestEval 0.402168 STV 0 
+gen 184 eps 0.205891 tFac 11 bestEval 0.402168 STV 0 
+gen 185 eps 0.205891 tFac 12 bestEval 0.402168 STV 0 
+gen 186 eps 0.205891 tFac 13 bestEval 0.402168 STV 0 
+gen 187 eps 0.205891 tFac 14 bestEval 0.402168 STV 0 
+gen 188 eps 0.205891 tFac 14 bestEval 0.402168 STV 0 
+gen 189 eps 0.205891 tFac 15 bestEval 0.402168 STV 0 
+gen 190 eps 0.205891 tFac 15 bestEval 0.402168 STV 0 
+gen 191 eps 0.205891 tFac 15 bestEval 0.402168 STV 0 
+gen 192 eps 0.205891 tFac 15 bestEval 0.402168 STV 0 
+gen 193 eps 0.205891 tFac 16 bestEval 0.402168 STV 0 
+gen 194 eps 0.205891 tFac 16 bestEval 0.402168 STV 0 
+gen 195 eps 0.205891 tFac 16 bestEval 0.402168 STV 0 
+gen 196 eps 0.205891 tFac 17 bestEval 0.402168 STV 0 
+gen 197 eps 0.205891 tFac 17 bestEval 0.402168 STV 0 
+gen 198 eps 0.205891 tFac 17 bestEval 0.402168 STV 0 
+gen 199 eps 0.205891 tFac 17 bestEval 0.402168 STV 0 
+gen 200 eps 0.205891 tFac 17 bestEval 0.402168 STV 0 
+gen 201 eps 0.205891 tFac 17 bestEval 0.402168 STV 0 
+gen 202 eps 0.205891 tFac 18 bestEval 0.402168 STV 0 
+gen 203 eps 0.205891 tFac 19 bestEval 0.402168 STV 0 
+gen 204 eps 0.205891 tFac 20 bestEval 0.402168 STV 0 
+gen 205 eps 0.205891 tFac 20 bestEval 0.402168 STV 0 
+gen 206 eps 0.185302 tFac 14 bestEval 0.565494 STV 0 
+gen 207 eps 0.185302 tFac 14 bestEval 0.565494 STV 0 
+gen 208 eps 0.185302 tFac 14 bestEval 0.565494 STV 0 
+gen 209 eps 0.185302 tFac 14 bestEval 0.565494 STV 0 
+gen 210 eps 0.185302 tFac 14 bestEval 0.565494 STV 0 
+gen 211 eps 0.185302 tFac 14 bestEval 0.565494 STV 0 
+gen 212 eps 0.185302 tFac 16 bestEval 0.565494 STV 0 
+gen 213 eps 0.185302 tFac 16 bestEval 0.565494 STV 0 
+gen 214 eps 0.185302 tFac 16 bestEval 0.565494 STV 0 
+gen 215 eps 0.185302 tFac 17 bestEval 0.565494 STV 0 
+gen 216 eps 0.185302 tFac 17 bestEval 0.565494 STV 0 
+gen 217 eps 0.185302 tFac 17 bestEval 0.565494 STV 0 
+gen 218 eps 0.185302 tFac 17 bestEval 0.565494 STV 0 
+gen 219 eps 0.185302 tFac 17 bestEval 0.565494 STV 0 
+gen 220 eps 0.185302 tFac 17 bestEval 0.565494 STV 0 
+gen 221 eps 0.185302 tFac 20 bestEval 0.565494 STV 0 
+gen 222 eps 0.166772 tFac 17 bestEval 0.56302 STV 0 
+gen 223 eps 0.166772 tFac 17 bestEval 0.56302 STV 0 
+gen 224 eps 0.166772 tFac 17 bestEval 0.56302 STV 0 
+gen 225 eps 0.166772 tFac 17 bestEval 0.56302 STV 0 
+gen 226 eps 0.166772 tFac 18 bestEval 0.56302 STV 0 
+gen 227 eps 0.166772 tFac 19 bestEval 0.56302 STV 0 
+gen 228 eps 0.166772 tFac 19 bestEval 0.562349 STV 0 
+gen 229 eps 0.166772 tFac 19 bestEval 0.562349 STV 0 
+gen 230 eps 0.166772 tFac 19 bestEval 0.562349 STV 0 
+gen 231 eps 0.166772 tFac 19 bestEval 0.562349 STV 0 
+gen 232 eps 0.166772 tFac 19 bestEval 0.441873 STV 0 
+gen 233 eps 0.166772 tFac 19 bestEval 0.441873 STV 0 
+gen 234 eps 0.166772 tFac 19 bestEval 0.441873 STV 0 
+gen 235 eps 0.166772 tFac 19 bestEval 0.441873 STV 0 
+gen 236 eps 0.166772 tFac 20 bestEval 0.441873 STV 0 
+gen 237 eps 0.150095 tFac 14 bestEval 0.556632 STV 0 
+gen 238 eps 0.150095 tFac 14 bestEval 0.556632 STV 0 
+gen 239 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 240 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 241 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 242 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 243 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 244 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 245 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 246 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 247 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 248 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 249 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 250 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 251 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 252 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 253 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 254 eps 0.150095 tFac 15 bestEval 0.556632 STV 0 
+gen 255 eps 0.150095 tFac 16 bestEval 0.556632 STV 0 
+gen 256 eps 0.150095 tFac 16 bestEval 0.556632 STV 0 
+gen 257 eps 0.150095 tFac 16 bestEval 0.556632 STV 0 
+gen 258 eps 0.150095 tFac 17 bestEval 0.556632 STV 0 
+gen 259 eps 0.150095 tFac 17 bestEval 0.556632 STV 0 
+gen 260 eps 0.150095 tFac 17 bestEval 0.556632 STV 0 
+gen 261 eps 0.150095 tFac 17 bestEval 0.556632 STV 0 
+gen 262 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 263 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 264 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 265 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 266 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 267 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 268 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 269 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 270 eps 0.150095 tFac 18 bestEval 0.556632 STV 0 
+gen 271 eps 0.150095 tFac 19 bestEval 0.556632 STV 0 
+gen 272 eps 0.150095 tFac 19 bestEval 0.556632 STV 0 
+gen 273 eps 0.135085 tFac 15 bestEval 0.556632 STV 0 
+gen 274 eps 0.135085 tFac 15 bestEval 0.556632 STV 0 
+gen 275 eps 0.135085 tFac 15 bestEval 0.556632 STV 0 
+gen 276 eps 0.135085 tFac 15 bestEval 0.556632 STV 0 
+gen 277 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 278 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 279 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 280 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 281 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 282 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 283 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 284 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 285 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 286 eps 0.135085 tFac 16 bestEval 0.441657 STV 0 
+gen 287 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 288 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 289 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 290 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 291 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 292 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 293 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 294 eps 0.135085 tFac 17 bestEval 0.441657 STV 0 
+gen 295 eps 0.135085 tFac 18 bestEval 0.441657 STV 0 
+gen 296 eps 0.135085 tFac 19 bestEval 0.441657 STV 0 
+gen 297 eps 0.135085 tFac 19 bestEval 0.441657 STV 0 
+gen 298 eps 0.135085 tFac 19 bestEval 0.441657 STV 0 
+gen 299 eps 0.135085 tFac 19 bestEval 0.441657 STV 0 
+gen 300 eps 0.135085 tFac 19 bestEval 0.441657 STV 0 
+gen 301 eps 0.135085 tFac 19 bestEval 0.441657 STV 0 
+gen 302 eps 0.135085 tFac 19 bestEval 0.441657 STV 0 
+gen 303 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 304 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 305 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 306 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 307 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 308 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 309 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 310 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 311 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 312 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 313 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 314 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 315 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 316 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 317 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 318 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 319 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 320 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 321 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 322 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 323 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 324 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 325 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 326 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 327 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 328 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 329 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 330 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 331 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 332 eps 0.135085 tFac 20 bestEval 0.441657 STV 0 
+gen 333 eps 0.121577 tFac 17 bestEval 0.441657 STV 0 
+gen 334 eps 0.121577 tFac 17 bestEval 0.441657 STV 0 
+gen 335 eps 0.121577 tFac 17 bestEval 0.441657 STV 0 
+gen 336 eps 0.121577 tFac 17 bestEval 0.441657 STV 0 
+gen 337 eps 0.121577 tFac 17 bestEval 0.441657 STV 0 
+gen 338 eps 0.121577 tFac 17 bestEval 0.441657 STV 0 
+gen 339 eps 0.121577 tFac 17 bestEval 0.441657 STV 0 
+gen 340 eps 0.121577 tFac 18 bestEval 0.441657 STV 0 
+gen 341 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 342 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 343 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 344 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 345 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 346 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 347 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 348 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 349 eps 0.121577 tFac 19 bestEval 0.441657 STV 0 
+gen 350 eps 0.121577 tFac 20 bestEval 0.441657 STV 0 
+gen 351 eps 0.121577 tFac 20 bestEval 0.441657 STV 0 
+gen 352 eps 0.121577 tFac 20 bestEval 0.441657 STV 0 
+gen 353 eps 0.121577 tFac 20 bestEval 0.441657 STV 0 
+gen 354 eps 0.121577 tFac 20 bestEval 0.441657 STV 0 
+gen 355 eps 0.109419 tFac 15 bestEval 0.562349 STV 0 
+gen 356 eps 0.109419 tFac 15 bestEval 0.562349 STV 0 
+gen 357 eps 0.109419 tFac 15 bestEval 0.562349 STV 0 
+gen 358 eps 0.109419 tFac 15 bestEval 0.562349 STV 0 
+gen 359 eps 0.109419 tFac 15 bestEval 0.562349 STV 0 
+gen 360 eps 0.109419 tFac 15 bestEval 0.562349 STV 0 
+gen 361 eps 0.109419 tFac 16 bestEval 0.562349 STV 0 
+gen 362 eps 0.109419 tFac 16 bestEval 0.562349 STV 0 
+gen 363 eps 0.109419 tFac 16 bestEval 0.562349 STV 0 
+gen 364 eps 0.109419 tFac 16 bestEval 0.562349 STV 0 
+gen 365 eps 0.109419 tFac 16 bestEval 0.562349 STV 0 
+gen 366 eps 0.109419 tFac 17 bestEval 0.562349 STV 0 
+gen 367 eps 0.109419 tFac 17 bestEval 0.562349 STV 0 
+gen 368 eps 0.109419 tFac 18 bestEval 0.562349 STV 0 
+gen 369 eps 0.109419 tFac 19 bestEval 0.562349 STV 0 
+gen 370 eps 0.109419 tFac 19 bestEval 0.562349 STV 0 
+gen 371 eps 0.109419 tFac 19 bestEval 0.562349 STV 0 
+gen 372 eps 0.109419 tFac 19 bestEval 0.562349 STV 0 
+gen 373 eps 0.109419 tFac 19 bestEval 0.562349 STV 0 
+gen 374 eps 0.109419 tFac 19 bestEval 0.562349 STV 0 
+gen 375 eps 0.109419 tFac 20 bestEval 0.562349 STV 0 
+gen 376 eps 0.109419 tFac 20 bestEval 0.562349 STV 0 
+gen 377 eps 0.109419 tFac 20 bestEval 0.562349 STV 0 
+gen 378 eps 0.109419 tFac 20 bestEval 0.562349 STV 0 
+gen 379 eps 0.0984771 tFac 15 bestEval 0.562349 STV 0 
+gen 380 eps 0.0984771 tFac 15 bestEval 0.562349 STV 0 
+gen 381 eps 0.0984771 tFac 15 bestEval 0.562349 STV 0 
+gen 382 eps 0.0984771 tFac 15 bestEval 0.562349 STV 0 
+gen 383 eps 0.0984771 tFac 15 bestEval 0.562349 STV 0 
+gen 384 eps 0.0984771 tFac 15 bestEval 0.562349 STV 0 
+gen 385 eps 0.0984771 tFac 16 bestEval 0.419744 STV 0 
+gen 386 eps 0.0984771 tFac 18 bestEval 0.419744 STV 0 
+gen 387 eps 0.0984771 tFac 18 bestEval 0.419744 STV 0 
+gen 388 eps 0.0984771 tFac 18 bestEval 0.419744 STV 0 
+gen 389 eps 0.0984771 tFac 18 bestEval 0.419744 STV 0 
+gen 390 eps 0.0984771 tFac 18 bestEval 0.419744 STV 0 
+gen 391 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 392 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 393 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 394 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 395 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 396 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 397 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 398 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 399 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 400 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 401 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 402 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 403 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 404 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 405 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 406 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 407 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 408 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 409 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 410 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 411 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 412 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 413 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 414 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 415 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 416 eps 0.0984771 tFac 19 bestEval 0.419744 STV 0 
+gen 417 eps 0.0984771 tFac 20 bestEval 0.419744 STV 0 
+gen 418 eps 0.0984771 tFac 20 bestEval 0.419744 STV 0 
+gen 419 eps 0.0984771 tFac 20 bestEval 0.419744 STV 0 
+gen 420 eps 0.0984771 tFac 20 bestEval 0.419744 STV 0 
+gen 421 eps 0.0984771 tFac 20 bestEval 0.419744 STV 0 
+gen 422 eps 0.0984771 tFac 20 bestEval 0.419744 STV 0 
+gen 423 eps 0.0984771 tFac 20 bestEval 0.419744 STV 0 
+gen 424 eps 0.0886294 tFac 15 bestEval 0.562349 STV 0 
+gen 425 eps 0.0886294 tFac 15 bestEval 0.562349 STV 0 
+gen 426 eps 0.0886294 tFac 15 bestEval 0.562349 STV 0 
+gen 427 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 428 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 429 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 430 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 431 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 432 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 433 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 434 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 435 eps 0.0886294 tFac 16 bestEval 0.562349 STV 0 
+gen 436 eps 0.0886294 tFac 17 bestEval 0.562349 STV 0 
+gen 437 eps 0.0886294 tFac 17 bestEval 0.562349 STV 0 
+gen 438 eps 0.0886294 tFac 19 bestEval 0.562349 STV 0 
+gen 439 eps 0.0886294 tFac 19 bestEval 0.562349 STV 0 
+gen 440 eps 0.0886294 tFac 19 bestEval 0.562349 STV 0 
+gen 441 eps 0.0886294 tFac 19 bestEval 0.562349 STV 0 
+gen 442 eps 0.0886294 tFac 19 bestEval 0.542078 STV 0 
+gen 443 eps 0.0886294 tFac 19 bestEval 0.542078 STV 0 
+gen 444 eps 0.0886294 tFac 19 bestEval 0.542078 STV 0 
+gen 445 eps 0.0886294 tFac 19 bestEval 0.542078 STV 0 
+gen 446 eps 0.0886294 tFac 19 bestEval 0.542078 STV 0 
+gen 447 eps 0.0886294 tFac 20 bestEval 0.542078 STV 0 
+gen 448 eps 0.0886294 tFac 20 bestEval 0.542078 STV 0 
+gen 449 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 450 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 451 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 452 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 453 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 454 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 455 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 456 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 457 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 458 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 459 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 460 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 461 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 462 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 463 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 464 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 465 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 466 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 467 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 468 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 469 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 470 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 471 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 472 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 473 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 474 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 475 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 476 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 477 eps 0.0797664 tFac 16 bestEval 0.542078 STV 0 
+gen 478 eps 0.0797664 tFac 17 bestEval 0.542078 STV 0 
+gen 479 eps 0.0797664 tFac 18 bestEval 0.542078 STV 0 
+gen 480 eps 0.0797664 tFac 18 bestEval 0.542078 STV 0 
+gen 481 eps 0.0797664 tFac 19 bestEval 0.542078 STV 0 
+gen 482 eps 0.0797664 tFac 19 bestEval 0.542078 STV 0 
+gen 483 eps 0.0797664 tFac 19 bestEval 0.542078 STV 0 
+gen 484 eps 0.0797664 tFac 20 bestEval 0.542078 STV 0 
+gen 485 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 486 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 487 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 488 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 489 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 490 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 491 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 492 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 493 eps 0.0717898 tFac 13 bestEval 0.542078 STV 0 
+gen 494 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 495 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 496 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 497 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 498 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 499 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 500 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 501 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 502 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 503 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 504 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 505 eps 0.0717898 tFac 14 bestEval 0.542078 STV 0 
+gen 506 eps 0.0717898 tFac 15 bestEval 0.542078 STV 0 
+gen 507 eps 0.0717898 tFac 15 bestEval 0.542078 STV 0 
+gen 508 eps 0.0717898 tFac 16 bestEval 0.542078 STV 0 
+gen 509 eps 0.0717898 tFac 16 bestEval 0.542078 STV 0 
+gen 510 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 511 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 512 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 513 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 514 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 515 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 516 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 517 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 518 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 519 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 520 eps 0.0717898 tFac 17 bestEval 0.542078 STV 0 
+gen 521 eps 0.0717898 tFac 18 bestEval 0.542078 STV 0 
+gen 522 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 523 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 524 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 525 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 526 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 527 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 528 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 529 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 530 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 531 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 532 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 533 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 534 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 535 eps 0.0717898 tFac 19 bestEval 0.542078 STV 0 
+gen 536 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 537 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 538 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 539 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 540 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 541 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 542 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 543 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 544 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 545 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 546 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 547 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 548 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 549 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 550 eps 0.0717898 tFac 20 bestEval 0.542078 STV 0 
+gen 551 eps 0.0646108 tFac 12 bestEval 0.673855 STV 0 
+gen 552 eps 0.0646108 tFac 12 bestEval 0.673855 STV 0 
+gen 553 eps 0.0646108 tFac 12 bestEval 0.673855 STV 0 
+gen 554 eps 0.0646108 tFac 12 bestEval 0.673855 STV 0 
+gen 555 eps 0.0646108 tFac 12 bestEval 0.673855 STV 0 
+gen 556 eps 0.0646108 tFac 13 bestEval 0.673855 STV 0 
+gen 557 eps 0.0646108 tFac 13 bestEval 0.673855 STV 0 
+gen 558 eps 0.0646108 tFac 13 bestEval 0.673855 STV 0 
+gen 559 eps 0.0646108 tFac 13 bestEval 0.673855 STV 0 
+gen 560 eps 0.0646108 tFac 14 bestEval 0.673855 STV 0 
+gen 561 eps 0.0646108 tFac 14 bestEval 0.673855 STV 0 
+gen 562 eps 0.0646108 tFac 14 bestEval 0.673855 STV 0 
+gen 563 eps 0.0646108 tFac 14 bestEval 0.673855 STV 0 
+gen 564 eps 0.0646108 tFac 15 bestEval 0.673855 STV 0 
+gen 565 eps 0.0646108 tFac 16 bestEval 0.673855 STV 0 
+gen 566 eps 0.0646108 tFac 16 bestEval 0.673855 STV 0 
+gen 567 eps 0.0646108 tFac 16 bestEval 0.673855 STV 0 
+gen 568 eps 0.0646108 tFac 17 bestEval 0.673855 STV 0 
+gen 569 eps 0.0646108 tFac 18 bestEval 0.673855 STV 0 
+gen 570 eps 0.0646108 tFac 18 bestEval 0.673855 STV 0 
+gen 571 eps 0.0646108 tFac 18 bestEval 0.673855 STV 0 
+gen 572 eps 0.0646108 tFac 18 bestEval 0.673855 STV 0 
+gen 573 eps 0.0646108 tFac 18 bestEval 0.673855 STV 0 
+gen 574 eps 0.0646108 tFac 18 bestEval 0.673855 STV 0 
+gen 575 eps 0.0646108 tFac 18 bestEval 0.673855 STV 0 
+gen 576 eps 0.0646108 tFac 19 bestEval 0.673855 STV 0 
+gen 577 eps 0.0646108 tFac 20 bestEval 0.673855 STV 0 
+gen 578 eps 0.0646108 tFac 20 bestEval 0.673855 STV 0 
+gen 579 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 580 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 581 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 582 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 583 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 584 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 585 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 586 eps 0.0581497 tFac 18 bestEval 0.673855 STV 0 
+gen 587 eps 0.0581497 tFac 19 bestEval 0.673855 STV 0 
+gen 588 eps 0.0581497 tFac 19 bestEval 0.673855 STV 0 
+gen 589 eps 0.0581497 tFac 19 bestEval 0.673855 STV 0 
+gen 590 eps 0.0581497 tFac 19 bestEval 0.673855 STV 0 
+gen 591 eps 0.0581497 tFac 19 bestEval 0.673855 STV 0 
+gen 592 eps 0.0581497 tFac 20 bestEval 0.673855 STV 0 
+gen 593 eps 0.0523348 tFac 15 bestEval 0.673855 STV 0 
+gen 594 eps 0.0523348 tFac 15 bestEval 0.673855 STV 0 
+gen 595 eps 0.0523348 tFac 15 bestEval 0.673855 STV 0 
+gen 596 eps 0.0523348 tFac 15 bestEval 0.673855 STV 0 
+gen 597 eps 0.0523348 tFac 15 bestEval 0.673855 STV 0 
+gen 598 eps 0.0523348 tFac 15 bestEval 0.673855 STV 0 
+gen 599 eps 0.0523348 tFac 15 bestEval 0.673855 STV 0 
+gen 600 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 601 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 602 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 603 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 604 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 605 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 606 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 607 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 608 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 609 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 610 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 611 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 612 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 613 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 614 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 615 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 616 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 617 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 618 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 619 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 620 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 621 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 622 eps 0.0523348 tFac 16 bestEval 0.673855 STV 0 
+gen 623 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 624 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 625 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 626 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 627 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 628 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 629 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 630 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 631 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 632 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 633 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 634 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 635 eps 0.0523348 tFac 17 bestEval 0.673855 STV 0 
+gen 636 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 637 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 638 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 639 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 640 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 641 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 642 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 643 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 644 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 645 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 646 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 647 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 648 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 649 eps 0.0523348 tFac 18 bestEval 0.673855 STV 0 
+gen 650 eps 0.0523348 tFac 19 bestEval 0.673855 STV 0 
+gen 651 eps 0.0523348 tFac 19 bestEval 0.673855 STV 0 
+gen 652 eps 0.0523348 tFac 19 bestEval 0.673855 STV 0 
+gen 653 eps 0.0523348 tFac 19 bestEval 0.673855 STV 0 
+gen 654 eps 0.0523348 tFac 19 bestEval 0.673855 STV 0 
+gen 655 eps 0.0523348 tFac 19 bestEval 0.673855 STV 0 
+gen 656 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 657 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 658 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 659 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 660 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 661 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 662 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 663 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 664 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 665 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 666 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 667 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 668 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 669 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 670 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 671 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 672 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 673 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 674 eps 0.0523348 tFac 20 bestEval 0.673855 STV 0 
+gen 675 eps 0.0471013 tFac 14 bestEval 0.673855 STV 0 
+gen 676 eps 0.0471013 tFac 14 bestEval 0.673855 STV 0 
+gen 677 eps 0.0471013 tFac 15 bestEval 0.673855 STV 0 
+gen 678 eps 0.0471013 tFac 15 bestEval 0.673855 STV 0 
+gen 679 eps 0.0471013 tFac 15 bestEval 0.673855 STV 0 
+gen 680 eps 0.0471013 tFac 15 bestEval 0.673855 STV 0 
+gen 681 eps 0.0471013 tFac 15 bestEval 0.673855 STV 0 
+gen 682 eps 0.0471013 tFac 15 bestEval 0.673855 STV 0 
+gen 683 eps 0.0471013 tFac 16 bestEval 0.673855 STV 0 
+gen 684 eps 0.0471013 tFac 16 bestEval 0.673855 STV 0 
+gen 685 eps 0.0471013 tFac 16 bestEval 0.673855 STV 0 
+gen 686 eps 0.0471013 tFac 16 bestEval 0.673855 STV 0 
+gen 687 eps 0.0471013 tFac 16 bestEval 0.673855 STV 0 
+gen 688 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 689 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 690 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 691 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 692 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 693 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 694 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 695 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 696 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 697 eps 0.0471013 tFac 17 bestEval 0.673855 STV 0 
+gen 698 eps 0.0471013 tFac 18 bestEval 0.673855 STV 0 
+gen 699 eps 0.0471013 tFac 18 bestEval 0.673855 STV 0 
+gen 700 eps 0.0471013 tFac 18 bestEval 0.673855 STV 0 
+gen 701 eps 0.0471013 tFac 19 bestEval 0.673855 STV 0 
+gen 702 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 703 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 704 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 705 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 706 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 707 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 708 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 709 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 710 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 711 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 712 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 713 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 714 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 715 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 716 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 717 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 718 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 719 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 720 eps 0.0471013 tFac 20 bestEval 0.673855 STV 0 
+gen 721 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 722 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 723 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 724 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 725 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 726 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 727 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 728 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 729 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 730 eps 0.0423912 tFac 15 bestEval 0.673855 STV 0 
+gen 731 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 732 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 733 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 734 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 735 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 736 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 737 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 738 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 739 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 740 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 741 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 742 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 743 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 744 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 745 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 746 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 747 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 748 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 749 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 750 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 751 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 752 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 753 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 754 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 755 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 756 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 757 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 758 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 759 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 760 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 761 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 762 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 763 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 764 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 765 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 766 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 767 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 768 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 769 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 770 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 771 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 772 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 773 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 774 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 775 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 776 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 777 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 778 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 779 eps 0.0423912 tFac 16 bestEval 0.673855 STV 0 
+gen 780 eps 0.0423912 tFac 17 bestEval 0.673855 STV 0 
+gen 781 eps 0.0423912 tFac 18 bestEval 0.673855 STV 0 
+gen 782 eps 0.0423912 tFac 18 bestEval 0.673855 STV 0 
+gen 783 eps 0.0423912 tFac 18 bestEval 0.673855 STV 0 
+gen 784 eps 0.0423912 tFac 18 bestEval 0.673855 STV 0 
+gen 785 eps 0.0423912 tFac 18 bestEval 0.673855 STV 0 
+gen 786 eps 0.0423912 tFac 18 bestEval 0.673855 STV 0 
+gen 787 eps 0.0423912 tFac 18 bestEval 0.673855 STV 0 
+gen 788 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 789 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 790 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 791 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 792 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 793 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 794 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 795 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 796 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 797 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 798 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 799 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 800 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 801 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 802 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 803 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 804 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 805 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 806 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 807 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 808 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 809 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 810 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 811 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 812 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 813 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 814 eps 0.0423912 tFac 19 bestEval 0.673855 STV 0 
+gen 815 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 816 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 817 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 818 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 819 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 820 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 821 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 822 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 823 eps 0.0423912 tFac 20 bestEval 0.673855 STV 0 
+gen 824 eps 0.038152 tFac 15 bestEval 0.673855 STV 0 
+gen 825 eps 0.038152 tFac 15 bestEval 0.673855 STV 0 
+gen 826 eps 0.038152 tFac 15 bestEval 0.673855 STV 0 
+gen 827 eps 0.038152 tFac 15 bestEval 0.673855 STV 0 
+gen 828 eps 0.038152 tFac 15 bestEval 0.673855 STV 0 
+gen 829 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 830 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 831 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 832 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 833 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 834 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 835 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 836 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 837 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 838 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 839 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 840 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 841 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 842 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 843 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 844 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 845 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 846 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 847 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 848 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 849 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 850 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 851 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 852 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 853 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 854 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 855 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 856 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 857 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 858 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 859 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 860 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 861 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 862 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 863 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 864 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 865 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 866 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 867 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 868 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 869 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 870 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 871 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 872 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 873 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 874 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 875 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 876 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 877 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 878 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 879 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 880 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 881 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 882 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 883 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 884 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 885 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 886 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 887 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 888 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 889 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 890 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 891 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 892 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 893 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 894 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 895 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 896 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 897 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 898 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 899 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 900 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 901 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 902 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 903 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 904 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 905 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 906 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 907 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 908 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 909 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 910 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 911 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 912 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 913 eps 0.038152 tFac 16 bestEval 0.673855 STV 0 
+gen 914 eps 0.038152 tFac 17 bestEval 0.673855 STV 0 
+gen 915 eps 0.038152 tFac 17 bestEval 0.673855 STV 0 
+gen 916 eps 0.038152 tFac 17 bestEval 0.673855 STV 0 
+gen 917 eps 0.038152 tFac 17 bestEval 0.673855 STV 0 
+gen 918 eps 0.038152 tFac 17 bestEval 0.673855 STV 0 
+gen 919 eps 0.038152 tFac 17 bestEval 0.673855 STV 0 
+gen 920 eps 0.038152 tFac 18 bestEval 0.673855 STV 0 
+gen 921 eps 0.038152 tFac 18 bestEval 0.673855 STV 0 
+gen 922 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 923 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 924 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 925 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 926 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 927 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 928 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 929 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 930 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 931 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 932 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 933 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 934 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 935 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 936 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 937 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 938 eps 0.038152 tFac 19 bestEval 0.673855 STV 0 
+gen 939 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 940 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 941 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 942 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 943 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 944 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 945 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 946 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 947 eps 0.038152 tFac 20 bestEval 0.673855 STV 0 
+gen 948 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 949 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 950 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 951 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 952 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 953 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 954 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 955 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 956 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 957 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 958 eps 0.0343368 tFac 15 bestEval 0.688365 STV 0 
+gen 959 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 960 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 961 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 962 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 963 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 964 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 965 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 966 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 967 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 968 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 969 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 970 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 971 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 972 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 973 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 974 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 975 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 976 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 977 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 978 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 979 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 980 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 981 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 982 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 983 eps 0.0343368 tFac 16 bestEval 0.688365 STV 0 
+gen 984 eps 0.0343368 tFac 17 bestEval 0.688365 STV 0 
+gen 985 eps 0.0343368 tFac 17 bestEval 0.688365 STV 0 
+gen 986 eps 0.0343368 tFac 18 bestEval 0.688365 STV 0 
+gen 987 eps 0.0343368 tFac 19 bestEval 0.688365 STV 0 
+gen 988 eps 0.0343368 tFac 19 bestEval 0.688365 STV 0 
+gen 989 eps 0.0343368 tFac 19 bestEval 0.688365 STV 0 
+gen 990 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 991 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 992 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 993 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 994 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 995 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 996 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 997 eps 0.0343368 tFac 20 bestEval 0.688365 STV 0 
+gen 998 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 999 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1000 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1001 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1002 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1003 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1004 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1005 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1006 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1007 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1008 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1009 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1010 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1011 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1012 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1013 eps 0.0309032 tFac 12 bestEval 0.634849 STV 0 
+gen 1014 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1015 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1016 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1017 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1018 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1019 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1020 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1021 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1022 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1023 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1024 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1025 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1026 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1027 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1028 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1029 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1030 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1031 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1032 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1033 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1034 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1035 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1036 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1037 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1038 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1039 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1040 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1041 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1042 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1043 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1044 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1045 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1046 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1047 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1048 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1049 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1050 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1051 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1052 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1053 eps 0.0309032 tFac 13 bestEval 0.634849 STV 0 
+gen 1054 eps 0.0309032 tFac 14 bestEval 0.634849 STV 0 
+gen 1055 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1056 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1057 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1058 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1059 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1060 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1061 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1062 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1063 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1064 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1065 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1066 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1067 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1068 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1069 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1070 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1071 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1072 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1073 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1074 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1075 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1076 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1077 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1078 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1079 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1080 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1081 eps 0.0309032 tFac 15 bestEval 0.634849 STV 0 
+gen 1082 eps 0.0309032 tFac 16 bestEval 0.634849 STV 0 
+gen 1083 eps 0.0309032 tFac 16 bestEval 0.634849 STV 0 
+gen 1084 eps 0.0309032 tFac 16 bestEval 0.634849 STV 0 
+gen 1085 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1086 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1087 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1088 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1089 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1090 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1091 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1092 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1093 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1094 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1095 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1096 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1097 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1098 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1099 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1100 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1101 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1102 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1103 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1104 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1105 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1106 eps 0.0309032 tFac 17 bestEval 0.634849 STV 0 
+gen 1107 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1108 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1109 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1110 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1111 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1112 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1113 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1114 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1115 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1116 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1117 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1118 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1119 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1120 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1121 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1122 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1123 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1124 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1125 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1126 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1127 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1128 eps 0.0309032 tFac 18 bestEval 0.634849 STV 0 
+gen 1129 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1130 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1131 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1132 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1133 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1134 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1135 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1136 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1137 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1138 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1139 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1140 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1141 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1142 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1143 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1144 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1145 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1146 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1147 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1148 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1149 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1150 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1151 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1152 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1153 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1154 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1155 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1156 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1157 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1158 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1159 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1160 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1161 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1162 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1163 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1164 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1165 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1166 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1167 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1168 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1169 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1170 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1171 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1172 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1173 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1174 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1175 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1176 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1177 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1178 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1179 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1180 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1181 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1182 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1183 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1184 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1185 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1186 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1187 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1188 eps 0.0309032 tFac 19 bestEval 0.634849 STV 0 
+gen 1189 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1190 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1191 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1192 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1193 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1194 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1195 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1196 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1197 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1198 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1199 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1200 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1201 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1202 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1203 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1204 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1205 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1206 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1207 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1208 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1209 eps 0.0309032 tFac 20 bestEval 0.634849 STV 0 
+gen 1210 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1211 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1212 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1213 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1214 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1215 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1216 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1217 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1218 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1219 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1220 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1221 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1222 eps 0.0278128 tFac 14 bestEval 0.691333 STV 0 
+gen 1223 eps 0.0278128 tFac 15 bestEval 0.691333 STV 0 
+gen 1224 eps 0.0278128 tFac 15 bestEval 0.691333 STV 0 
+gen 1225 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1226 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1227 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1228 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1229 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1230 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1231 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1232 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1233 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1234 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1235 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1236 eps 0.0278128 tFac 16 bestEval 0.691333 STV 0 
+gen 1237 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1238 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1239 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1240 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1241 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1242 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1243 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1244 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1245 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1246 eps 0.0278128 tFac 17 bestEval 0.691333 STV 0 
+gen 1247 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1248 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1249 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1250 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1251 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1252 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1253 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1254 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1255 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1256 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1257 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1258 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1259 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1260 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1261 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1262 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1263 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1264 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1265 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1266 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1267 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1268 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1269 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1270 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1271 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1272 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1273 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1274 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1275 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1276 eps 0.0278128 tFac 18 bestEval 0.691333 STV 0 
+gen 1277 eps 0.0278128 tFac 19 bestEval 0.691333 STV 0 
+gen 1278 eps 0.0278128 tFac 19 bestEval 0.691333 STV 0 
+gen 1279 eps 0.0278128 tFac 19 bestEval 0.691333 STV 0 
+gen 1280 eps 0.0278128 tFac 19 bestEval 0.691333 STV 0 
+gen 1281 eps 0.0278128 tFac 19 bestEval 0.691333 STV 0 
+gen 1282 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1283 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1284 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1285 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1286 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1287 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1288 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1289 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1290 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1291 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1292 eps 0.0278128 tFac 20 bestEval 0.691333 STV 0 
+gen 1293 eps 0.0250316 tFac 14 bestEval 0.691333 STV 0 
+gen 1294 eps 0.0250316 tFac 14 bestEval 0.691333 STV 0 
+gen 1295 eps 0.0250316 tFac 14 bestEval 0.691333 STV 0 
+gen 1296 eps 0.0250316 tFac 15 bestEval 0.691333 STV 0 
+gen 1297 eps 0.0250316 tFac 15 bestEval 0.691333 STV 0 
+gen 1298 eps 0.0250316 tFac 15 bestEval 0.691333 STV 0 
+gen 1299 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1300 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1301 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1302 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1303 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1304 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1305 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1306 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1307 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1308 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1309 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1310 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1311 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1312 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1313 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1314 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1315 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1316 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1317 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1318 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1319 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1320 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1321 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1322 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1323 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1324 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1325 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1326 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1327 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1328 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1329 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1330 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1331 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1332 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1333 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1334 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1335 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1336 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1337 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1338 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1339 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1340 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1341 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1342 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1343 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1344 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1345 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1346 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1347 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1348 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1349 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1350 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1351 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1352 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1353 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1354 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1355 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1356 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1357 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1358 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1359 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1360 eps 0.0250316 tFac 16 bestEval 0.691333 STV 0 
+gen 1361 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1362 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1363 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1364 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1365 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1366 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1367 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1368 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1369 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1370 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1371 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1372 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1373 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1374 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1375 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1376 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1377 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1378 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1379 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1380 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1381 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1382 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1383 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1384 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1385 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1386 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1387 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1388 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1389 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1390 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1391 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1392 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1393 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1394 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1395 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1396 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1397 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1398 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1399 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1400 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1401 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1402 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1403 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1404 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1405 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1406 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1407 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1408 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1409 eps 0.0250316 tFac 17 bestEval 0.691333 STV 0 
+gen 1410 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1411 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1412 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1413 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1414 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1415 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1416 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1417 eps 0.0250316 tFac 18 bestEval 0.691333 STV 0 
+gen 1418 eps 0.0250316 tFac 19 bestEval 0.691333 STV 0 
+gen 1419 eps 0.0250316 tFac 19 bestEval 0.691333 STV 0 
+gen 1420 eps 0.0250316 tFac 19 bestEval 0.691333 STV 0 
+gen 1421 eps 0.0250316 tFac 19 bestEval 0.691333 STV 0 
+gen 1422 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1423 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1424 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1425 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1426 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1427 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1428 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1429 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1430 eps 0.0250316 tFac 20 bestEval 0.691333 STV 0 
+gen 1431 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1432 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1433 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1434 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1435 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1436 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1437 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1438 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1439 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1440 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1441 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1442 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1443 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1444 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1445 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1446 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1447 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1448 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1449 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1450 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1451 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1452 eps 0.0225284 tFac 11 bestEval 0.691333 STV 0 
+gen 1453 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1454 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1455 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1456 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1457 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1458 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1459 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1460 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1461 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1462 eps 0.0225284 tFac 12 bestEval 0.691333 STV 0 
+gen 1463 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1464 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1465 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1466 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1467 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1468 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1469 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1470 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1471 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1472 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1473 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1474 eps 0.0225284 tFac 13 bestEval 0.691333 STV 0 
+gen 1475 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1476 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1477 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1478 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1479 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1480 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1481 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1482 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1483 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1484 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1485 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1486 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1487 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1488 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1489 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1490 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1491 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1492 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1493 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1494 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1495 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1496 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1497 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+gen 1498 eps 0.0225284 tFac 14 bestEval 0.691333 STV 0 
+#
+#Mejor individuo encontrado (en la generacion 998): 
+#[ -0.95927, -0.516241, 2.70085, -1.2108, 0.227939, ]
+#f: 0.691333
+#	h1:-0.000733851 
+#	h2:-0.0143496 
+#	h3:-0.0202989 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 0.691333 
+#mediana de las mejores Evals: 0.691333 
+#Desviacion Estandar de las mejores Evals: 0 
+#
+#promedio de la generacion del Mejor: 998 
+#Min valor de mejor Evaluacion alcanzada: 6.913335e-01 0.691333 
+#Max valor de mejor Evaluacion alcanzada: 6.913335e-01 0.691333 
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 13 200 data/g13.txt 300000 1 0.05 0.45 0.8 30
+#Parametros: 
+#tamanio Poblacion: 200 , dimension: 5 
+#num max de Evals: 300000 
+#CR: 0.45, F: 0.8 
+#Total de Repeticiones: 30 
+#
+#CR: 0.45, F: 0.8 
+#
+#Mejor individuo encontrado (en la generacion 1304): 
+#[ -1.00632, 0.276423, 2.88852, 0.724761, 0.222174, ]
+#f: 0.878638
+#	h1:0.00729822 
+#	h2:-0.00666071 
+#	h3:0.0020433 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1242): 
+#[ -0.995594, -0.292943, -2.92747, -0.481759, -0.358201, ]
+#f: 0.863002
+#	h1:0.00749295 
+#	h2:-0.00525168 
+#	h3:-0.0119792 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1442): 
+#[ -1.0015, 0.204157, -2.90002, 0.162348, -0.723612, ]
+#f: 0.932713
+#	h1:0.00478021 
+#	h2:-0.00467504 
+#	h3:0.00399287 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1420): 
+#[ -1.01955, 0.368094, -2.85205, -0.264293, 0.787481, ]
+#f: 0.800302
+#	h1:-0.000839085 
+#	h2:-0.00919709 
+#	h3:-0.00993281 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1487): 
+#[ -1.01671, 0.381186, 2.84639, 0.272634, 0.800643, ]
+#f: 0.786002
+#	h1:-0.00368407 
+#	h2:-0.00640798 
+#	h3:0.00440291 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1090): 
+#[ -1.25195, 0.984463, 2.39677, -0.373524, -1.25938, ]
+#f: 0.249176
+#	h1:0.00661547 
+#	h2:0.00749702 
+#	h3:-0.00818174 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1331): 
+#[ -1.00411, 0.232134, 2.94024, -0.439591, -0.31064, ]
+#f: 0.91066
+#	h1:-0.00313714 
+#	h2:-0.000241933 
+#	h3:0.000121004 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1459): 
+#[ -1.00384, 0.27102, -2.91318, -0.605667, 0.259705, ]
+#f: 0.882792
+#	h1:0.00204027 
+#	h2:-0.0030583 
+#	h3:0.00835347 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 437): 
+#[ -0.992721, -0.258547, -2.94081, -0.387432, -0.392013, ]
+#f: 0.891688
+#	h1:0.0045097 
+#	h2:0.000946892 
+#	h3:0.00439677 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 904): 
+#[ -0.962702, -0.502031, -2.76921, 0.265158, 1.0454, ]
+#f: 0.690047
+#	h1:0.0105588 
+#	h2:0.00424449 
+#	h3:-0.0187561 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1120): 
+#[ -1.00505, 0.249925, 2.88166, -0.189599, -0.763795, ]
+#f: 0.900485
+#	h1:-0.00413625 
+#	h2:-0.00387753 
+#	h3:0.000384273 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 960): 
+#[ -0.845934, -0.739821, 2.57515, -1.42463, 0.265489, ]
+#f: 0.543592
+#	h1:-0.00560542 
+#	h2:-0.0140304 
+#	h3:-0.0102839 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 794): 
+#[ -0.894019, -0.64355, -2.83705, 0.591212, 0.61235, ]
+#f: 0.55381
+#	h1:-0.0132286 
+#	h2:0.0156363 
+#	h3:0.0189079 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1324): 
+#[ -1.00239, -0.241737, 2.94327, -0.373411, 0.382239, ]
+#f: 0.903213
+#	h1:0.0116008 
+#	h2:0.00216327 
+#	h3:-0.0213178 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1494): 
+#[ -0.992464, -0.288734, -2.82507, -0.168556, -0.959596, ]
+#f: 0.87727
+#	h1:-0.00140275 
+#	h2:0.00696507 
+#	h3:-0.00163304 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1494): 
+#[ -1.00347, 0.211999, -2.94799, -0.427383, 0.29056, ]
+#f: 0.925077
+#	h1:0.00959517 
+#	h2:-0.00406878 
+#	h3:-0.000905275 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1369): 
+#[ -0.95082, -0.516334, -2.85308, -0.409769, -0.717356, ]
+#f: 0.662501
+#	h1:-0.00675234 
+#	h2:0.0033956 
+#	h3:0.00274861 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1412): 
+#[ -0.960393, -0.503866, 2.77933, 1.00602, -0.278494, ]
+#f: 0.686043
+#	h1:-0.00943357 
+#	h2:0.000445868 
+#	h3:-0.0137452 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1096): 
+#[ -1.0005, -0.190439, -2.92195, 0.176287, 0.625724, ]
+#f: 0.940436
+#	h1:-0.00234248 
+#	h2:0.00491832 
+#	h3:-0.00840623 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 882): 
+#[ -0.976891, -0.42727, -2.8781, 0.678355, 0.360629, ]
+#f: 0.745365
+#	h1:0.0105497 
+#	h2:0.00655338 
+#	h3:-0.0102647 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1433): 
+#[ -0.938217, -0.554082, -2.63145, 1.35412, 0.21599, ]
+#f: 0.670257
+#	h1:-0.00792959 
+#	h2:-0.00434113 
+#	h3:0.00402618 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 911): 
+#[ -1.01127, 0.305352, 2.91948, -0.413257, -0.428148, ]
+#f: 0.852562
+#	h1:-0.00663408 
+#	h2:0.00679334 
+#	h3:-0.00572379 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1304): 
+#[ -0.960906, -0.47424, -2.87969, -0.5731, -0.481599, ]
+#f: 0.696148
+#	h1:0.00124332 
+#	h2:-0.0143566 
+#	h3:0.00609923 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1156): 
+#[ -0.990162, -0.318982, -2.92182, 0.380406, 0.488602, ]
+#f: 0.842379
+#	h1:0.00267228 
+#	h2:0.00267406 
+#	h3:-0.00323298 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 862): 
+#[ -0.989245, -0.290149, 2.92741, 0.328335, -0.520243, ]
+#f: 0.866298
+#	h1:0.0110018 
+#	h2:0.00468532 
+#	h3:0.0074934 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 589): 
+#[ -1.0248, 0.426139, 2.87088, 0.600785, 0.402017, ]
+#f: 0.738741
+#	h1:-0.00368348 
+#	h2:0.0157663 
+#	h3:0.00113438 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1373): 
+#[ -0.976599, -0.431996, 2.85285, 0.787332, -0.313185, ]
+#f: 0.743208
+#	h1:-0.00292399 
+#	h2:0.000486033 
+#	h3:-0.0120462 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1415): 
+#[ -1.00768, 0.304802, 2.91458, -0.554839, -0.319661, ]
+#f: 0.853191
+#	h1:0.0131209 
+#	h2:0.00156755 
+#	h3:0.00510012 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 404): 
+#[ -0.99044, -0.287779, 2.93341, -0.417837, 0.406325, ]
+#f: 0.867663
+#	h1:0.00836418 
+#	h2:0.0047128 
+#	h3:0.0045743 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#Mejor individuo encontrado (en la generacion 1479): 
+#[ -0.945052, -0.553258, -2.74265, -1.1034, -0.277022, ]
+#f: 0.645112
+#	h1:0.0155863 
+#	h2:-0.0109419 
+#	h3:-0.0133959 
+#Sum Total h: 0 
+#Suma total Violacion: 0 
+#
+#promedio del total de Evals: 300000 
+#Desviacion Estandar del total de Evals: 0 
+#
+#promedio de las mejores Evals: 0.779946 
+#mediana de las mejores Evals: 0.901174 
+#Desviacion Estandar de las mejores Evals: 0.150536 
+#
+#promedio de la generacion del Mejor: 1166.23 
+#Min valor de mejor Evaluacion alcanzada: 2.491761e-01 0.249176 
+#Max valor de mejor Evaluacion alcanzada: 9.404362e-01 0.940436 
+gcc -O2 -o testED src/evolucion_diferencial.c src/f_utiles.c src/funciones_objetivo.c src/testED.c src/benchmarkOR.c -lm
+./testED 13 200 data/g13.txt 300000 1 0.05 0.8 0.2 30
+makefile:57: fallo en las instrucciones para el objetivo 'runtestED_13'

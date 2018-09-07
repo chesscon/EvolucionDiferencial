@@ -1,0 +1,31 @@
+
+Se incluye un archivo makefile con las instrucciones para compilar y ejecutar algunos ejemplos.
+
+Para compilar:
+> make testTarea8
+
+Para ejecutar ejemplo con el metodo de newton y punto 1:
+> make runTestNew_P1
+
+Para ejecutar ejemplo con el metodo de broyden y punto 2:
+> make runTestBroy_P2
+
+Para ejecutar el programa con algun otro punto, despues de
+compilar se puede ejecutar el comando:
+
+> ./testTarea8 <file_input> <max_iter> <num_met>
+
+donde:
+- file_input es el nombre del archivo (en texto plano) que 
+  contiene la informacion del punto inicial
+
+- max_iter es el numero maximo de iteraciones
+
+- num_met es el numero de metodo que se desea ejecutar.
+  Si se indica un 1 se ejecutara el metodo de Newton, 
+  para cualquier otro numero se ejecutara el metodo de Broyden.
+
+
+
+Nota: para evitar errores de codificacion de caracteres,
+se han omitido todos los acentos en este archivo.
